@@ -8,6 +8,11 @@
 function principal() {
   document.location.href="principal.html";
 }
+
+function consulta() {
+  document.location.href="resultadoPesquisa.html";
+}
+
 </SCRIPT>
 
 <script LANGUAGE="JavaScript">
@@ -144,6 +149,9 @@ function selIt(btn) {
 	    
 	    <img class="submenu-separator" src="img/pixel.gif" width="5" height="6" alt=" >" />
 	    <a href="ConsultaPendencia.html">Consultar Pendências</a href>
+
+	    <img class="submenu-separator" src="img/pixel.gif" width="5" height="6" alt=" >" />
+	    <a href="CadastroProjeto.html">Cadastro Projeto</a href>
 	</div>
 	&nbsp;
 	
@@ -152,16 +160,13 @@ function selIt(btn) {
 <tr>
 <td>
 <select NAME="SelectList" ID="SelectList" SIZE="5" multiple="multiple" style="width: 150px; height:200px">
-<option VALUE="01sel">Selection 01</option>
-<option VALUE="02sel">Selection 02</option>
-<option VALUE="03sel">Selection 03</option>
-<option VALUE="04sel">Selection 04</option>
-<option VALUE="05sel">Selection 05</option>
-<option VALUE="06sel">Selection 06</option>
-<option VALUE="07sel">Selection 07</option>
-<option VALUE="08sel">Selection 08</option>
-<option VALUE="09sel">Selection 09</option>
-<option VALUE="10sel">Selection 10</option>
+<option VALUE="01sel">Responsável</option>
+<option VALUE="02sel">Prioridade</option>
+<option VALUE="03sel">Projeto</option>
+<option VALUE="04sel">Data Criação</option>
+<option VALUE="05sel">Data Encerramento</option>
+<option VALUE="06sel">Versão</option>
+<option VALUE="07sel">Componente</option>
 </select>
 
 </td>
@@ -182,7 +187,8 @@ function selIt(btn) {
 
 
 <p>
-            <input class="bt-consulta" type="submit" name="Criar" value="Pesquisar" accesskey="S"/>&nbsp;
+
+            <input class="bt-consulta" type="button" name="Criar" value="Pesquisar" accesskey="S"onclick="consulta();"/>&nbsp;
             <input class="bt-excluir" type="button" name="button3" id="button3" value="Cancelar" onclick="principal();"/><br>
 </p>
 <table>
