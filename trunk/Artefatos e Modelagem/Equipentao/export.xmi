@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI epf:version="1.0.0" rmc:version="7.1.0" xmi:version="2.0" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.3/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:xmi="http://www.omg.org/XMI">
+<org.eclipse.epf.uma.resourcemanager:ResourceManager guid="_4HxhIPIwEdm7AIOuZcqunQ" xmi:id="_4HxhIPIwEdm7AIOuZcqunQ">
+<subManagers href="uma://{1F4FEA6F-AF12-40BF-94BE-D316CE25314B}#_4rpDMPIwEdm7AIOuZcqunQ" xmi:id="_4rpDMPIwEdm7AIOuZcqunQ">
+</subManagers>
+<subManagers href="uma://{C4943D13-2422-40B6-9441-E94D598AE477}#_4_GxwPIwEdm7AIOuZcqunQ" xmi:id="_4_GxwPIwEdm7AIOuZcqunQ">
+</subManagers>
+<subManagers href="uma://{4DEC7E16-844F-4E9A-A96B-7A20CEC8A469}#_5HHeQPIwEdm7AIOuZcqunQ" xmi:id="_5HHeQPIwEdm7AIOuZcqunQ">
+</subManagers>
+<subManagers href="uma://{22C90CD1-C8D8-40B9-9034-5AA5556E5A54}#_5KEroPIwEdm7AIOuZcqunQ" xmi:id="_5KEroPIwEdm7AIOuZcqunQ">
+</subManagers>
+<subManagers href="uma://{AA38D0B3-05CF-49D4-B858-CAFC6819F2F7}#_5NOGQ_IwEdm7AIOuZcqunQ" xmi:id="_5NOGQ_IwEdm7AIOuZcqunQ">
+</subManagers>
+<subManagers href="uma://{3462B4A7-2F43-4F9B-9F33-7485B5E86B2F}#_qhl9UPS3EdmIX5Pw7v8pRw" xmi:id="_qhl9UPS3EdmIX5Pw7v8pRw">
+</subManagers>
+<subManagers href="uma://_WCUhAO8KEdmKSqa_gSYthg#_nIcf4fL5Edm6Nvont3uinw" xmi:id="_nIcf4fL5Edm6Nvont3uinw">
+</subManagers>
+<subManagers href="uma://_875O8A6hEdqg5YAaNtnnCw#_DyEckA6iEdqg5YAaNtnnCw" xmi:id="_DyEckA6iEdqg5YAaNtnnCw">
+</subManagers>
+<subManagers href="uma://_875O8A6hEdqg5YAaNtnnCw#_DyEckA6iEdqg5YAaNtnnCw" xmi:id="_DyEckA6iEdqg5YAaNtnnCw">
+</subManagers>
+<subManagers href="uma://_875O8A6hEdqg5YAaNtnnCw#_DyEckA6iEdqg5YAaNtnnCw" xmi:id="_DyEckA6iEdqg5YAaNtnnCw">
+</subManagers>
+<subManagers href="uma://_WCUhAO8KEdmKSqa_gSYthg#_nIcf4fL5Edm6Nvont3uinw" xmi:id="_nIcf4fL5Edm6Nvont3uinw">
+</subManagers>
+<subManagers href="uma://__fQVIDpBEd2wVMFnZSXiMQ#__fQVMTpBEd2wVMFnZSXiMQ" xmi:id="__fQVMTpBEd2wVMFnZSXiMQ">
+</subManagers>
+<resourceDescriptors id="_oYL1QNnmEdmO6L4XMImrsA" uri="" xmi:id="_4HxhIfIwEdm7AIOuZcqunQ">
+</resourceDescriptors>
+<resourceDescriptors id="{1F4FEA6F-AF12-40BF-94BE-D316CE25314B}" uri="rup/plugin.xmi" xmi:id="_4KuugPIwEdm7AIOuZcqunQ">
+</resourceDescriptors>
+<resourceDescriptors id="{C4943D13-2422-40B6-9441-E94D598AE477}" uri="rup_legacy_evol_plugin/plugin.xmi" xmi:id="_4KuugvIwEdm7AIOuZcqunQ">
+</resourceDescriptors>
+<resourceDescriptors id="{4DEC7E16-844F-4E9A-A96B-7A20CEC8A469}" uri="rup_se/plugin.xmi" xmi:id="_4KuuhfIwEdm7AIOuZcqunQ">
+</resourceDescriptors>
+<resourceDescriptors id="{22C90CD1-C8D8-40B9-9034-5AA5556E5A54}" uri="informal_resources/plugin.xmi" xmi:id="_4Kuuh_IwEdm7AIOuZcqunQ">
+</resourceDescriptors>
+<resourceDescriptors id="{AA38D0B3-05CF-49D4-B858-CAFC6819F2F7}" uri="rup_for_asset_based_development/plugin.xmi" xmi:id="_4KuuifIwEdm7AIOuZcqunQ">
+</resourceDescriptors>
+<resourceDescriptors id="{3462B4A7-2F43-4F9B-9F33-7485B5E86B2F}" uri="rup_soa_plugin/plugin.xmi" xmi:id="_qGXZ4PS3EdmIX5Pw7v8pRw">
+</resourceDescriptors>
+<resourceDescriptors id="_WCUhAO8KEdmKSqa_gSYthg" uri="base_concepts/plugin.xmi" xmi:id="_muThkPL5Edm6Nvont3uinw">
+</resourceDescriptors>
+<resourceDescriptors id="_875O8A6hEdqg5YAaNtnnCw" uri="rup_bm/plugin.xmi" xmi:id="_87_VkA6hEdqg5YAaNtnnCw">
+</resourceDescriptors>
+<resourceDescriptors id="__fQVMTpBEd2wVMFnZSXiMQ" uri="EquipeEntão/plugin.xmi" xmi:id="__fQVMjpBEd2wVMFnZSXiMQ">
+</resourceDescriptors>
+<resourceDescriptors id="__fQVIDpBEd2wVMFnZSXiMQ" uri="EquipeEntão/plugin.xmi" xmi:id="__fQVMzpBEd2wVMFnZSXiMQ">
+</resourceDescriptors>
+</org.eclipse.epf.uma.resourcemanager:ResourceManager>
+<org.eclipse.epf.uma:MethodLibrary guid="_oYL1QNnmEdmO6L4XMImrsA" name="Default library name_pt_pt_pt_pt_pt_BR_pt_BR_pt_BR_pt_BR" xmi:id="_oYL1QNnmEdmO6L4XMImrsA">
+<methodPlugins href="uma://{1F4FEA6F-AF12-40BF-94BE-D316CE25314B}#{1F4FEA6F-AF12-40BF-94BE-D316CE25314B}" xmi:id="{1F4FEA6F-AF12-40BF-94BE-D316CE25314B}">
+</methodPlugins>
+<methodPlugins href="uma://{C4943D13-2422-40B6-9441-E94D598AE477}#{C4943D13-2422-40B6-9441-E94D598AE477}" xmi:id="{C4943D13-2422-40B6-9441-E94D598AE477}">
+</methodPlugins>
+<methodPlugins href="uma://{4DEC7E16-844F-4E9A-A96B-7A20CEC8A469}#{4DEC7E16-844F-4E9A-A96B-7A20CEC8A469}" xmi:id="{4DEC7E16-844F-4E9A-A96B-7A20CEC8A469}">
+</methodPlugins>
+<methodPlugins href="uma://{22C90CD1-C8D8-40B9-9034-5AA5556E5A54}#{22C90CD1-C8D8-40B9-9034-5AA5556E5A54}" xmi:id="{22C90CD1-C8D8-40B9-9034-5AA5556E5A54}">
+</methodPlugins>
+<methodPlugins href="uma://{AA38D0B3-05CF-49D4-B858-CAFC6819F2F7}#{AA38D0B3-05CF-49D4-B858-CAFC6819F2F7}" xmi:id="{AA38D0B3-05CF-49D4-B858-CAFC6819F2F7}">
+</methodPlugins>
+<methodPlugins href="uma://{3462B4A7-2F43-4F9B-9F33-7485B5E86B2F}#{3462B4A7-2F43-4F9B-9F33-7485B5E86B2F}" xmi:id="{3462B4A7-2F43-4F9B-9F33-7485B5E86B2F}">
+</methodPlugins>
+<methodPlugins href="uma://_WCUhAO8KEdmKSqa_gSYthg#_WCUhAO8KEdmKSqa_gSYthg" xmi:id="_WCUhAO8KEdmKSqa_gSYthg">
+</methodPlugins>
+<methodPlugins href="uma://_875O8A6hEdqg5YAaNtnnCw#_875O8A6hEdqg5YAaNtnnCw" xmi:id="_875O8A6hEdqg5YAaNtnnCw">
+</methodPlugins>
+<methodPlugins href="uma://__fQVIDpBEd2wVMFnZSXiMQ#__fQVIDpBEd2wVMFnZSXiMQ" xmi:id="__fQVIDpBEd2wVMFnZSXiMQ">
+</methodPlugins>
+</org.eclipse.epf.uma:MethodLibrary>
+</xmi:XMI>
