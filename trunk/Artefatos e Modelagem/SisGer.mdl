@@ -67,7 +67,7 @@
 	(object Attribute
 	    tool       	"Data Modeler"
 	    name       	"TableCounter"
-	    value      	3)
+	    value      	6)
 	(object Attribute
 	    tool       	"Data Modeler"
 	    name       	"ViewCounter"
@@ -79,7 +79,7 @@
 	(object Attribute
 	    tool       	"Data Modeler"
 	    name       	"ColumnCounter"
-	    value      	"18")
+	    value      	"31")
 	(object Attribute
 	    tool       	"Data Modeler"
 	    name       	"TriggerCounter"
@@ -91,15 +91,15 @@
 	(object Attribute
 	    tool       	"Data Modeler"
 	    name       	"ConstraintCounter"
-	    value      	25)
+	    value      	67)
 	(object Attribute
 	    tool       	"Data Modeler"
 	    name       	"PrimaryKeyCounter"
-	    value      	3)
+	    value      	6)
 	(object Attribute
 	    tool       	"Data Modeler"
 	    name       	"ForeignKeyCounter"
-	    value      	12)
+	    value      	33)
 	(object Attribute
 	    tool       	"Data Modeler"
 	    name       	"StoredProcedurePackageCounter"
@@ -4959,52 +4959,6 @@
 						quidu      	"4866517F0167"))
 					concurrency 	"Sequential"
 					opExportControl 	"Public"
-					uid        	0)
-				    (object Operation "FK_PROJETO8"
-					attributes 	(list Attribute_Set
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"IsConstraint"
-						value      	TRUE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"ConstraintType"
-						value      	"Foreign Key")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"dmItem"
-						value      	TRUE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"DMName"
-						value      	"FK_PROJETO8")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"CodeName"
-						value      	"")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"DeferalMode"
-						value      	"Not Deferable")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"KeyList"
-						value      	"4866517F0203"))
-					quid       	"4866517F00FA"
-					stereotype 	"FK"
-					visible_modules 	(list dependency_list
-					    (object Dependency_Relationship
-						attributes 	(list Attribute_Set
-						    (object Attribute
-							tool       	"Data Modeler"
-							name       	"Order"
-							value      	"1"))
-						quid       	"4866517F0232"
-						stereotype 	"FK"
-						supplier   	"Logical View::Schemas::SISGER::PROJETO::CD_USUARIO_LIDER"
-						quidu      	"4866517F0203"))
-					concurrency 	"Sequential"
-					opExportControl 	"Public"
 					uid        	0))
 				class_attributes 	(list class_attribute_list
 				    (object ClassAttribute "CD_PROJETO"
@@ -5149,56 +5103,7 @@
 						value      	"No Default Value"))
 					quid       	"4866517F01D4"
 					type       	"VARCHAR(4000)"
-					exportControl 	"Neither")
-				    (object ClassAttribute "CD_USUARIO_LIDER"
-					attributes 	(list Attribute_Set
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"dmItem"
-						value      	TRUE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"DMName"
-						value      	"CD_USUARIO_LIDER")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"CodeName"
-						value      	"")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"Ordinal"
-						value      	4)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"Length"
-						value      	50)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"NullsAllowed"
-						value      	FALSE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"IsIdentity"
-						value      	FALSE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"ForBitData"
-						value      	FALSE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"ExplicitNullable"
-						value      	"False")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"ColumnType"
-						value      	"Native")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"DefaultValueType"
-						value      	"No Default Value"))
-					quid       	"4866517F0203"
-					type       	"VARCHAR(50)"
-					exportControl 	"Foreign"))
+					exportControl 	"Neither"))
 				module     	"Component View::DB_0::SISGER"
 				quidu      	"486645A40000"
 				language   	"Data Modeler")
@@ -5419,7 +5324,7 @@
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"Ordinal"
-						value      	4)
+						value      	3)
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"Length"
@@ -5494,6 +5399,19 @@
 					value      	"False"))
 				quid       	"48664B2A0000"
 				stereotype 	"Table"
+				used_nodes 	(list uses_relationship_list
+				    (object Uses_Relationship
+					quid       	"486672AD0128"
+					stereotype 	"Derive"
+					label      	"CD_USUARIO_AUTOR"
+					supplier   	"Logical View::Schemas::SISGER::USUARIO_PROJETO"
+					quidu      	"48666C230128")
+				    (object Uses_Relationship
+					quid       	"4866732801F4"
+					stereotype 	"Derive"
+					label      	"CD_USUARIO_RESPONSAVEL"
+					supplier   	"Logical View::Schemas::SISGER::USUARIO_PROJETO"
+					quidu      	"48666C230128"))
 				operations 	(list Operations
 				    (object Operation "PENDENCIA_PK"
 					attributes 	(list Attribute_Set
@@ -5532,7 +5450,7 @@
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"KeyList"
-						value      	"486668750196,4866687500EA"))
+						value      	"48667AF501C5,48667AF40290"))
 					quid       	"48664E2B032C"
 					stereotype 	"PK"
 					visible_modules 	(list dependency_list
@@ -5542,24 +5460,24 @@
 							tool       	"Data Modeler"
 							name       	"Order"
 							value      	"1"))
-						quid       	"4866687501D4"
+						quid       	"48667AF50203"
 						stereotype 	"PK"
 						supplier   	"Logical View::Schemas::SISGER::PENDENCIA::CD_PROJETO"
-						quidu      	"486668750196")
+						quidu      	"48667AF501C5")
 					    (object Dependency_Relationship
 						attributes 	(list Attribute_Set
 						    (object Attribute
 							tool       	"Data Modeler"
 							name       	"Order"
 							value      	"2"))
-						quid       	"4866687501E4"
+						quid       	"48667AF50205"
 						stereotype 	"PK"
 						supplier   	"Logical View::Schemas::SISGER::PENDENCIA::CD_PENDENCIA"
-						quidu      	"4866687500EA"))
+						quidu      	"48667AF40290"))
 					concurrency 	"Sequential"
 					opExportControl 	"Public"
 					uid        	0)
-				    (object Operation "PROJETO_FK"
+				    (object Operation "FK_PENDENCIA24"
 					attributes 	(list Attribute_Set
 					    (object Attribute
 						tool       	"Data Modeler"
@@ -5576,7 +5494,7 @@
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"DMName"
-						value      	"PROJETO_FK")
+						value      	"FK_PENDENCIA24")
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"CodeName"
@@ -5588,8 +5506,8 @@
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"KeyList"
-						value      	"486668750196"))
-					quid       	"486651A0005D"
+						value      	"48667AF501C5"))
+					quid       	"486671D202EE"
 					stereotype 	"FK"
 					visible_modules 	(list dependency_list
 					    (object Dependency_Relationship
@@ -5598,102 +5516,10 @@
 							tool       	"Data Modeler"
 							name       	"Order"
 							value      	"1"))
-						quid       	"486668750232"
+						quid       	"48667AF50271"
 						stereotype 	"FK"
 						supplier   	"Logical View::Schemas::SISGER::PENDENCIA::CD_PROJETO"
-						quidu      	"486668750196"))
-					concurrency 	"Sequential"
-					opExportControl 	"Public"
-					uid        	0)
-				    (object Operation "USUARIO_AUTOR_FK"
-					attributes 	(list Attribute_Set
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"IsConstraint"
-						value      	TRUE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"ConstraintType"
-						value      	"Foreign Key")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"dmItem"
-						value      	TRUE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"DMName"
-						value      	"USUARIO_AUTOR_FK")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"CodeName"
-						value      	"")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"DeferalMode"
-						value      	"Not Deferable")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"KeyList"
-						value      	"48666875029F"))
-					quid       	"486651B1033C"
-					stereotype 	"FK"
-					visible_modules 	(list dependency_list
-					    (object Dependency_Relationship
-						attributes 	(list Attribute_Set
-						    (object Attribute
-							tool       	"Data Modeler"
-							name       	"Order"
-							value      	"1"))
-						quid       	"4866687502DE"
-						stereotype 	"FK"
-						supplier   	"Logical View::Schemas::SISGER::PENDENCIA::CD_USUARIO_AUTOR"
-						quidu      	"48666875029F"))
-					concurrency 	"Sequential"
-					opExportControl 	"Public"
-					uid        	0)
-				    (object Operation "USUARIO_DESENVOLVEDOR_FK"
-					attributes 	(list Attribute_Set
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"IsConstraint"
-						value      	TRUE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"ConstraintType"
-						value      	"Foreign Key")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"dmItem"
-						value      	TRUE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"DMName"
-						value      	"USUARIO_DESENVOLVEDOR_FK")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"CodeName"
-						value      	"")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"DeferalMode"
-						value      	"Not Deferable")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"KeyList"
-						value      	"48666875034B"))
-					quid       	"486651CC0196"
-					stereotype 	"FK"
-					visible_modules 	(list dependency_list
-					    (object Dependency_Relationship
-						attributes 	(list Attribute_Set
-						    (object Attribute
-							tool       	"Data Modeler"
-							name       	"Order"
-							value      	"1"))
-						quid       	"48666875038A"
-						stereotype 	"FK"
-						supplier   	"Logical View::Schemas::SISGER::PENDENCIA::CD_USUARIO_DESENVOLVEDOR"
-						quidu      	"48666875034B"))
+						quidu      	"48667AF501C5"))
 					concurrency 	"Sequential"
 					opExportControl 	"Public"
 					uid        	0))
@@ -5740,10 +5566,10 @@
 						tool       	"Data Modeler"
 						name       	"DefaultValueType"
 						value      	"No Default Value"))
-					quid       	"4866687500EA"
+					quid       	"48667AF40290"
 					type       	"INTEGER"
 					exportControl 	"Primary")
-				    (object ClassAttribute "CD_PROJETO"
+				    (object ClassAttribute "CD_TIPO_PENDENCIA"
 					attributes 	(list Attribute_Set
 					    (object Attribute
 						tool       	"Data Modeler"
@@ -5760,7 +5586,7 @@
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"DMName"
-						value      	"CD_PROJETO")
+						value      	"CD_TIPO_PENDENCIA")
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"Ordinal"
@@ -5785,7 +5611,379 @@
 						tool       	"Data Modeler"
 						name       	"DefaultValueType"
 						value      	"No Default Value"))
-					quid       	"486668750196"
+					quid       	"48667AF4034B"
+					type       	"INTEGER"
+					exportControl 	"Neither")
+				    (object ClassAttribute "DS_RESUMO"
+					attributes 	(list Attribute_Set
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"dmItem"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"CodeName"
+						value      	"")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ExplicitNullable"
+						value      	"False")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DMName"
+						value      	"DS_RESUMO")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"Ordinal"
+						value      	3)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"Length"
+						value      	200)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"NullsAllowed"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"IsIdentity"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ForBitData"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ColumnType"
+						value      	"Native")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DefaultValueType"
+						value      	"No Default Value"))
+					quid       	"48667AF40399"
+					type       	"VARCHAR(200)"
+					exportControl 	"Neither")
+				    (object ClassAttribute "ID_NIVEL_SEURANCA"
+					attributes 	(list Attribute_Set
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"dmItem"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"CodeName"
+						value      	"")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ExplicitNullable"
+						value      	"False")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DMName"
+						value      	"ID_NIVEL_SEURANCA")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"Ordinal"
+						value      	4)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"NullsAllowed"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"IsIdentity"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ForBitData"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ColumnType"
+						value      	"Native")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DefaultValueType"
+						value      	"No Default Value"))
+					quid       	"48667AF50000"
+					type       	"INTEGER"
+					exportControl 	"Neither")
+				    (object ClassAttribute "ID_PRIORIDADE"
+					attributes 	(list Attribute_Set
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"dmItem"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"CodeName"
+						value      	"")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ExplicitNullable"
+						value      	"False")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DMName"
+						value      	"ID_PRIORIDADE")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"Ordinal"
+						value      	5)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"NullsAllowed"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"IsIdentity"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ForBitData"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ColumnType"
+						value      	"Native")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DefaultValueType"
+						value      	"No Default Value"))
+					quid       	"48667AF5004E"
+					type       	"INTEGER"
+					exportControl 	"Neither")
+				    (object ClassAttribute "DT_TERMINO_PENDENCIA"
+					attributes 	(list Attribute_Set
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"dmItem"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"CodeName"
+						value      	"")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ExplicitNullable"
+						value      	"False")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DMName"
+						value      	"DT_TERMINO_PENDENCIA")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"Ordinal"
+						value      	6)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"NullsAllowed"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"IsIdentity"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ForBitData"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ColumnType"
+						value      	"Native")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DefaultValueType"
+						value      	"No Default Value"))
+					quid       	"48667AF5008C"
+					type       	"DATE"
+					exportControl 	"Neither")
+				    (object ClassAttribute "DS_AMBIENTE"
+					attributes 	(list Attribute_Set
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"dmItem"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"CodeName"
+						value      	"")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ExplicitNullable"
+						value      	"False")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DMName"
+						value      	"DS_AMBIENTE")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"Ordinal"
+						value      	7)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"Length"
+						value      	500)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"NullsAllowed"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"IsIdentity"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ForBitData"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ColumnType"
+						value      	"Native")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DefaultValueType"
+						value      	"No Default Value"))
+					quid       	"48667AF500DA"
+					type       	"VARCHAR(500)"
+					exportControl 	"Neither")
+				    (object ClassAttribute "DS_PENDENCIA"
+					attributes 	(list Attribute_Set
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"dmItem"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"CodeName"
+						value      	"")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ExplicitNullable"
+						value      	"False")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DMName"
+						value      	"DS_PENDENCIA")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"Ordinal"
+						value      	8)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"Length"
+						value      	4000)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"NullsAllowed"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"IsIdentity"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ForBitData"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ColumnType"
+						value      	"Native")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DefaultValueType"
+						value      	"No Default Value"))
+					quid       	"48667AF50128"
+					type       	"VARCHAR(4000)"
+					exportControl 	"Neither")
+				    (object ClassAttribute "QT_TEMPO_ESTIMADO"
+					attributes 	(list Attribute_Set
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"dmItem"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"CodeName"
+						value      	"")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ExplicitNullable"
+						value      	"False")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DMName"
+						value      	"QT_TEMPO_ESTIMADO")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"Ordinal"
+						value      	9)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"NullsAllowed"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"IsIdentity"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ForBitData"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ColumnType"
+						value      	"Native")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DefaultValueType"
+						value      	"No Default Value"))
+					quid       	"48667AF50177"
+					type       	"INTEGER"
+					exportControl 	"Neither")
+				    (object ClassAttribute "CD_PROJETO"
+					attributes 	(list Attribute_Set
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"dmItem"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"CodeName"
+						value      	"")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ExplicitNullable"
+						value      	"False")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DMName"
+						value      	"CD_PROJETO")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"Ordinal"
+						value      	10)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"NullsAllowed"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"IsIdentity"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ForBitData"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ColumnType"
+						value      	"Native")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DefaultValueType"
+						value      	"No Default Value"))
+					quid       	"48667AF501C5"
 					type       	"INTEGER"
 					exportControl 	"Both")
 				    (object ClassAttribute "CD_USUARIO_AUTOR"
@@ -5806,6 +6004,897 @@
 						tool       	"Data Modeler"
 						name       	"DMName"
 						value      	"CD_USUARIO_AUTOR")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"Ordinal"
+						value      	11)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"Length"
+						value      	50)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"NullsAllowed"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"IsIdentity"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ForBitData"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ColumnType"
+						value      	"Native")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DefaultValueType"
+						value      	"No Default Value"))
+					quid       	"48667AF502FD"
+					type       	"VARCHAR(50)"
+					exportControl 	"Neither")
+				    (object ClassAttribute "CD_USUARIO_RESPONSAVEL"
+					attributes 	(list Attribute_Set
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"dmItem"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"CodeName"
+						value      	"")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ExplicitNullable"
+						value      	"False")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DMName"
+						value      	"CD_USUARIO_RESPONSAVEL")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"Ordinal"
+						value      	12)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"Length"
+						value      	50)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"NullsAllowed"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"IsIdentity"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ForBitData"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ColumnType"
+						value      	"Native")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DefaultValueType"
+						value      	"No Default Value"))
+					quid       	"48667AF5033C"
+					type       	"VARCHAR(50)"
+					exportControl 	"Neither")
+				    (object ClassAttribute "ID_STATUS_PENDENCIA"
+					attributes 	(list Attribute_Set
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"dmItem"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"CodeName"
+						value      	"")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ExplicitNullable"
+						value      	"False")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DMName"
+						value      	"ID_STATUS_PENDENCIA")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"Ordinal"
+						value      	13)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"NullsAllowed"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"IsIdentity"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ForBitData"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ColumnType"
+						value      	"Native")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DefaultValueType"
+						value      	"No Default Value"))
+					quid       	"48667AF5038A"
+					type       	"INTEGER"
+					exportControl 	"Neither")
+				    (object ClassAttribute "DT_CRIACAO_OCORRENCIA"
+					attributes 	(list Attribute_Set
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"dmItem"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DMName"
+						value      	"DT_CRIACAO_OCORRENCIA")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"CodeName"
+						value      	"")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"Ordinal"
+						value      	14)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"NullsAllowed"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"IsIdentity"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ForBitData"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ExplicitNullable"
+						value      	"False")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ColumnType"
+						value      	"Native")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DefaultValueType"
+						value      	"No Default Value"))
+					quid       	"48667AF503D8"
+					type       	"DATE"
+					exportControl 	"Neither"))
+				module     	"Component View::DB_0::SISGER"
+				quidu      	"486645A40000"
+				language   	"Data Modeler")
+			    (object Class "USUARIO_PROJETO"
+				attributes 	(list Attribute_Set
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"dmItem"
+					value      	TRUE)
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"IsTable"
+					value      	TRUE)
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"DMName"
+					value      	"USUARIO_PROJETO")
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"CodeName"
+					value      	"SISGER_USUARIO_PROJETO")
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"TableSpaceID"
+					value      	"")
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"HasLikeStatemenet"
+					value      	"False")
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"LikeTableName"
+					value      	"")
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"LikeIncludeIdentity"
+					value      	"False")
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"LikeColumnAttr"
+					value      	"False"))
+				quid       	"48666C230128"
+				stereotype 	"Table"
+				operations 	(list Operations
+				    (object Operation "USUARIO_PROJETO_PK"
+					attributes 	(list Attribute_Set
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"IsConstraint"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ConstraintType"
+						value      	"Primary Key")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"dmItem"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DMName"
+						value      	"USUARIO_PROJETO_PK")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"CodeName"
+						value      	"")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DeferalMode"
+						value      	"Not Deferable")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"IsCluster"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"FillFactor"
+						value      	0)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"KeyList"
+						value      	"486671C703D8,486671C702EE"))
+					quid       	"48666C3D03D8"
+					stereotype 	"PK"
+					visible_modules 	(list dependency_list
+					    (object Dependency_Relationship
+						attributes 	(list Attribute_Set
+						    (object Attribute
+							tool       	"Data Modeler"
+							name       	"Order"
+							value      	"1"))
+						quid       	"486671C8003E"
+						stereotype 	"PK"
+						supplier   	"Logical View::Schemas::SISGER::USUARIO_PROJETO::PROJETO_CD_PROJETO"
+						quidu      	"486671C703D8")
+					    (object Dependency_Relationship
+						attributes 	(list Attribute_Set
+						    (object Attribute
+							tool       	"Data Modeler"
+							name       	"Order"
+							value      	"2"))
+						quid       	"486671C80040"
+						stereotype 	"PK"
+						supplier   	"Logical View::Schemas::SISGER::USUARIO_PROJETO::CD_USUARIO"
+						quidu      	"486671C702EE"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "USUARIO_FK"
+					attributes 	(list Attribute_Set
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"IsConstraint"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ConstraintType"
+						value      	"Foreign Key")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"dmItem"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DMName"
+						value      	"USUARIO_FK")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"CodeName"
+						value      	"")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DeferalMode"
+						value      	"Not Deferable")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"KeyList"
+						value      	"486671C702EE"))
+					quid       	"48666C3E001F"
+					stereotype 	"FK"
+					visible_modules 	(list dependency_list
+					    (object Dependency_Relationship
+						attributes 	(list Attribute_Set
+						    (object Attribute
+							tool       	"Data Modeler"
+							name       	"Order"
+							value      	"1"))
+						quid       	"486671C7032C"
+						stereotype 	"FK"
+						supplier   	"Logical View::Schemas::SISGER::USUARIO_PROJETO::CD_USUARIO"
+						quidu      	"486671C702EE"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "FK_USUARIO_PROJETO22"
+					attributes 	(list Attribute_Set
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"IsConstraint"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ConstraintType"
+						value      	"Foreign Key")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"dmItem"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DMName"
+						value      	"FK_USUARIO_PROJETO22")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"CodeName"
+						value      	"")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DeferalMode"
+						value      	"Not Deferable")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"KeyList"
+						value      	"486671C7038A"))
+					quid       	"486671990261"
+					stereotype 	"FK"
+					visible_modules 	(list dependency_list
+					    (object Dependency_Relationship
+						attributes 	(list Attribute_Set
+						    (object Attribute
+							tool       	"Data Modeler"
+							name       	"Order"
+							value      	"1"))
+						quid       	"486671C703B9"
+						stereotype 	"FK"
+						supplier   	"Logical View::Schemas::SISGER::USUARIO_PROJETO::CD_PROJETO"
+						quidu      	"486671C7038A"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "FK_USUARIO_PROJETO23"
+					attributes 	(list Attribute_Set
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"IsConstraint"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ConstraintType"
+						value      	"Foreign Key")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"dmItem"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DMName"
+						value      	"FK_USUARIO_PROJETO23")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"CodeName"
+						value      	"")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DeferalMode"
+						value      	"Not Deferable")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"KeyList"
+						value      	"486671C703D8"))
+					quid       	"486671C70213"
+					stereotype 	"FK"
+					visible_modules 	(list dependency_list
+					    (object Dependency_Relationship
+						attributes 	(list Attribute_Set
+						    (object Attribute
+							tool       	"Data Modeler"
+							name       	"Order"
+							value      	"1"))
+						quid       	"486671C8001F"
+						stereotype 	"FK"
+						supplier   	"Logical View::Schemas::SISGER::USUARIO_PROJETO::PROJETO_CD_PROJETO"
+						quidu      	"486671C703D8"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0))
+				class_attributes 	(list class_attribute_list
+				    (object ClassAttribute "CD_USUARIO"
+					attributes 	(list Attribute_Set
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"dmItem"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"CodeName"
+						value      	"")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ExplicitNullable"
+						value      	"False")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DMName"
+						value      	"CD_USUARIO")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"Ordinal"
+						value      	1)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"Length"
+						value      	50)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"NullsAllowed"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"IsIdentity"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ForBitData"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ColumnType"
+						value      	"Native")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DefaultValueType"
+						value      	"No Default Value"))
+					quid       	"486671C702EE"
+					type       	"VARCHAR(50)"
+					exportControl 	"Both")
+				    (object ClassAttribute "ID_TIPO_USUARIO"
+					attributes 	(list Attribute_Set
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"dmItem"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"CodeName"
+						value      	"")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ExplicitNullable"
+						value      	"False")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DMName"
+						value      	"ID_TIPO_USUARIO")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"Ordinal"
+						value      	2)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"NullsAllowed"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"IsIdentity"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ForBitData"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ColumnType"
+						value      	"Native")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DefaultValueType"
+						value      	"No Default Value"))
+					quid       	"486671C7034B"
+					type       	"INTEGER"
+					exportControl 	"Neither")
+				    (object ClassAttribute "CD_PROJETO"
+					attributes 	(list Attribute_Set
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"dmItem"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"CodeName"
+						value      	"")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ExplicitNullable"
+						value      	"False")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DMName"
+						value      	"CD_PROJETO")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"Ordinal"
+						value      	3)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"NullsAllowed"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"IsIdentity"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ForBitData"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ColumnType"
+						value      	"Native")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DefaultValueType"
+						value      	"No Default Value"))
+					quid       	"486671C7038A"
+					type       	"INTEGER"
+					exportControl 	"Foreign")
+				    (object ClassAttribute "PROJETO_CD_PROJETO"
+					attributes 	(list Attribute_Set
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"dmItem"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DMName"
+						value      	"PROJETO_CD_PROJETO")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"CodeName"
+						value      	"")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"Ordinal"
+						value      	4)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"NullsAllowed"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"IsIdentity"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ForBitData"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ExplicitNullable"
+						value      	"False")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ColumnType"
+						value      	"Native")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DefaultValueType"
+						value      	"No Default Value"))
+					quid       	"486671C703D8"
+					type       	"INTEGER"
+					exportControl 	"Both"))
+				module     	"Component View::DB_0::SISGER"
+				quidu      	"486645A40000"
+				language   	"Data Modeler")
+			    (object Class "HISTORICO_PENDENCIA"
+				attributes 	(list Attribute_Set
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"dmItem"
+					value      	TRUE)
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"IsTable"
+					value      	TRUE)
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"DMName"
+					value      	"HISTORICO_PENDENCIA")
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"CodeName"
+					value      	"")
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"TableSpaceID"
+					value      	"")
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"HasLikeStatemenet"
+					value      	"False")
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"LikeTableName"
+					value      	"")
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"LikeIncludeIdentity"
+					value      	"False")
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"LikeColumnAttr"
+					value      	"False"))
+				quid       	"486679F7002E"
+				stereotype 	"Table"
+				used_nodes 	(list uses_relationship_list
+				    (object Uses_Relationship
+					quid       	"48667B0B005D"
+					stereotype 	"Derive"
+					label      	"CD_USUARIO_LIDER"
+					supplier   	"Logical View::Schemas::SISGER::USUARIO_PROJETO"
+					quidu      	"48666C230128")
+				    (object Uses_Relationship
+					quid       	"48667B2B031C"
+					stereotype 	"Derive"
+					label      	"CD_USUARIO_RESPONSAVEL"
+					supplier   	"Logical View::Schemas::SISGER::USUARIO_PROJETO"
+					quidu      	"48666C230128"))
+				operations 	(list Operations
+				    (object Operation "PK_HISTORICO_PENDENCIA5"
+					attributes 	(list Attribute_Set
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"IsConstraint"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ConstraintType"
+						value      	"Primary Key")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"dmItem"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DMName"
+						value      	"PK_HISTORICO_PENDENCIA5")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"CodeName"
+						value      	"")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DeferalMode"
+						value      	"Not Deferable")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"IsCluster"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"FillFactor"
+						value      	0)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"KeyList"
+						value      	"48667AB403D8,48667AB5007D"))
+					quid       	"48667A7D02FD"
+					stereotype 	"PK"
+					visible_modules 	(list dependency_list
+					    (object Dependency_Relationship
+						attributes 	(list Attribute_Set
+						    (object Attribute
+							tool       	"Data Modeler"
+							name       	"Order"
+							value      	"1"))
+						quid       	"48667AB500BB"
+						stereotype 	"PK"
+						supplier   	"Logical View::Schemas::SISGER::HISTORICO_PENDENCIA::CD_PROJETO"
+						quidu      	"48667AB403D8")
+					    (object Dependency_Relationship
+						attributes 	(list Attribute_Set
+						    (object Attribute
+							tool       	"Data Modeler"
+							name       	"Order"
+							value      	"2"))
+						quid       	"48667AB500BD"
+						stereotype 	"PK"
+						supplier   	"Logical View::Schemas::SISGER::HISTORICO_PENDENCIA::CD_PENDENCIA"
+						quidu      	"48667AB5007D"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "FK_HISTORICO_PENDENCIA32"
+					attributes 	(list Attribute_Set
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"IsConstraint"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ConstraintType"
+						value      	"Foreign Key")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"dmItem"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DMName"
+						value      	"FK_HISTORICO_PENDENCIA32")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"CodeName"
+						value      	"")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DeferalMode"
+						value      	"Not Deferable")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"KeyList"
+						value      	"48667AB403D8,48667AB5007D"))
+					quid       	"48667A7D037A"
+					stereotype 	"FK"
+					visible_modules 	(list dependency_list
+					    (object Dependency_Relationship
+						attributes 	(list Attribute_Set
+						    (object Attribute
+							tool       	"Data Modeler"
+							name       	"Order"
+							value      	"1"))
+						quid       	"48667AB500EA"
+						stereotype 	"FK"
+						supplier   	"Logical View::Schemas::SISGER::HISTORICO_PENDENCIA::CD_PROJETO"
+						quidu      	"48667AB403D8")
+					    (object Dependency_Relationship
+						attributes 	(list Attribute_Set
+						    (object Attribute
+							tool       	"Data Modeler"
+							name       	"Order"
+							value      	"2"))
+						quid       	"48667AB500EC"
+						stereotype 	"FK"
+						supplier   	"Logical View::Schemas::SISGER::HISTORICO_PENDENCIA::CD_PENDENCIA"
+						quidu      	"48667AB5007D"))
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0))
+				class_attributes 	(list class_attribute_list
+				    (object ClassAttribute "CD_HISTORICO"
+					attributes 	(list Attribute_Set
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"dmItem"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"CodeName"
+						value      	"")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ExplicitNullable"
+						value      	"False")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DMName"
+						value      	"CD_HISTORICO")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"Ordinal"
+						value      	1)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"NullsAllowed"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"IsIdentity"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ForBitData"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ColumnType"
+						value      	"Native")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DefaultValueType"
+						value      	"No Default Value"))
+					quid       	"48667AB4031C"
+					type       	"INTEGER"
+					exportControl 	"Neither")
+				    (object ClassAttribute "CD_USUARIO_LIDER"
+					attributes 	(list Attribute_Set
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"dmItem"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"CodeName"
+						value      	"")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ExplicitNullable"
+						value      	"False")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DMName"
+						value      	"CD_USUARIO_LIDER")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"Ordinal"
+						value      	2)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"Length"
+						value      	50)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"NullsAllowed"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"IsIdentity"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ForBitData"
+						value      	FALSE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ColumnType"
+						value      	"Native")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DefaultValueType"
+						value      	"No Default Value"))
+					quid       	"48667AB4035B"
+					type       	"VARCHAR(50)"
+					exportControl 	"Neither")
+				    (object ClassAttribute "CD_USUARIO_RESPONSAVEL"
+					attributes 	(list Attribute_Set
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"dmItem"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"CodeName"
+						value      	"")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ExplicitNullable"
+						value      	"False")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DMName"
+						value      	"CD_USUARIO_RESPONSAVEL")
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"Ordinal"
@@ -5834,10 +6923,10 @@
 						tool       	"Data Modeler"
 						name       	"DefaultValueType"
 						value      	"No Default Value"))
-					quid       	"48666875029F"
+					quid       	"48667AB40399"
 					type       	"VARCHAR(50)"
-					exportControl 	"Foreign")
-				    (object ClassAttribute "CD_USUARIO_DESENVOLVEDOR"
+					exportControl 	"Neither")
+				    (object ClassAttribute "CD_PROJETO"
 					attributes 	(list Attribute_Set
 					    (object Attribute
 						tool       	"Data Modeler"
@@ -5854,15 +6943,11 @@
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"DMName"
-						value      	"CD_USUARIO_DESENVOLVEDOR")
+						value      	"CD_PROJETO")
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"Ordinal"
 						value      	4)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"Length"
-						value      	50)
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"NullsAllowed"
@@ -5883,10 +6968,10 @@
 						tool       	"Data Modeler"
 						name       	"DefaultValueType"
 						value      	"No Default Value"))
-					quid       	"48666875034B"
-					type       	"VARCHAR(50)"
-					exportControl 	"Foreign")
-				    (object ClassAttribute "CD_TIPO_PENDENCIA"
+					quid       	"48667AB403D8"
+					type       	"INTEGER"
+					exportControl 	"Both")
+				    (object ClassAttribute "CD_PENDENCIA"
 					attributes 	(list Attribute_Set
 					    (object Attribute
 						tool       	"Data Modeler"
@@ -5894,12 +6979,16 @@
 						value      	TRUE)
 					    (object Attribute
 						tool       	"Data Modeler"
-						name       	"DMName"
-						value      	"CD_TIPO_PENDENCIA")
-					    (object Attribute
-						tool       	"Data Modeler"
 						name       	"CodeName"
 						value      	"")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ExplicitNullable"
+						value      	"False")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DMName"
+						value      	"CD_PENDENCIA")
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"Ordinal"
@@ -5918,20 +7007,16 @@
 						value      	FALSE)
 					    (object Attribute
 						tool       	"Data Modeler"
-						name       	"ExplicitNullable"
-						value      	"False")
-					    (object Attribute
-						tool       	"Data Modeler"
 						name       	"ColumnType"
 						value      	"Native")
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"DefaultValueType"
 						value      	"No Default Value"))
-					quid       	"48666876000F"
+					quid       	"48667AB5007D"
 					type       	"INTEGER"
-					exportControl 	"Neither")
-				    (object ClassAttribute "DS_RESUMO"
+					exportControl 	"Both")
+				    (object ClassAttribute "DT_OCORRENCIA"
 					attributes 	(list Attribute_Set
 					    (object Attribute
 						tool       	"Data Modeler"
@@ -5940,7 +7025,7 @@
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"DMName"
-						value      	"DS_RESUMO")
+						value      	"DT_OCORRENCIA")
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"CodeName"
@@ -5949,10 +7034,6 @@
 						tool       	"Data Modeler"
 						name       	"Ordinal"
 						value      	6)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"Length"
-						value      	200)
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"NullsAllowed"
@@ -5977,10 +7058,10 @@
 						tool       	"Data Modeler"
 						name       	"DefaultValueType"
 						value      	"No Default Value"))
-					quid       	"48666876005D"
-					type       	"VARCHAR(200)"
+					quid       	"48667AB50119"
+					type       	"DATE"
 					exportControl 	"Neither")
-				    (object ClassAttribute "ID_NIVEL_SEURANCA"
+				    (object ClassAttribute "ID_STATUS_PENDENCIA"
 					attributes 	(list Attribute_Set
 					    (object Attribute
 						tool       	"Data Modeler"
@@ -5989,7 +7070,7 @@
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"DMName"
-						value      	"ID_NIVEL_SEURANCA")
+						value      	"ID_STATUS_PENDENCIA")
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"CodeName"
@@ -6022,240 +7103,7 @@
 						tool       	"Data Modeler"
 						name       	"DefaultValueType"
 						value      	"No Default Value"))
-					quid       	"4866687600AB"
-					type       	"INTEGER"
-					exportControl 	"Neither")
-				    (object ClassAttribute "ID_PRIORIDADE"
-					attributes 	(list Attribute_Set
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"dmItem"
-						value      	TRUE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"DMName"
-						value      	"ID_PRIORIDADE")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"CodeName"
-						value      	"")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"Ordinal"
-						value      	8)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"NullsAllowed"
-						value      	FALSE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"IsIdentity"
-						value      	FALSE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"ForBitData"
-						value      	FALSE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"ExplicitNullable"
-						value      	"False")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"ColumnType"
-						value      	"Native")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"DefaultValueType"
-						value      	"No Default Value"))
-					quid       	"4866687600EA"
-					type       	"INTEGER"
-					exportControl 	"Neither")
-				    (object ClassAttribute "DT_TERMINO_PENDENCIA"
-					attributes 	(list Attribute_Set
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"dmItem"
-						value      	TRUE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"DMName"
-						value      	"DT_TERMINO_PENDENCIA")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"CodeName"
-						value      	"")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"Ordinal"
-						value      	9)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"NullsAllowed"
-						value      	FALSE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"IsIdentity"
-						value      	FALSE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"ForBitData"
-						value      	FALSE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"ExplicitNullable"
-						value      	"False")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"ColumnType"
-						value      	"Native")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"DefaultValueType"
-						value      	"No Default Value"))
-					quid       	"486668760138"
-					type       	"DATE"
-					exportControl 	"Neither")
-				    (object ClassAttribute "DS_AMBIENTE"
-					attributes 	(list Attribute_Set
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"dmItem"
-						value      	TRUE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"DMName"
-						value      	"DS_AMBIENTE")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"CodeName"
-						value      	"")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"Ordinal"
-						value      	10)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"Length"
-						value      	500)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"NullsAllowed"
-						value      	FALSE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"IsIdentity"
-						value      	FALSE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"ForBitData"
-						value      	FALSE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"ExplicitNullable"
-						value      	"False")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"ColumnType"
-						value      	"Native")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"DefaultValueType"
-						value      	"No Default Value"))
-					quid       	"486668760186"
-					type       	"VARCHAR(500)"
-					exportControl 	"Neither")
-				    (object ClassAttribute "DS_PENDENCIA"
-					attributes 	(list Attribute_Set
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"dmItem"
-						value      	TRUE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"DMName"
-						value      	"DS_PENDENCIA")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"CodeName"
-						value      	"")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"Ordinal"
-						value      	11)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"Length"
-						value      	4000)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"NullsAllowed"
-						value      	FALSE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"IsIdentity"
-						value      	FALSE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"ForBitData"
-						value      	FALSE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"ExplicitNullable"
-						value      	"False")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"ColumnType"
-						value      	"Native")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"DefaultValueType"
-						value      	"No Default Value"))
-					quid       	"4866687601D4"
-					type       	"VARCHAR(4000)"
-					exportControl 	"Neither")
-				    (object ClassAttribute "QT_TEMPO_ESTIMADO"
-					attributes 	(list Attribute_Set
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"dmItem"
-						value      	TRUE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"DMName"
-						value      	"QT_TEMPO_ESTIMADO")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"CodeName"
-						value      	"")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"Ordinal"
-						value      	12)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"NullsAllowed"
-						value      	FALSE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"IsIdentity"
-						value      	FALSE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"ForBitData"
-						value      	FALSE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"ExplicitNullable"
-						value      	"False")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"ColumnType"
-						value      	"Native")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"DefaultValueType"
-						value      	"No Default Value"))
-					quid       	"486668760222"
+					quid       	"48667AB50157"
 					type       	"INTEGER"
 					exportControl 	"Neither"))
 				module     	"Component View::DB_0::SISGER"
@@ -6315,8 +7163,8 @@
 					tool       	"Data Modeler"
 					name       	"ChildMultiplicityName"
 					value      	""))
-				quid       	"4866517D01A5"
-				stereotype 	"Non-Identifying"
+				quid       	"48666C3C03C8"
+				stereotype 	"Identifying"
 				roles      	(list role_list
 				    (object Role "$UNNAMED$61"
 					attributes 	(list Attribute_Set
@@ -6331,12 +7179,12 @@
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"ConstraintName"
-						value      	"4866517F00FA"))
-					quid       	"4866517E03D8"
-					supplier   	"Logical View::Schemas::SISGER::PROJETO"
-					quidu      	"48664617032C"
-					client_cardinality 	(value cardinality "0..*")
-					Containment 	"By Reference"
+						value      	"48666C3E001F"))
+					quid       	"48666C3D02AF"
+					supplier   	"Logical View::Schemas::SISGER::USUARIO_PROJETO"
+					quidu      	"48666C230128"
+					client_cardinality 	(value cardinality "0..1")
+					Containment 	"By Value"
 					is_navigable 	TRUE)
 				    (object Role "$UNNAMED$62"
 					attributes 	(list Attribute_Set
@@ -6352,11 +7200,12 @@
 						tool       	"Data Modeler"
 						name       	"ConstraintName"
 						value      	"486649E5007D"))
-					quid       	"4866517F0000"
+					quid       	"48666C3D02B1"
 					supplier   	"Logical View::Schemas::SISGER::USUARIO"
 					quidu      	"4866497902BF"
 					client_cardinality 	(value cardinality "1")
-					is_navigable 	TRUE)))
+					is_navigable 	TRUE
+					is_aggregate 	TRUE)))
 			    (object Association "$UNNAMED$63"
 				attributes 	(list Attribute_Set
 				    (object Attribute
@@ -6411,8 +7260,8 @@
 					tool       	"Data Modeler"
 					name       	"ChildMultiplicityName"
 					value      	""))
-				quid       	"4866519F00BB"
-				stereotype 	"Identifying"
+				quid       	"48667198007D"
+				stereotype 	"Non-Identifying"
 				roles      	(list role_list
 				    (object Role "$UNNAMED$64"
 					attributes 	(list Attribute_Set
@@ -6427,12 +7276,12 @@
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"ConstraintName"
-						value      	"486651A0005D"))
-					quid       	"4866519F036B"
-					supplier   	"Logical View::Schemas::SISGER::PENDENCIA"
-					quidu      	"48664B2A0000"
+						value      	"486671990261"))
+					quid       	"4866719900CB"
+					supplier   	"Logical View::Schemas::SISGER::USUARIO_PROJETO"
+					quidu      	"48666C230128"
 					client_cardinality 	(value cardinality "0..*")
-					Containment 	"By Value"
+					Containment 	"By Reference"
 					is_navigable 	TRUE)
 				    (object Role "$UNNAMED$65"
 					attributes 	(list Attribute_Set
@@ -6448,12 +7297,11 @@
 						tool       	"Data Modeler"
 						name       	"ConstraintName"
 						value      	"486648370280"))
-					quid       	"4866519F036D"
+					quid       	"4866719900CD"
 					supplier   	"Logical View::Schemas::SISGER::PROJETO"
 					quidu      	"48664617032C"
 					client_cardinality 	(value cardinality "1")
-					is_navigable 	TRUE
-					is_aggregate 	TRUE)))
+					is_navigable 	TRUE)))
 			    (object Association "$UNNAMED$66"
 				attributes 	(list Attribute_Set
 				    (object Attribute
@@ -6508,8 +7356,8 @@
 					tool       	"Data Modeler"
 					name       	"ChildMultiplicityName"
 					value      	""))
-				quid       	"486651B00203"
-				stereotype 	"Non-Identifying"
+				quid       	"486671C6001F"
+				stereotype 	"Identifying"
 				roles      	(list role_list
 				    (object Role "$UNNAMED$67"
 					attributes 	(list Attribute_Set
@@ -6524,12 +7372,12 @@
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"ConstraintName"
-						value      	"486651B1033C"))
-					quid       	"486651B10242"
-					supplier   	"Logical View::Schemas::SISGER::PENDENCIA"
-					quidu      	"48664B2A0000"
+						value      	"486671C70213"))
+					quid       	"486671C7001F"
+					supplier   	"Logical View::Schemas::SISGER::USUARIO_PROJETO"
+					quidu      	"48666C230128"
 					client_cardinality 	(value cardinality "0..*")
-					Containment 	"By Reference"
+					Containment 	"By Value"
 					is_navigable 	TRUE)
 				    (object Role "$UNNAMED$68"
 					attributes 	(list Attribute_Set
@@ -6544,12 +7392,13 @@
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"ConstraintName"
-						value      	"486649E5007D"))
-					quid       	"486651B10251"
-					supplier   	"Logical View::Schemas::SISGER::USUARIO"
-					quidu      	"4866497902BF"
+						value      	"486648370280"))
+					quid       	"486671C7002E"
+					supplier   	"Logical View::Schemas::SISGER::PROJETO"
+					quidu      	"48664617032C"
 					client_cardinality 	(value cardinality "1")
-					is_navigable 	TRUE)))
+					is_navigable 	TRUE
+					is_aggregate 	TRUE)))
 			    (object Association "$UNNAMED$69"
 				attributes 	(list Attribute_Set
 				    (object Attribute
@@ -6604,8 +7453,8 @@
 					tool       	"Data Modeler"
 					name       	"ChildMultiplicityName"
 					value      	""))
-				quid       	"486651CB001F"
-				stereotype 	"Non-Identifying"
+				quid       	"486671D100EA"
+				stereotype 	"Identifying"
 				roles      	(list role_list
 				    (object Role "$UNNAMED$70"
 					attributes 	(list Attribute_Set
@@ -6620,12 +7469,12 @@
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"ConstraintName"
-						value      	"486651CC0196"))
-					quid       	"486651CC009C"
+						value      	"486671D202EE"))
+					quid       	"486671D20186"
 					supplier   	"Logical View::Schemas::SISGER::PENDENCIA"
 					quidu      	"48664B2A0000"
 					client_cardinality 	(value cardinality "0..*")
-					Containment 	"By Reference"
+					Containment 	"By Value"
 					is_navigable 	TRUE)
 				    (object Role "$UNNAMED$71"
 					attributes 	(list Attribute_Set
@@ -6640,12 +7489,110 @@
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"ConstraintName"
-						value      	"486649E5007D"))
-					quid       	"486651CC009E"
-					supplier   	"Logical View::Schemas::SISGER::USUARIO"
-					quidu      	"4866497902BF"
+						value      	"486648370280"))
+					quid       	"486671D20197"
+					supplier   	"Logical View::Schemas::SISGER::PROJETO"
+					quidu      	"48664617032C"
 					client_cardinality 	(value cardinality "1")
-					is_navigable 	TRUE))))
+					is_navigable 	TRUE
+					is_aggregate 	TRUE)))
+			    (object Association "$UNNAMED$72"
+				attributes 	(list Attribute_Set
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"dmItem"
+					value      	TRUE)
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"IsRelationship"
+					value      	TRUE)
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"DMName"
+					value      	"")
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"CodeName"
+					value      	"")
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"RIMethod"
+					value      	"DRI")
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"ParentUpdateRule"
+					value      	"No Action")
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"ParentDeleteRule"
+					value      	"No Action")
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"ChildMultiplicity"
+					value      	FALSE)
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"ParentUpdateRuleName"
+					value      	"")
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"ParentDeleteRuleName"
+					value      	"")
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"ChildInsertRestrict"
+					value      	FALSE)
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"ChildInsertRestrictName"
+					value      	"")
+				    (object Attribute
+					tool       	"Data Modeler"
+					name       	"ChildMultiplicityName"
+					value      	""))
+				quid       	"48667A7C0186"
+				stereotype 	"Identifying"
+				roles      	(list role_list
+				    (object Role "$UNNAMED$73"
+					attributes 	(list Attribute_Set
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"dmItem"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DMName"
+						value      	"")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ConstraintName"
+						value      	"48667A7D037A"))
+					quid       	"48667A7D00DA"
+					supplier   	"Logical View::Schemas::SISGER::HISTORICO_PENDENCIA"
+					quidu      	"486679F7002E"
+					client_cardinality 	(value cardinality "0..1")
+					Containment 	"By Value"
+					is_navigable 	TRUE)
+				    (object Role "$UNNAMED$74"
+					attributes 	(list Attribute_Set
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"dmItem"
+						value      	TRUE)
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"DMName"
+						value      	"")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"ConstraintName"
+						value      	"48664E2B032C"))
+					quid       	"48667A7D00DC"
+					supplier   	"Logical View::Schemas::SISGER::PENDENCIA"
+					quidu      	"48664B2A0000"
+					client_cardinality 	(value cardinality "1")
+					is_navigable 	TRUE
+					is_aggregate 	TRUE))))
 			logical_presentations 	(list unit_reference_list
 			    (object ClassDiagram "NewDiagram"
 				attributes 	(list Attribute_Set
@@ -6655,17 +7602,14 @@
 					value      	"True"))
 				quid       	"486646110203"
 				title      	"NewDiagram"
-				zoom       	100
+				zoom       	85
 				max_height 	28350
 				max_width  	21600
-				origin_x   	0
-				origin_y   	332
+				origin_x   	555
+				origin_y   	228
 				items      	(list diagram_item_list
-				    (object ClassView "Class" "Logical View::Schemas::SISGER::PROJETO" @192
-					ShowCompartmentStereotypes 	TRUE
-					IncludeAttribute 	TRUE
-					IncludeOperation 	TRUE
-					location   	(559, 384)
+				    (object Label @192
+					location   	(1600, 1808)
 					font       	(object Font
 					    size       	9
 					    face       	"Arial"
@@ -6675,46 +7619,19 @@
 					    strike     	FALSE
 					    color      	0
 					    default_color 	TRUE)
-					label      	(object ItemLabel
-					    Parent_View 	@192
-					    location   	(168, 231)
-					    fill_color 	13434879
-					    nlines     	1
-					    max_width  	782
-					    justify    	0
-					    label      	"PROJETO")
-					icon       	"Table"
-					icon_style 	"Decoration"
-					line_color 	3342489
-					fill_color 	13434879
-					quidu      	"48664617032C"
-					compartment 	(object Compartment
-					    Parent_View 	@192
-					    location   	(168, 289)
-					    font       	(object Font
-						size       	9
-						face       	"Arial"
-						bold       	FALSE
-						italics    	FALSE
-						underline  	FALSE
-						strike     	FALSE
-						color      	0
-						default_color 	TRUE)
-					    icon_style 	"Icon"
-					    fill_color 	13434879
-					    anchor     	2
-					    nlines     	7
-					    max_width  	715
-					    justify    	1)
-					width      	800
-					height     	504
-					annotation 	8
-					autoResize 	TRUE)
+					nlines     	8
+					max_width  	1198
+					justify    	1
+					label      	
+|Criamos os relacionamentos entre as tabelas USUARIO_PROJETO e PENDENCIA com "Derive" por uma limitação do Rose de duplicar a coluna de CD_PROJETO e não conseguimos alterar o apontamento da mesma.
+|
+|O Mesmo ocorre para a tabela de HISTORICO_PENDENCIA
+					)
 				    (object ClassView "Class" "Logical View::Schemas::SISGER::USUARIO" @193
 					ShowCompartmentStereotypes 	TRUE
 					IncludeAttribute 	TRUE
 					IncludeOperation 	TRUE
-					location   	(1648, 384)
+					location   	(2368, 1392)
 					font       	(object Font
 					    size       	9
 					    face       	"Arial"
@@ -6726,7 +7643,7 @@
 					    default_color 	TRUE)
 					label      	(object ItemLabel
 					    Parent_View 	@193
-					    location   	(1314, 277)
+					    location   	(2034, 1286)
 					    fill_color 	13434879
 					    nlines     	1
 					    max_width  	668
@@ -6739,7 +7656,7 @@
 					quidu      	"4866497902BF"
 					compartment 	(object Compartment
 					    Parent_View 	@193
-					    location   	(1314, 335)
+					    location   	(2034, 1345)
 					    font       	(object Font
 						size       	9
 						face       	"Arial"
@@ -6753,136 +7670,17 @@
 					    fill_color 	13434879
 					    anchor     	2
 					    nlines     	5
-					    max_width  	594
+					    max_width  	603
 					    justify    	1)
 					width      	686
 					height     	412
 					annotation 	8
 					autoResize 	TRUE)
-				    (object AssociationViewNew "$UNNAMED$60" @194
-					location   	(1131, 384)
-					font       	(object Font
-					    size       	9
-					    face       	"Arial"
-					    bold       	FALSE
-					    italics    	FALSE
-					    underline  	FALSE
-					    strike     	FALSE
-					    color      	0
-					    default_color 	TRUE)
-					stereotype 	(object SegLabel @195
-					    Parent_View 	@194
-					    location   	(1131, 277)
-					    font       	(object Font
-						size       	9
-						face       	"Arial"
-						bold       	FALSE
-						italics    	FALSE
-						underline  	FALSE
-						strike     	FALSE
-						color      	0
-						default_color 	TRUE)
-					    anchor     	10
-					    anchor_loc 	1
-					    nlines     	1
-					    max_width  	450
-					    justify    	0
-					    label      	"<<Non-Identifying>>"
-					    pctDist    	0.500000
-					    height     	108
-					    orientation 	0)
-					line_color 	3342489
-					quidu      	"4866517D01A5"
-					roleview_list 	(list RoleViews
-					    (object RoleView "$UNNAMED$61" @196
-						Parent_View 	@194
-						location   	(-485, 0)
-						font       	(object Font
-						    size       	9
-						    face       	"Arial"
-						    bold       	FALSE
-						    italics    	FALSE
-						    underline  	FALSE
-						    strike     	FALSE
-						    color      	0
-						    default_color 	TRUE)
-						stereotype 	TRUE
-						line_color 	3342489
-						quidu      	"4866517E03D8"
-						client     	@194
-						supplier   	@192
-						vertices   	(list Points
-						    (1131, 384)
-						    (959, 384))
-						line_style 	0
-						label      	(object SegLabel @197
-						    Parent_View 	@196
-						    location   	(976, 438)
-						    font       	(object Font
-							size       	9
-							face       	"Arial"
-							bold       	FALSE
-							italics    	FALSE
-							underline  	FALSE
-							strike     	FALSE
-							color      	0
-							default_color 	TRUE)
-						    anchor     	2
-						    anchor_loc 	1
-						    nlines     	1
-						    max_width  	15
-						    justify    	0
-						    label      	"0..*"
-						    pctDist    	0.900000
-						    height     	54
-						    orientation 	0))
-					    (object RoleView "$UNNAMED$62" @198
-						Parent_View 	@194
-						location   	(-485, 0)
-						font       	(object Font
-						    size       	9
-						    face       	"Arial"
-						    bold       	FALSE
-						    italics    	FALSE
-						    underline  	FALSE
-						    strike     	FALSE
-						    color      	0
-						    default_color 	TRUE)
-						stereotype 	TRUE
-						line_color 	3342489
-						quidu      	"4866517F0000"
-						client     	@194
-						supplier   	@193
-						vertices   	(list Points
-						    (1131, 384)
-						    (1304, 384))
-						line_style 	0
-						label      	(object SegLabel @199
-						    Parent_View 	@198
-						    location   	(1287, 438)
-						    font       	(object Font
-							size       	9
-							face       	"Arial"
-							bold       	FALSE
-							italics    	FALSE
-							underline  	FALSE
-							strike     	FALSE
-							color      	0
-							default_color 	TRUE)
-						    anchor     	2
-						    anchor_loc 	1
-						    nlines     	1
-						    max_width  	15
-						    justify    	0
-						    label      	"1"
-						    pctDist    	0.900000
-						    height     	54
-						    orientation 	1))))
-				    (object ClassView "Class" "Logical View::Schemas::SISGER::PENDENCIA" @200
+				    (object ClassView "Class" "Logical View::Schemas::SISGER::USUARIO_PROJETO" @194
 					ShowCompartmentStereotypes 	TRUE
 					IncludeAttribute 	TRUE
 					IncludeOperation 	TRUE
-					location   	(560, 1520)
+					location   	(2193, 384)
 					font       	(object Font
 					    size       	9
 					    face       	"Arial"
@@ -6893,21 +7691,21 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@200
-					    location   	(59, 1132)
+					    Parent_View 	@194
+					    location   	(1732, 165)
 					    fill_color 	13434879
 					    nlines     	1
-					    max_width  	1002
+					    max_width  	923
 					    justify    	0
-					    label      	"PENDENCIA")
+					    label      	"USUARIO_PROJETO")
 					icon       	"Table"
 					icon_style 	"Decoration"
 					line_color 	3342489
 					fill_color 	13434879
-					quidu      	"48664B2A0000"
+					quidu      	"48666C230128"
 					compartment 	(object Compartment
-					    Parent_View 	@200
-					    location   	(59, 1190)
+					    Parent_View 	@194
+					    location   	(1732, 224)
 					    font       	(object Font
 						size       	9
 						face       	"Arial"
@@ -6918,17 +7716,17 @@
 						color      	0
 						default_color 	TRUE)
 					    icon_style 	"Icon"
-					    fill_color 	16777215
+					    fill_color 	13434879
 					    anchor     	2
-					    nlines     	17
-					    max_width  	928
+					    nlines     	9
+					    max_width  	735
 					    justify    	1)
-					width      	1020
-					height     	974
+					width      	941
+					height     	638
 					annotation 	8
 					autoResize 	TRUE)
-				    (object AssociationViewNew "$UNNAMED$63" @201
-					location   	(559, 834)
+				    (object AssociationViewNew "$UNNAMED$60" @195
+					location   	(2289, 944)
 					font       	(object Font
 					    size       	9
 					    face       	"Arial"
@@ -6938,9 +7736,9 @@
 					    strike     	FALSE
 					    color      	0
 					    default_color 	TRUE)
-					stereotype 	(object SegLabel @202
-					    Parent_View 	@201
-					    location   	(559, 832)
+					stereotype 	(object SegLabel @196
+					    Parent_View 	@195
+					    location   	(2289, 944)
 					    font       	(object Font
 						size       	9
 						face       	"Arial"
@@ -6957,14 +7755,14 @@
 					    justify    	0
 					    label      	"<<Identifying>>"
 					    pctDist    	0.500000
-					    height     	3
+					    height     	1
 					    orientation 	0)
 					line_color 	3342489
-					quidu      	"4866519F00BB"
+					quidu      	"48666C3C03C8"
 					roleview_list 	(list RoleViews
-					    (object RoleView "$UNNAMED$64" @203
-						Parent_View 	@201
-						location   	(79, 450)
+					    (object RoleView "$UNNAMED$61" @197
+						Parent_View 	@195
+						location   	(465, 576)
 						font       	(object Font
 						    size       	9
 						    face       	"Arial"
@@ -6976,16 +7774,16 @@
 						    default_color 	TRUE)
 						stereotype 	TRUE
 						line_color 	3342489
-						quidu      	"4866519F036B"
-						client     	@201
-						supplier   	@200
+						quidu      	"48666C3D02AF"
+						client     	@195
+						supplier   	@194
 						vertices   	(list Points
-						    (559, 834)
-						    (559, 1032))
+						    (2289, 944)
+						    (2247, 703))
 						line_style 	0
-						label      	(object SegLabel @204
-						    Parent_View 	@203
-						    location   	(613, 1012)
+						label      	(object SegLabel @198
+						    Parent_View 	@197
+						    location   	(2199, 737)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -7000,13 +7798,13 @@
 						    nlines     	1
 						    max_width  	15
 						    justify    	0
-						    label      	"0..*"
+						    label      	"0..1"
 						    pctDist    	0.900000
 						    height     	54
 						    orientation 	0))
-					    (object RoleView "$UNNAMED$65" @205
-						Parent_View 	@201
-						location   	(79, 450)
+					    (object RoleView "$UNNAMED$62" @199
+						Parent_View 	@195
+						location   	(465, 576)
 						font       	(object Font
 						    size       	9
 						    face       	"Arial"
@@ -7018,16 +7816,16 @@
 						    default_color 	TRUE)
 						stereotype 	TRUE
 						line_color 	3342489
-						quidu      	"4866519F036D"
-						client     	@201
-						supplier   	@192
+						quidu      	"48666C3D02B1"
+						client     	@195
+						supplier   	@193
 						vertices   	(list Points
-						    (559, 834)
-						    (559, 636))
+						    (2289, 944)
+						    (2331, 1185))
 						line_style 	0
-						label      	(object SegLabel @206
-						    Parent_View 	@205
-						    location   	(613, 656)
+						label      	(object SegLabel @200
+						    Parent_View 	@199
+						    location   	(2275, 1169)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -7046,8 +7844,11 @@
 						    pctDist    	0.900000
 						    height     	54
 						    orientation 	1))))
-				    (object AssociationViewNew "$UNNAMED$66" @207
-					location   	(1238, 811)
+				    (object ClassView "Class" "Logical View::Schemas::SISGER::PROJETO" @201
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(560, 384)
 					font       	(object Font
 					    size       	9
 					    face       	"Arial"
@@ -7057,9 +7858,55 @@
 					    strike     	FALSE
 					    color      	0
 					    default_color 	TRUE)
-					stereotype 	(object SegLabel @208
-					    Parent_View 	@207
-					    location   	(1238, 704)
+					label      	(object ItemLabel
+					    Parent_View 	@201
+					    location   	(213, 277)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	694
+					    justify    	0
+					    label      	"PROJETO")
+					icon       	"Table"
+					icon_style 	"Decoration"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"48664617032C"
+					compartment 	(object Compartment
+					    Parent_View 	@201
+					    location   	(213, 336)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    icon_style 	"Icon"
+					    fill_color 	13434879
+					    anchor     	2
+					    nlines     	5
+					    max_width  	652
+					    justify    	1)
+					width      	712
+					height     	412
+					annotation 	8
+					autoResize 	TRUE)
+				    (object AssociationViewNew "$UNNAMED$66" @202
+					location   	(1319, 384)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					stereotype 	(object SegLabel @203
+					    Parent_View 	@202
+					    location   	(1336, 343)
 					    font       	(object Font
 						size       	9
 						face       	"Arial"
@@ -7074,16 +7921,16 @@
 					    nlines     	1
 					    max_width  	450
 					    justify    	0
-					    label      	"<<Non-Identifying>>"
-					    pctDist    	0.500000
-					    height     	108
+					    label      	"<<Identifying>>"
+					    pctDist    	0.783333
+					    height     	42
 					    orientation 	0)
 					line_color 	3342489
-					quidu      	"486651B00203"
+					quidu      	"486671C6001F"
 					roleview_list 	(list RoleViews
-					    (object RoleView "$UNNAMED$67" @209
-						Parent_View 	@207
-						location   	(-410, 427)
+					    (object RoleView "$UNNAMED$67" @204
+						Parent_View 	@202
+						location   	(759, 0)
 						font       	(object Font
 						    size       	9
 						    face       	"Arial"
@@ -7095,16 +7942,16 @@
 						    default_color 	TRUE)
 						stereotype 	TRUE
 						line_color 	3342489
-						quidu      	"486651B10242"
-						client     	@207
-						supplier   	@200
+						quidu      	"486671C7001F"
+						client     	@202
+						supplier   	@194
 						vertices   	(list Points
-						    (1238, 811)
-						    (1026, 1032))
+						    (1319, 384)
+						    (1722, 384))
 						line_style 	0
-						label      	(object SegLabel @210
-						    Parent_View 	@209
-						    location   	(1087, 1046)
+						label      	(object SegLabel @205
+						    Parent_View 	@204
+						    location   	(1682, 438)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -7122,10 +7969,10 @@
 						    label      	"0..*"
 						    pctDist    	0.900000
 						    height     	54
-						    orientation 	0))
-					    (object RoleView "$UNNAMED$68" @211
-						Parent_View 	@207
-						location   	(-410, 427)
+						    orientation 	1))
+					    (object RoleView "$UNNAMED$68" @206
+						Parent_View 	@202
+						location   	(759, 0)
 						font       	(object Font
 						    size       	9
 						    face       	"Arial"
@@ -7137,93 +7984,142 @@
 						    default_color 	TRUE)
 						stereotype 	TRUE
 						line_color 	3342489
-						quidu      	"486651B10251"
-						client     	@207
-						supplier   	@193
+						quidu      	"486671C7002E"
+						client     	@202
+						supplier   	@201
 						vertices   	(list Points
-						    (1238, 811)
-						    (1450, 590))
+						    (1319, 384)
+						    (916, 384))
+						line_style 	0
+						label      	(object SegLabel @207
+						    Parent_View 	@206
+						    location   	(956, 438)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    anchor     	2
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	15
+						    justify    	0
+						    label      	"1"
+						    pctDist    	0.900000
+						    height     	54
+						    orientation 	0))))
+				    (object ClassView "Class" "Logical View::Schemas::SISGER::PENDENCIA" @208
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(576, 1424)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@208
+					    location   	(95, 1027)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	962
+					    justify    	0
+					    label      	"PENDENCIA")
+					icon       	"Table"
+					icon_style 	"Decoration"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"48664B2A0000"
+					compartment 	(object Compartment
+					    Parent_View 	@208
+					    location   	(95, 1086)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    icon_style 	"Icon"
+					    fill_color 	16777215
+					    anchor     	2
+					    nlines     	17
+					    max_width  	886
+					    justify    	1)
+					width      	980
+					height     	994
+					annotation 	8
+					autoResize 	TRUE)
+				    (object AssociationViewNew "$UNNAMED$69" @209
+					location   	(565, 758)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					stereotype 	(object SegLabel @210
+					    Parent_View 	@209
+					    location   	(565, 651)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    anchor     	10
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	450
+					    justify    	0
+					    label      	"<<Identifying>>"
+					    pctDist    	0.500000
+					    height     	108
+					    orientation 	0)
+					line_color 	3342489
+					quidu      	"486671D100EA"
+					roleview_list 	(list RoleViews
+					    (object RoleView "$UNNAMED$70" @211
+						Parent_View 	@209
+						location   	(5, 374)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"486671D20186"
+						client     	@209
+						supplier   	@208
+						vertices   	(list Points
+						    (565, 758)
+						    (568, 926))
 						line_style 	0
 						label      	(object SegLabel @212
 						    Parent_View 	@211
-						    location   	(1467, 650)
-						    font       	(object Font
-							size       	9
-							face       	"Arial"
-							bold       	FALSE
-							italics    	FALSE
-							underline  	FALSE
-							strike     	FALSE
-							color      	0
-							default_color 	TRUE)
-						    anchor     	2
-						    anchor_loc 	1
-						    nlines     	1
-						    max_width  	15
-						    justify    	0
-						    label      	"1"
-						    pctDist    	0.900000
-						    height     	54
-						    orientation 	1))))
-				    (object AssociationViewNew "$UNNAMED$69" @213
-					location   	(1238, 811)
-					font       	(object Font
-					    size       	9
-					    face       	"Arial"
-					    bold       	FALSE
-					    italics    	FALSE
-					    underline  	FALSE
-					    strike     	FALSE
-					    color      	0
-					    default_color 	TRUE)
-					stereotype 	(object SegLabel @214
-					    Parent_View 	@213
-					    location   	(1238, 704)
-					    font       	(object Font
-						size       	9
-						face       	"Arial"
-						bold       	FALSE
-						italics    	FALSE
-						underline  	FALSE
-						strike     	FALSE
-						color      	0
-						default_color 	TRUE)
-					    anchor     	10
-					    anchor_loc 	1
-					    nlines     	1
-					    max_width  	450
-					    justify    	0
-					    label      	"<<Non-Identifying>>"
-					    pctDist    	0.500000
-					    height     	108
-					    orientation 	0)
-					line_color 	3342489
-					quidu      	"486651CB001F"
-					roleview_list 	(list RoleViews
-					    (object RoleView "$UNNAMED$70" @215
-						Parent_View 	@213
-						location   	(-410, 427)
-						font       	(object Font
-						    size       	9
-						    face       	"Arial"
-						    bold       	FALSE
-						    italics    	FALSE
-						    underline  	FALSE
-						    strike     	FALSE
-						    color      	0
-						    default_color 	TRUE)
-						stereotype 	TRUE
-						line_color 	3342489
-						quidu      	"486651CC009C"
-						client     	@213
-						supplier   	@200
-						vertices   	(list Points
-						    (1238, 811)
-						    (1026, 1032))
-						line_style 	0
-						label      	(object SegLabel @216
-						    Parent_View 	@215
-						    location   	(1087, 1046)
+						    location   	(622, 909)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -7242,9 +8138,9 @@
 						    pctDist    	0.900000
 						    height     	54
 						    orientation 	0))
-					    (object RoleView "$UNNAMED$71" @217
-						Parent_View 	@213
-						location   	(-410, 427)
+					    (object RoleView "$UNNAMED$71" @213
+						Parent_View 	@209
+						location   	(5, 374)
 						font       	(object Font
 						    size       	9
 						    face       	"Arial"
@@ -7256,16 +8152,16 @@
 						    default_color 	TRUE)
 						stereotype 	TRUE
 						line_color 	3342489
-						quidu      	"486651CC009E"
-						client     	@213
-						supplier   	@193
+						quidu      	"486671D20197"
+						client     	@209
+						supplier   	@201
 						vertices   	(list Points
-						    (1238, 811)
-						    (1450, 590))
+						    (565, 758)
+						    (563, 590))
 						line_style 	0
-						label      	(object SegLabel @218
-						    Parent_View 	@217
-						    location   	(1467, 650)
+						label      	(object SegLabel @214
+						    Parent_View 	@213
+						    location   	(617, 607)
 						    font       	(object Font
 							size       	9
 							face       	"Arial"
@@ -7283,7 +8179,419 @@
 						    label      	"1"
 						    pctDist    	0.900000
 						    height     	54
-						    orientation 	1)))))))))
+						    orientation 	1))))
+				    (object UsesView "CD_USUARIO_AUTOR" @215
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @216
+					    Parent_View 	@215
+					    location   	(1271, 608)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	TRUE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    anchor     	1
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	417
+					    justify    	0
+					    label      	"CD_USUARIO_AUTOR"
+					    pctDist    	0.497099
+					    height     	50
+					    orientation 	0)
+					stereotype 	(object SegLabel @217
+					    Parent_View 	@215
+					    location   	(1190, 533)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    anchor     	10
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	450
+					    justify    	0
+					    label      	"<<Derive>>"
+					    pctDist    	0.500000
+					    height     	108
+					    orientation 	0)
+					line_color 	3342489
+					quidu      	"486672AD0128"
+					client     	@208
+					supplier   	@194
+					vertices   	(list Points
+					    (951, 926)
+					    (1119, 704)
+					    (1722, 524))
+					line_style 	0)
+				    (object UsesView "CD_USUARIO_RESPONSAVEL" @218
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @219
+					    Parent_View 	@218
+					    location   	(1341, 838)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	TRUE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    anchor     	1
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	731
+					    justify    	0
+					    label      	"CD_USUARIO_RESPONSAVEL"
+					    pctDist    	0.482337
+					    height     	80
+					    orientation 	0)
+					stereotype 	(object SegLabel @220
+					    Parent_View 	@218
+					    location   	(1183, 763)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    anchor     	10
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	450
+					    justify    	0
+					    label      	"<<Derive>>"
+					    pctDist    	0.589481
+					    height     	80
+					    orientation 	0)
+					line_color 	3342489
+					quidu      	"4866732801F4"
+					client     	@208
+					supplier   	@194
+					vertices   	(list Points
+					    (1066, 1108)
+					    (1722, 685))
+					line_style 	0)
+				    (object ClassView "Class" "Logical View::Schemas::SISGER::HISTORICO_PENDENCIA" @221
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(560, 2576)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@221
+					    location   	(79, 2347)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	962
+					    justify    	0
+					    label      	"HISTORICO_PENDENCIA")
+					icon       	"Table"
+					icon_style 	"Decoration"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"486679F7002E"
+					compartment 	(object Compartment
+					    Parent_View 	@221
+					    location   	(79, 2406)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    icon_style 	"Icon"
+					    fill_color 	13434879
+					    anchor     	2
+					    nlines     	10
+					    max_width  	886
+					    justify    	1)
+					width      	980
+					height     	658
+					annotation 	8
+					autoResize 	TRUE)
+				    (object AssociationViewNew "$UNNAMED$72" @222
+					location   	(566, 2083)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					stereotype 	(object SegLabel @223
+					    Parent_View 	@222
+					    location   	(566, 1976)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    anchor     	10
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	450
+					    justify    	0
+					    label      	"<<Identifying>>"
+					    pctDist    	0.500000
+					    height     	108
+					    orientation 	0)
+					line_color 	3342489
+					quidu      	"48667A7C0186"
+					roleview_list 	(list RoleViews
+					    (object RoleView "$UNNAMED$73" @224
+						Parent_View 	@222
+						location   	(-10, 659)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"48667A7D00DA"
+						client     	@222
+						supplier   	@221
+						vertices   	(list Points
+						    (566, 2083)
+						    (564, 2246))
+						line_style 	0
+						label      	(object SegLabel @225
+						    Parent_View 	@224
+						    location   	(618, 2231)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    anchor     	2
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	15
+						    justify    	0
+						    label      	"0..1"
+						    pctDist    	0.900000
+						    height     	54
+						    orientation 	0))
+					    (object RoleView "$UNNAMED$74" @226
+						Parent_View 	@222
+						location   	(-10, 659)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"48667A7D00DC"
+						client     	@222
+						supplier   	@208
+						vertices   	(list Points
+						    (566, 2083)
+						    (569, 1921))
+						line_style 	0
+						label      	(object SegLabel @227
+						    Parent_View 	@226
+						    location   	(623, 1939)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    anchor     	2
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	15
+						    justify    	0
+						    label      	"1"
+						    pctDist    	0.900000
+						    height     	54
+						    orientation 	1))))
+				    (object UsesView "CD_USUARIO_LIDER" @228
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @229
+					    Parent_View 	@228
+					    location   	(1322, 1312)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	TRUE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    anchor     	1
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	389
+					    justify    	0
+					    label      	"CD_USUARIO_LIDER"
+					    pctDist    	0.559595
+					    height     	30
+					    orientation 	0)
+					stereotype 	(object SegLabel @230
+					    Parent_View 	@228
+					    location   	(1251, 1236)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    anchor     	10
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	450
+					    justify    	0
+					    label      	"<<Derive>>"
+					    pctDist    	0.587259
+					    height     	108
+					    orientation 	0)
+					line_color 	3342489
+					quidu      	"48667B0B005D"
+					client     	@221
+					supplier   	@194
+					vertices   	(list Points
+					    (886, 2246)
+					    (1073, 2059)
+					    (1378, 1243)
+					    (1888, 703))
+					line_style 	0)
+				    (object UsesView "CD_USUARIO_RESPONSAVEL" @231
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @232
+					    Parent_View 	@231
+					    location   	(1499, 1471)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	TRUE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    anchor     	1
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	621
+					    justify    	0
+					    label      	"CD_USUARIO_RESPONSAVEL"
+					    pctDist    	0.500000
+					    height     	60
+					    orientation 	0)
+					stereotype 	(object SegLabel @233
+					    Parent_View 	@231
+					    location   	(1318, 1389)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    anchor     	10
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	450
+					    justify    	0
+					    label      	"<<Derive>>"
+					    pctDist    	0.500000
+					    height     	108
+					    orientation 	0)
+					line_color 	3342489
+					quidu      	"48667B2B031C"
+					client     	@221
+					supplier   	@194
+					vertices   	(list Points
+					    (1050, 2254)
+					    (1154, 2188)
+					    (2008, 703))
+					line_style 	0))))))
 		logical_presentations 	(list unit_reference_list)))
 	logical_presentations 	(list unit_reference_list
 	    (object ClassDiagram "Welcome"
@@ -7346,7 +8654,7 @@
 			origin_x   	0
 			origin_y   	0
 			items      	(list diagram_item_list
-			    (object NoteView @219
+			    (object NoteView @234
 				location   	(624, 160)
 				font       	(object Font
 				    size       	9
@@ -7358,7 +8666,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@219
+				    Parent_View 	@234
 				    location   	(21, 26)
 				    fill_color 	13434879
 				    nlines     	5
@@ -7408,10 +8716,14 @@
 			language   	"Data Modeler"
 			class      	"Logical View::Schemas::SISGER::PROJETO"
 			quidu      	"48664617032C"
-			class      	"Logical View::Schemas::SISGER::PENDENCIA"
-			quidu      	"48664B2A0000"
 			class      	"Logical View::Schemas::SISGER::USUARIO"
-			quidu      	"4866497902BF"))
+			quidu      	"4866497902BF"
+			class      	"Logical View::Schemas::SISGER::USUARIO_PROJETO"
+			quidu      	"48666C230128"
+			class      	"Logical View::Schemas::SISGER::HISTORICO_PENDENCIA"
+			quidu      	"486679F7002E"
+			class      	"Logical View::Schemas::SISGER::PENDENCIA"
+			quidu      	"48664B2A0000"))
 		physical_presentations 	(list unit_reference_list)))
 	physical_presentations 	(list unit_reference_list
 	    (object Module_Diagram "Main"
@@ -7424,7 +8736,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object SubSysView "Component View::Implementation Model" @220
+		    (object SubSysView "Component View::Implementation Model" @235
 			location   	(736, 800)
 			font       	(object Font
 			    size       	9
@@ -7436,7 +8748,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@220
+			    Parent_View 	@235
 			    location   	(552, 713)
 			    fill_color 	13434879
 			    nlines     	2
@@ -7499,7 +8811,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object ProcessorView "<processor name>" @221
+		    (object ProcessorView "<processor name>" @236
 			location   	(512, 1056)
 			font       	(object Font
 			    size       	9
@@ -7511,7 +8823,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@221
+			    Parent_View 	@236
 			    location   	(276, 900)
 			    nlines     	2
 			    max_width  	400
@@ -7522,7 +8834,7 @@
 			width      	475
 			height     	381
 			annotation 	3)
-		    (object DeviceView "<device name>" @222
+		    (object DeviceView "<device name>" @237
 			location   	(1040, 1056)
 			font       	(object Font
 			    size       	9
@@ -7534,7 +8846,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@222
+			    Parent_View 	@237
 			    location   	(867, 950)
 			    nlines     	2
 			    max_width  	275
@@ -7545,16 +8857,16 @@
 			width      	350
 			height     	282
 			annotation 	0)
-		    (object ConnectionView "" @223
+		    (object ConnectionView "" @238
 			stereotype 	TRUE
 			quidu      	"34DBBD4B008C"
-			client     	@221
-			supplier   	@222
+			client     	@236
+			supplier   	@237
 			vertices   	(list Points
 			    (718, 1056)
 			    (865, 1056))
 			line_style 	0)
-		    (object NoteView @224
+		    (object NoteView @239
 			location   	(816, 304)
 			font       	(object Font
 			    size       	9
@@ -7566,7 +8878,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@224
+			    Parent_View 	@239
 			    location   	(38, 29)
 			    fill_color 	13434879
 			    nlines     	11
