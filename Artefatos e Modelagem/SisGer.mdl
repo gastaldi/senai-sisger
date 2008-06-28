@@ -91,7 +91,7 @@
 	(object Attribute
 	    tool       	"Data Modeler"
 	    name       	"ConstraintCounter"
-	    value      	67)
+	    value      	69)
 	(object Attribute
 	    tool       	"Data Modeler"
 	    name       	"PrimaryKeyCounter"
@@ -99,7 +99,7 @@
 	(object Attribute
 	    tool       	"Data Modeler"
 	    name       	"ForeignKeyCounter"
-	    value      	33)
+	    value      	34)
 	(object Attribute
 	    tool       	"Data Modeler"
 	    name       	"StoredProcedurePackageCounter"
@@ -6255,7 +6255,7 @@
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"KeyList"
-						value      	"486671C703D8,486671C702EE"))
+						value      	"48667FAA0000,48667FA9034B"))
 					quid       	"48666C3D03D8"
 					stereotype 	"PK"
 					visible_modules 	(list dependency_list
@@ -6265,20 +6265,20 @@
 							tool       	"Data Modeler"
 							name       	"Order"
 							value      	"1"))
-						quid       	"486671C8003E"
+						quid       	"48667FAA003E"
 						stereotype 	"PK"
-						supplier   	"Logical View::Schemas::SISGER::USUARIO_PROJETO::PROJETO_CD_PROJETO"
-						quidu      	"486671C703D8")
+						supplier   	"Logical View::Schemas::SISGER::USUARIO_PROJETO::CD_PROJETO"
+						quidu      	"48667FAA0000")
 					    (object Dependency_Relationship
 						attributes 	(list Attribute_Set
 						    (object Attribute
 							tool       	"Data Modeler"
 							name       	"Order"
 							value      	"2"))
-						quid       	"486671C80040"
+						quid       	"48667FAA0040"
 						stereotype 	"PK"
 						supplier   	"Logical View::Schemas::SISGER::USUARIO_PROJETO::CD_USUARIO"
-						quidu      	"486671C702EE"))
+						quidu      	"48667FA9034B"))
 					concurrency 	"Sequential"
 					opExportControl 	"Public"
 					uid        	0)
@@ -6311,7 +6311,7 @@
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"KeyList"
-						value      	"486671C702EE"))
+						value      	"48667FA9034B"))
 					quid       	"48666C3E001F"
 					stereotype 	"FK"
 					visible_modules 	(list dependency_list
@@ -6321,14 +6321,14 @@
 							tool       	"Data Modeler"
 							name       	"Order"
 							value      	"1"))
-						quid       	"486671C7032C"
+						quid       	"48667FA90399"
 						stereotype 	"FK"
 						supplier   	"Logical View::Schemas::SISGER::USUARIO_PROJETO::CD_USUARIO"
-						quidu      	"486671C702EE"))
+						quidu      	"48667FA9034B"))
 					concurrency 	"Sequential"
 					opExportControl 	"Public"
 					uid        	0)
-				    (object Operation "FK_USUARIO_PROJETO22"
+				    (object Operation "FK_USUARIO_PROJETO33"
 					attributes 	(list Attribute_Set
 					    (object Attribute
 						tool       	"Data Modeler"
@@ -6345,7 +6345,7 @@
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"DMName"
-						value      	"FK_USUARIO_PROJETO22")
+						value      	"FK_USUARIO_PROJETO33")
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"CodeName"
@@ -6357,8 +6357,8 @@
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"KeyList"
-						value      	"486671C7038A"))
-					quid       	"486671990261"
+						value      	"48667FAA0000"))
+					quid       	"48667FA90261"
 					stereotype 	"FK"
 					visible_modules 	(list dependency_list
 					    (object Dependency_Relationship
@@ -6367,56 +6367,10 @@
 							tool       	"Data Modeler"
 							name       	"Order"
 							value      	"1"))
-						quid       	"486671C703B9"
+						quid       	"48667FAA002E"
 						stereotype 	"FK"
 						supplier   	"Logical View::Schemas::SISGER::USUARIO_PROJETO::CD_PROJETO"
-						quidu      	"486671C7038A"))
-					concurrency 	"Sequential"
-					opExportControl 	"Public"
-					uid        	0)
-				    (object Operation "FK_USUARIO_PROJETO23"
-					attributes 	(list Attribute_Set
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"IsConstraint"
-						value      	TRUE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"ConstraintType"
-						value      	"Foreign Key")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"dmItem"
-						value      	TRUE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"DMName"
-						value      	"FK_USUARIO_PROJETO23")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"CodeName"
-						value      	"")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"DeferalMode"
-						value      	"Not Deferable")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"KeyList"
-						value      	"486671C703D8"))
-					quid       	"486671C70213"
-					stereotype 	"FK"
-					visible_modules 	(list dependency_list
-					    (object Dependency_Relationship
-						attributes 	(list Attribute_Set
-						    (object Attribute
-							tool       	"Data Modeler"
-							name       	"Order"
-							value      	"1"))
-						quid       	"486671C8001F"
-						stereotype 	"FK"
-						supplier   	"Logical View::Schemas::SISGER::USUARIO_PROJETO::PROJETO_CD_PROJETO"
-						quidu      	"486671C703D8"))
+						quidu      	"48667FAA0000"))
 					concurrency 	"Sequential"
 					opExportControl 	"Public"
 					uid        	0))
@@ -6467,7 +6421,7 @@
 						tool       	"Data Modeler"
 						name       	"DefaultValueType"
 						value      	"No Default Value"))
-					quid       	"486671C702EE"
+					quid       	"48667FA9034B"
 					type       	"VARCHAR(50)"
 					exportControl 	"Both")
 				    (object ClassAttribute "ID_TIPO_USUARIO"
@@ -6512,7 +6466,7 @@
 						tool       	"Data Modeler"
 						name       	"DefaultValueType"
 						value      	"No Default Value"))
-					quid       	"486671C7034B"
+					quid       	"48667FA903A9"
 					type       	"INTEGER"
 					exportControl 	"Neither")
 				    (object ClassAttribute "CD_PROJETO"
@@ -6523,16 +6477,12 @@
 						value      	TRUE)
 					    (object Attribute
 						tool       	"Data Modeler"
-						name       	"CodeName"
-						value      	"")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"ExplicitNullable"
-						value      	"False")
-					    (object Attribute
-						tool       	"Data Modeler"
 						name       	"DMName"
 						value      	"CD_PROJETO")
+					    (object Attribute
+						tool       	"Data Modeler"
+						name       	"CodeName"
+						value      	"")
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"Ordinal"
@@ -6551,47 +6501,6 @@
 						value      	FALSE)
 					    (object Attribute
 						tool       	"Data Modeler"
-						name       	"ColumnType"
-						value      	"Native")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"DefaultValueType"
-						value      	"No Default Value"))
-					quid       	"486671C7038A"
-					type       	"INTEGER"
-					exportControl 	"Foreign")
-				    (object ClassAttribute "PROJETO_CD_PROJETO"
-					attributes 	(list Attribute_Set
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"dmItem"
-						value      	TRUE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"DMName"
-						value      	"PROJETO_CD_PROJETO")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"CodeName"
-						value      	"")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"Ordinal"
-						value      	4)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"NullsAllowed"
-						value      	FALSE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"IsIdentity"
-						value      	FALSE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"ForBitData"
-						value      	FALSE)
-					    (object Attribute
-						tool       	"Data Modeler"
 						name       	"ExplicitNullable"
 						value      	"False")
 					    (object Attribute
@@ -6602,7 +6511,7 @@
 						tool       	"Data Modeler"
 						name       	"DefaultValueType"
 						value      	"No Default Value"))
-					quid       	"486671C703D8"
+					quid       	"48667FAA0000"
 					type       	"INTEGER"
 					exportControl 	"Both"))
 				module     	"Component View::DB_0::SISGER"
@@ -7260,8 +7169,8 @@
 					tool       	"Data Modeler"
 					name       	"ChildMultiplicityName"
 					value      	""))
-				quid       	"48667198007D"
-				stereotype 	"Non-Identifying"
+				quid       	"486671D100EA"
+				stereotype 	"Identifying"
 				roles      	(list role_list
 				    (object Role "$UNNAMED$64"
 					attributes 	(list Attribute_Set
@@ -7276,12 +7185,12 @@
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"ConstraintName"
-						value      	"486671990261"))
-					quid       	"4866719900CB"
-					supplier   	"Logical View::Schemas::SISGER::USUARIO_PROJETO"
-					quidu      	"48666C230128"
+						value      	"486671D202EE"))
+					quid       	"486671D20186"
+					supplier   	"Logical View::Schemas::SISGER::PENDENCIA"
+					quidu      	"48664B2A0000"
 					client_cardinality 	(value cardinality "0..*")
-					Containment 	"By Reference"
+					Containment 	"By Value"
 					is_navigable 	TRUE)
 				    (object Role "$UNNAMED$65"
 					attributes 	(list Attribute_Set
@@ -7297,11 +7206,12 @@
 						tool       	"Data Modeler"
 						name       	"ConstraintName"
 						value      	"486648370280"))
-					quid       	"4866719900CD"
+					quid       	"486671D20197"
 					supplier   	"Logical View::Schemas::SISGER::PROJETO"
 					quidu      	"48664617032C"
 					client_cardinality 	(value cardinality "1")
-					is_navigable 	TRUE)))
+					is_navigable 	TRUE
+					is_aggregate 	TRUE)))
 			    (object Association "$UNNAMED$66"
 				attributes 	(list Attribute_Set
 				    (object Attribute
@@ -7356,7 +7266,7 @@
 					tool       	"Data Modeler"
 					name       	"ChildMultiplicityName"
 					value      	""))
-				quid       	"486671C6001F"
+				quid       	"48667A7C0186"
 				stereotype 	"Identifying"
 				roles      	(list role_list
 				    (object Role "$UNNAMED$67"
@@ -7372,11 +7282,11 @@
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"ConstraintName"
-						value      	"486671C70213"))
-					quid       	"486671C7001F"
-					supplier   	"Logical View::Schemas::SISGER::USUARIO_PROJETO"
-					quidu      	"48666C230128"
-					client_cardinality 	(value cardinality "0..*")
+						value      	"48667A7D037A"))
+					quid       	"48667A7D00DA"
+					supplier   	"Logical View::Schemas::SISGER::HISTORICO_PENDENCIA"
+					quidu      	"486679F7002E"
+					client_cardinality 	(value cardinality "0..1")
 					Containment 	"By Value"
 					is_navigable 	TRUE)
 				    (object Role "$UNNAMED$68"
@@ -7392,10 +7302,10 @@
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"ConstraintName"
-						value      	"486648370280"))
-					quid       	"486671C7002E"
-					supplier   	"Logical View::Schemas::SISGER::PROJETO"
-					quidu      	"48664617032C"
+						value      	"48664E2B032C"))
+					quid       	"48667A7D00DC"
+					supplier   	"Logical View::Schemas::SISGER::PENDENCIA"
+					quidu      	"48664B2A0000"
 					client_cardinality 	(value cardinality "1")
 					is_navigable 	TRUE
 					is_aggregate 	TRUE)))
@@ -7453,7 +7363,7 @@
 					tool       	"Data Modeler"
 					name       	"ChildMultiplicityName"
 					value      	""))
-				quid       	"486671D100EA"
+				quid       	"48667FA702BF"
 				stereotype 	"Identifying"
 				roles      	(list role_list
 				    (object Role "$UNNAMED$70"
@@ -7469,10 +7379,10 @@
 					    (object Attribute
 						tool       	"Data Modeler"
 						name       	"ConstraintName"
-						value      	"486671D202EE"))
-					quid       	"486671D20186"
-					supplier   	"Logical View::Schemas::SISGER::PENDENCIA"
-					quidu      	"48664B2A0000"
+						value      	"48667FA90261"))
+					quid       	"48667FA80232"
+					supplier   	"Logical View::Schemas::SISGER::USUARIO_PROJETO"
+					quidu      	"48666C230128"
 					client_cardinality 	(value cardinality "0..*")
 					Containment 	"By Value"
 					is_navigable 	TRUE)
@@ -7490,106 +7400,9 @@
 						tool       	"Data Modeler"
 						name       	"ConstraintName"
 						value      	"486648370280"))
-					quid       	"486671D20197"
+					quid       	"48667FA80242"
 					supplier   	"Logical View::Schemas::SISGER::PROJETO"
 					quidu      	"48664617032C"
-					client_cardinality 	(value cardinality "1")
-					is_navigable 	TRUE
-					is_aggregate 	TRUE)))
-			    (object Association "$UNNAMED$72"
-				attributes 	(list Attribute_Set
-				    (object Attribute
-					tool       	"Data Modeler"
-					name       	"dmItem"
-					value      	TRUE)
-				    (object Attribute
-					tool       	"Data Modeler"
-					name       	"IsRelationship"
-					value      	TRUE)
-				    (object Attribute
-					tool       	"Data Modeler"
-					name       	"DMName"
-					value      	"")
-				    (object Attribute
-					tool       	"Data Modeler"
-					name       	"CodeName"
-					value      	"")
-				    (object Attribute
-					tool       	"Data Modeler"
-					name       	"RIMethod"
-					value      	"DRI")
-				    (object Attribute
-					tool       	"Data Modeler"
-					name       	"ParentUpdateRule"
-					value      	"No Action")
-				    (object Attribute
-					tool       	"Data Modeler"
-					name       	"ParentDeleteRule"
-					value      	"No Action")
-				    (object Attribute
-					tool       	"Data Modeler"
-					name       	"ChildMultiplicity"
-					value      	FALSE)
-				    (object Attribute
-					tool       	"Data Modeler"
-					name       	"ParentUpdateRuleName"
-					value      	"")
-				    (object Attribute
-					tool       	"Data Modeler"
-					name       	"ParentDeleteRuleName"
-					value      	"")
-				    (object Attribute
-					tool       	"Data Modeler"
-					name       	"ChildInsertRestrict"
-					value      	FALSE)
-				    (object Attribute
-					tool       	"Data Modeler"
-					name       	"ChildInsertRestrictName"
-					value      	"")
-				    (object Attribute
-					tool       	"Data Modeler"
-					name       	"ChildMultiplicityName"
-					value      	""))
-				quid       	"48667A7C0186"
-				stereotype 	"Identifying"
-				roles      	(list role_list
-				    (object Role "$UNNAMED$73"
-					attributes 	(list Attribute_Set
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"dmItem"
-						value      	TRUE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"DMName"
-						value      	"")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"ConstraintName"
-						value      	"48667A7D037A"))
-					quid       	"48667A7D00DA"
-					supplier   	"Logical View::Schemas::SISGER::HISTORICO_PENDENCIA"
-					quidu      	"486679F7002E"
-					client_cardinality 	(value cardinality "0..1")
-					Containment 	"By Value"
-					is_navigable 	TRUE)
-				    (object Role "$UNNAMED$74"
-					attributes 	(list Attribute_Set
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"dmItem"
-						value      	TRUE)
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"DMName"
-						value      	"")
-					    (object Attribute
-						tool       	"Data Modeler"
-						name       	"ConstraintName"
-						value      	"48664E2B032C"))
-					quid       	"48667A7D00DC"
-					supplier   	"Logical View::Schemas::SISGER::PENDENCIA"
-					quidu      	"48664B2A0000"
 					client_cardinality 	(value cardinality "1")
 					is_navigable 	TRUE
 					is_aggregate 	TRUE))))
@@ -7606,7 +7419,7 @@
 				max_height 	28350
 				max_width  	21600
 				origin_x   	555
-				origin_y   	228
+				origin_y   	0
 				items      	(list diagram_item_list
 				    (object Label @192
 					location   	(1600, 1808)
@@ -7631,7 +7444,7 @@
 					ShowCompartmentStereotypes 	TRUE
 					IncludeAttribute 	TRUE
 					IncludeOperation 	TRUE
-					location   	(2368, 1392)
+					location   	(2208, 1360)
 					font       	(object Font
 					    size       	9
 					    face       	"Arial"
@@ -7643,7 +7456,7 @@
 					    default_color 	TRUE)
 					label      	(object ItemLabel
 					    Parent_View 	@193
-					    location   	(2034, 1286)
+					    location   	(1874, 1254)
 					    fill_color 	13434879
 					    nlines     	1
 					    max_width  	668
@@ -7656,7 +7469,7 @@
 					quidu      	"4866497902BF"
 					compartment 	(object Compartment
 					    Parent_View 	@193
-					    location   	(2034, 1345)
+					    location   	(1874, 1313)
 					    font       	(object Font
 						size       	9
 						face       	"Arial"
@@ -7676,632 +7489,7 @@
 					height     	412
 					annotation 	8
 					autoResize 	TRUE)
-				    (object ClassView "Class" "Logical View::Schemas::SISGER::USUARIO_PROJETO" @194
-					ShowCompartmentStereotypes 	TRUE
-					IncludeAttribute 	TRUE
-					IncludeOperation 	TRUE
-					location   	(2193, 384)
-					font       	(object Font
-					    size       	9
-					    face       	"Arial"
-					    bold       	FALSE
-					    italics    	FALSE
-					    underline  	FALSE
-					    strike     	FALSE
-					    color      	0
-					    default_color 	TRUE)
-					label      	(object ItemLabel
-					    Parent_View 	@194
-					    location   	(1732, 165)
-					    fill_color 	13434879
-					    nlines     	1
-					    max_width  	923
-					    justify    	0
-					    label      	"USUARIO_PROJETO")
-					icon       	"Table"
-					icon_style 	"Decoration"
-					line_color 	3342489
-					fill_color 	13434879
-					quidu      	"48666C230128"
-					compartment 	(object Compartment
-					    Parent_View 	@194
-					    location   	(1732, 224)
-					    font       	(object Font
-						size       	9
-						face       	"Arial"
-						bold       	FALSE
-						italics    	FALSE
-						underline  	FALSE
-						strike     	FALSE
-						color      	0
-						default_color 	TRUE)
-					    icon_style 	"Icon"
-					    fill_color 	13434879
-					    anchor     	2
-					    nlines     	9
-					    max_width  	735
-					    justify    	1)
-					width      	941
-					height     	638
-					annotation 	8
-					autoResize 	TRUE)
-				    (object AssociationViewNew "$UNNAMED$60" @195
-					location   	(2289, 944)
-					font       	(object Font
-					    size       	9
-					    face       	"Arial"
-					    bold       	FALSE
-					    italics    	FALSE
-					    underline  	FALSE
-					    strike     	FALSE
-					    color      	0
-					    default_color 	TRUE)
-					stereotype 	(object SegLabel @196
-					    Parent_View 	@195
-					    location   	(2289, 944)
-					    font       	(object Font
-						size       	9
-						face       	"Arial"
-						bold       	FALSE
-						italics    	FALSE
-						underline  	FALSE
-						strike     	FALSE
-						color      	0
-						default_color 	TRUE)
-					    anchor     	10
-					    anchor_loc 	1
-					    nlines     	1
-					    max_width  	450
-					    justify    	0
-					    label      	"<<Identifying>>"
-					    pctDist    	0.500000
-					    height     	1
-					    orientation 	0)
-					line_color 	3342489
-					quidu      	"48666C3C03C8"
-					roleview_list 	(list RoleViews
-					    (object RoleView "$UNNAMED$61" @197
-						Parent_View 	@195
-						location   	(465, 576)
-						font       	(object Font
-						    size       	9
-						    face       	"Arial"
-						    bold       	FALSE
-						    italics    	FALSE
-						    underline  	FALSE
-						    strike     	FALSE
-						    color      	0
-						    default_color 	TRUE)
-						stereotype 	TRUE
-						line_color 	3342489
-						quidu      	"48666C3D02AF"
-						client     	@195
-						supplier   	@194
-						vertices   	(list Points
-						    (2289, 944)
-						    (2247, 703))
-						line_style 	0
-						label      	(object SegLabel @198
-						    Parent_View 	@197
-						    location   	(2199, 737)
-						    font       	(object Font
-							size       	9
-							face       	"Arial"
-							bold       	FALSE
-							italics    	FALSE
-							underline  	FALSE
-							strike     	FALSE
-							color      	0
-							default_color 	TRUE)
-						    anchor     	2
-						    anchor_loc 	1
-						    nlines     	1
-						    max_width  	15
-						    justify    	0
-						    label      	"0..1"
-						    pctDist    	0.900000
-						    height     	54
-						    orientation 	0))
-					    (object RoleView "$UNNAMED$62" @199
-						Parent_View 	@195
-						location   	(465, 576)
-						font       	(object Font
-						    size       	9
-						    face       	"Arial"
-						    bold       	FALSE
-						    italics    	FALSE
-						    underline  	FALSE
-						    strike     	FALSE
-						    color      	0
-						    default_color 	TRUE)
-						stereotype 	TRUE
-						line_color 	3342489
-						quidu      	"48666C3D02B1"
-						client     	@195
-						supplier   	@193
-						vertices   	(list Points
-						    (2289, 944)
-						    (2331, 1185))
-						line_style 	0
-						label      	(object SegLabel @200
-						    Parent_View 	@199
-						    location   	(2275, 1169)
-						    font       	(object Font
-							size       	9
-							face       	"Arial"
-							bold       	FALSE
-							italics    	FALSE
-							underline  	FALSE
-							strike     	FALSE
-							color      	0
-							default_color 	TRUE)
-						    anchor     	2
-						    anchor_loc 	1
-						    nlines     	1
-						    max_width  	15
-						    justify    	0
-						    label      	"1"
-						    pctDist    	0.900000
-						    height     	54
-						    orientation 	1))))
-				    (object ClassView "Class" "Logical View::Schemas::SISGER::PROJETO" @201
-					ShowCompartmentStereotypes 	TRUE
-					IncludeAttribute 	TRUE
-					IncludeOperation 	TRUE
-					location   	(560, 384)
-					font       	(object Font
-					    size       	9
-					    face       	"Arial"
-					    bold       	FALSE
-					    italics    	FALSE
-					    underline  	FALSE
-					    strike     	FALSE
-					    color      	0
-					    default_color 	TRUE)
-					label      	(object ItemLabel
-					    Parent_View 	@201
-					    location   	(213, 277)
-					    fill_color 	13434879
-					    nlines     	1
-					    max_width  	694
-					    justify    	0
-					    label      	"PROJETO")
-					icon       	"Table"
-					icon_style 	"Decoration"
-					line_color 	3342489
-					fill_color 	13434879
-					quidu      	"48664617032C"
-					compartment 	(object Compartment
-					    Parent_View 	@201
-					    location   	(213, 336)
-					    font       	(object Font
-						size       	9
-						face       	"Arial"
-						bold       	FALSE
-						italics    	FALSE
-						underline  	FALSE
-						strike     	FALSE
-						color      	0
-						default_color 	TRUE)
-					    icon_style 	"Icon"
-					    fill_color 	13434879
-					    anchor     	2
-					    nlines     	5
-					    max_width  	652
-					    justify    	1)
-					width      	712
-					height     	412
-					annotation 	8
-					autoResize 	TRUE)
-				    (object AssociationViewNew "$UNNAMED$66" @202
-					location   	(1319, 384)
-					font       	(object Font
-					    size       	9
-					    face       	"Arial"
-					    bold       	FALSE
-					    italics    	FALSE
-					    underline  	FALSE
-					    strike     	FALSE
-					    color      	0
-					    default_color 	TRUE)
-					stereotype 	(object SegLabel @203
-					    Parent_View 	@202
-					    location   	(1336, 343)
-					    font       	(object Font
-						size       	9
-						face       	"Arial"
-						bold       	FALSE
-						italics    	FALSE
-						underline  	FALSE
-						strike     	FALSE
-						color      	0
-						default_color 	TRUE)
-					    anchor     	10
-					    anchor_loc 	1
-					    nlines     	1
-					    max_width  	450
-					    justify    	0
-					    label      	"<<Identifying>>"
-					    pctDist    	0.783333
-					    height     	42
-					    orientation 	0)
-					line_color 	3342489
-					quidu      	"486671C6001F"
-					roleview_list 	(list RoleViews
-					    (object RoleView "$UNNAMED$67" @204
-						Parent_View 	@202
-						location   	(759, 0)
-						font       	(object Font
-						    size       	9
-						    face       	"Arial"
-						    bold       	FALSE
-						    italics    	FALSE
-						    underline  	FALSE
-						    strike     	FALSE
-						    color      	0
-						    default_color 	TRUE)
-						stereotype 	TRUE
-						line_color 	3342489
-						quidu      	"486671C7001F"
-						client     	@202
-						supplier   	@194
-						vertices   	(list Points
-						    (1319, 384)
-						    (1722, 384))
-						line_style 	0
-						label      	(object SegLabel @205
-						    Parent_View 	@204
-						    location   	(1682, 438)
-						    font       	(object Font
-							size       	9
-							face       	"Arial"
-							bold       	FALSE
-							italics    	FALSE
-							underline  	FALSE
-							strike     	FALSE
-							color      	0
-							default_color 	TRUE)
-						    anchor     	2
-						    anchor_loc 	1
-						    nlines     	1
-						    max_width  	15
-						    justify    	0
-						    label      	"0..*"
-						    pctDist    	0.900000
-						    height     	54
-						    orientation 	1))
-					    (object RoleView "$UNNAMED$68" @206
-						Parent_View 	@202
-						location   	(759, 0)
-						font       	(object Font
-						    size       	9
-						    face       	"Arial"
-						    bold       	FALSE
-						    italics    	FALSE
-						    underline  	FALSE
-						    strike     	FALSE
-						    color      	0
-						    default_color 	TRUE)
-						stereotype 	TRUE
-						line_color 	3342489
-						quidu      	"486671C7002E"
-						client     	@202
-						supplier   	@201
-						vertices   	(list Points
-						    (1319, 384)
-						    (916, 384))
-						line_style 	0
-						label      	(object SegLabel @207
-						    Parent_View 	@206
-						    location   	(956, 438)
-						    font       	(object Font
-							size       	9
-							face       	"Arial"
-							bold       	FALSE
-							italics    	FALSE
-							underline  	FALSE
-							strike     	FALSE
-							color      	0
-							default_color 	TRUE)
-						    anchor     	2
-						    anchor_loc 	1
-						    nlines     	1
-						    max_width  	15
-						    justify    	0
-						    label      	"1"
-						    pctDist    	0.900000
-						    height     	54
-						    orientation 	0))))
-				    (object ClassView "Class" "Logical View::Schemas::SISGER::PENDENCIA" @208
-					ShowCompartmentStereotypes 	TRUE
-					IncludeAttribute 	TRUE
-					IncludeOperation 	TRUE
-					location   	(576, 1424)
-					font       	(object Font
-					    size       	9
-					    face       	"Arial"
-					    bold       	FALSE
-					    italics    	FALSE
-					    underline  	FALSE
-					    strike     	FALSE
-					    color      	0
-					    default_color 	TRUE)
-					label      	(object ItemLabel
-					    Parent_View 	@208
-					    location   	(95, 1027)
-					    fill_color 	13434879
-					    nlines     	1
-					    max_width  	962
-					    justify    	0
-					    label      	"PENDENCIA")
-					icon       	"Table"
-					icon_style 	"Decoration"
-					line_color 	3342489
-					fill_color 	13434879
-					quidu      	"48664B2A0000"
-					compartment 	(object Compartment
-					    Parent_View 	@208
-					    location   	(95, 1086)
-					    font       	(object Font
-						size       	9
-						face       	"Arial"
-						bold       	FALSE
-						italics    	FALSE
-						underline  	FALSE
-						strike     	FALSE
-						color      	0
-						default_color 	TRUE)
-					    icon_style 	"Icon"
-					    fill_color 	16777215
-					    anchor     	2
-					    nlines     	17
-					    max_width  	886
-					    justify    	1)
-					width      	980
-					height     	994
-					annotation 	8
-					autoResize 	TRUE)
-				    (object AssociationViewNew "$UNNAMED$69" @209
-					location   	(565, 758)
-					font       	(object Font
-					    size       	9
-					    face       	"Arial"
-					    bold       	FALSE
-					    italics    	FALSE
-					    underline  	FALSE
-					    strike     	FALSE
-					    color      	0
-					    default_color 	TRUE)
-					stereotype 	(object SegLabel @210
-					    Parent_View 	@209
-					    location   	(565, 651)
-					    font       	(object Font
-						size       	9
-						face       	"Arial"
-						bold       	FALSE
-						italics    	FALSE
-						underline  	FALSE
-						strike     	FALSE
-						color      	0
-						default_color 	TRUE)
-					    anchor     	10
-					    anchor_loc 	1
-					    nlines     	1
-					    max_width  	450
-					    justify    	0
-					    label      	"<<Identifying>>"
-					    pctDist    	0.500000
-					    height     	108
-					    orientation 	0)
-					line_color 	3342489
-					quidu      	"486671D100EA"
-					roleview_list 	(list RoleViews
-					    (object RoleView "$UNNAMED$70" @211
-						Parent_View 	@209
-						location   	(5, 374)
-						font       	(object Font
-						    size       	9
-						    face       	"Arial"
-						    bold       	FALSE
-						    italics    	FALSE
-						    underline  	FALSE
-						    strike     	FALSE
-						    color      	0
-						    default_color 	TRUE)
-						stereotype 	TRUE
-						line_color 	3342489
-						quidu      	"486671D20186"
-						client     	@209
-						supplier   	@208
-						vertices   	(list Points
-						    (565, 758)
-						    (568, 926))
-						line_style 	0
-						label      	(object SegLabel @212
-						    Parent_View 	@211
-						    location   	(622, 909)
-						    font       	(object Font
-							size       	9
-							face       	"Arial"
-							bold       	FALSE
-							italics    	FALSE
-							underline  	FALSE
-							strike     	FALSE
-							color      	0
-							default_color 	TRUE)
-						    anchor     	2
-						    anchor_loc 	1
-						    nlines     	1
-						    max_width  	15
-						    justify    	0
-						    label      	"0..*"
-						    pctDist    	0.900000
-						    height     	54
-						    orientation 	0))
-					    (object RoleView "$UNNAMED$71" @213
-						Parent_View 	@209
-						location   	(5, 374)
-						font       	(object Font
-						    size       	9
-						    face       	"Arial"
-						    bold       	FALSE
-						    italics    	FALSE
-						    underline  	FALSE
-						    strike     	FALSE
-						    color      	0
-						    default_color 	TRUE)
-						stereotype 	TRUE
-						line_color 	3342489
-						quidu      	"486671D20197"
-						client     	@209
-						supplier   	@201
-						vertices   	(list Points
-						    (565, 758)
-						    (563, 590))
-						line_style 	0
-						label      	(object SegLabel @214
-						    Parent_View 	@213
-						    location   	(617, 607)
-						    font       	(object Font
-							size       	9
-							face       	"Arial"
-							bold       	FALSE
-							italics    	FALSE
-							underline  	FALSE
-							strike     	FALSE
-							color      	0
-							default_color 	TRUE)
-						    anchor     	2
-						    anchor_loc 	1
-						    nlines     	1
-						    max_width  	15
-						    justify    	0
-						    label      	"1"
-						    pctDist    	0.900000
-						    height     	54
-						    orientation 	1))))
-				    (object UsesView "CD_USUARIO_AUTOR" @215
-					font       	(object Font
-					    size       	9
-					    face       	"Arial"
-					    bold       	FALSE
-					    italics    	FALSE
-					    underline  	FALSE
-					    strike     	FALSE
-					    color      	0
-					    default_color 	TRUE)
-					label      	(object SegLabel @216
-					    Parent_View 	@215
-					    location   	(1271, 608)
-					    font       	(object Font
-						size       	9
-						face       	"Arial"
-						bold       	FALSE
-						italics    	TRUE
-						underline  	FALSE
-						strike     	FALSE
-						color      	0
-						default_color 	TRUE)
-					    anchor     	1
-					    anchor_loc 	1
-					    nlines     	1
-					    max_width  	417
-					    justify    	0
-					    label      	"CD_USUARIO_AUTOR"
-					    pctDist    	0.497099
-					    height     	50
-					    orientation 	0)
-					stereotype 	(object SegLabel @217
-					    Parent_View 	@215
-					    location   	(1190, 533)
-					    font       	(object Font
-						size       	9
-						face       	"Arial"
-						bold       	FALSE
-						italics    	FALSE
-						underline  	FALSE
-						strike     	FALSE
-						color      	0
-						default_color 	TRUE)
-					    anchor     	10
-					    anchor_loc 	1
-					    nlines     	1
-					    max_width  	450
-					    justify    	0
-					    label      	"<<Derive>>"
-					    pctDist    	0.500000
-					    height     	108
-					    orientation 	0)
-					line_color 	3342489
-					quidu      	"486672AD0128"
-					client     	@208
-					supplier   	@194
-					vertices   	(list Points
-					    (951, 926)
-					    (1119, 704)
-					    (1722, 524))
-					line_style 	0)
-				    (object UsesView "CD_USUARIO_RESPONSAVEL" @218
-					font       	(object Font
-					    size       	9
-					    face       	"Arial"
-					    bold       	FALSE
-					    italics    	FALSE
-					    underline  	FALSE
-					    strike     	FALSE
-					    color      	0
-					    default_color 	TRUE)
-					label      	(object SegLabel @219
-					    Parent_View 	@218
-					    location   	(1341, 838)
-					    font       	(object Font
-						size       	9
-						face       	"Arial"
-						bold       	FALSE
-						italics    	TRUE
-						underline  	FALSE
-						strike     	FALSE
-						color      	0
-						default_color 	TRUE)
-					    anchor     	1
-					    anchor_loc 	1
-					    nlines     	1
-					    max_width  	731
-					    justify    	0
-					    label      	"CD_USUARIO_RESPONSAVEL"
-					    pctDist    	0.482337
-					    height     	80
-					    orientation 	0)
-					stereotype 	(object SegLabel @220
-					    Parent_View 	@218
-					    location   	(1183, 763)
-					    font       	(object Font
-						size       	9
-						face       	"Arial"
-						bold       	FALSE
-						italics    	FALSE
-						underline  	FALSE
-						strike     	FALSE
-						color      	0
-						default_color 	TRUE)
-					    anchor     	10
-					    anchor_loc 	1
-					    nlines     	1
-					    max_width  	450
-					    justify    	0
-					    label      	"<<Derive>>"
-					    pctDist    	0.589481
-					    height     	80
-					    orientation 	0)
-					line_color 	3342489
-					quidu      	"4866732801F4"
-					client     	@208
-					supplier   	@194
-					vertices   	(list Points
-					    (1066, 1108)
-					    (1722, 685))
-					line_style 	0)
-				    (object ClassView "Class" "Logical View::Schemas::SISGER::HISTORICO_PENDENCIA" @221
+				    (object ClassView "Class" "Logical View::Schemas::SISGER::HISTORICO_PENDENCIA" @194
 					ShowCompartmentStereotypes 	TRUE
 					IncludeAttribute 	TRUE
 					IncludeOperation 	TRUE
@@ -8316,7 +7504,7 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@221
+					    Parent_View 	@194
 					    location   	(79, 2347)
 					    fill_color 	13434879
 					    nlines     	1
@@ -8329,7 +7517,7 @@
 					fill_color 	13434879
 					quidu      	"486679F7002E"
 					compartment 	(object Compartment
-					    Parent_View 	@221
+					    Parent_View 	@194
 					    location   	(79, 2406)
 					    font       	(object Font
 						size       	9
@@ -8350,7 +7538,56 @@
 					height     	658
 					annotation 	8
 					autoResize 	TRUE)
-				    (object AssociationViewNew "$UNNAMED$72" @222
+				    (object ClassView "Class" "Logical View::Schemas::SISGER::PENDENCIA" @195
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(576, 1424)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@195
+					    location   	(95, 1027)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	962
+					    justify    	0
+					    label      	"PENDENCIA")
+					icon       	"Table"
+					icon_style 	"Decoration"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"48664B2A0000"
+					compartment 	(object Compartment
+					    Parent_View 	@195
+					    location   	(95, 1086)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    icon_style 	"Icon"
+					    fill_color 	16777215
+					    anchor     	2
+					    nlines     	17
+					    max_width  	886
+					    justify    	1)
+					width      	980
+					height     	994
+					annotation 	8
+					autoResize 	TRUE)
+				    (object AssociationViewNew "$UNNAMED$66" @196
 					location   	(566, 2083)
 					font       	(object Font
 					    size       	9
@@ -8361,8 +7598,8 @@
 					    strike     	FALSE
 					    color      	0
 					    default_color 	TRUE)
-					stereotype 	(object SegLabel @223
-					    Parent_View 	@222
+					stereotype 	(object SegLabel @197
+					    Parent_View 	@196
 					    location   	(566, 1976)
 					    font       	(object Font
 						size       	9
@@ -8385,8 +7622,8 @@
 					line_color 	3342489
 					quidu      	"48667A7C0186"
 					roleview_list 	(list RoleViews
-					    (object RoleView "$UNNAMED$73" @224
-						Parent_View 	@222
+					    (object RoleView "$UNNAMED$67" @198
+						Parent_View 	@196
 						location   	(-10, 659)
 						font       	(object Font
 						    size       	9
@@ -8400,14 +7637,14 @@
 						stereotype 	TRUE
 						line_color 	3342489
 						quidu      	"48667A7D00DA"
-						client     	@222
-						supplier   	@221
+						client     	@196
+						supplier   	@194
 						vertices   	(list Points
 						    (566, 2083)
-						    (564, 2246))
+						    (563, 2246))
 						line_style 	0
-						label      	(object SegLabel @225
-						    Parent_View 	@224
+						label      	(object SegLabel @199
+						    Parent_View 	@198
 						    location   	(618, 2231)
 						    font       	(object Font
 							size       	9
@@ -8427,8 +7664,8 @@
 						    pctDist    	0.900000
 						    height     	54
 						    orientation 	0))
-					    (object RoleView "$UNNAMED$74" @226
-						Parent_View 	@222
+					    (object RoleView "$UNNAMED$68" @200
+						Parent_View 	@196
 						location   	(-10, 659)
 						font       	(object Font
 						    size       	9
@@ -8442,14 +7679,14 @@
 						stereotype 	TRUE
 						line_color 	3342489
 						quidu      	"48667A7D00DC"
-						client     	@222
-						supplier   	@208
+						client     	@196
+						supplier   	@195
 						vertices   	(list Points
 						    (566, 2083)
-						    (569, 1921))
+						    (567, 1921))
 						line_style 	0
-						label      	(object SegLabel @227
-						    Parent_View 	@226
+						label      	(object SegLabel @201
+						    Parent_View 	@200
 						    location   	(623, 1939)
 						    font       	(object Font
 							size       	9
@@ -8469,7 +7706,11 @@
 						    pctDist    	0.900000
 						    height     	54
 						    orientation 	1))))
-				    (object UsesView "CD_USUARIO_LIDER" @228
+				    (object ClassView "Class" "Logical View::Schemas::SISGER::PROJETO" @202
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(560, 384)
 					font       	(object Font
 					    size       	9
 					    face       	"Arial"
@@ -8479,9 +7720,462 @@
 					    strike     	FALSE
 					    color      	0
 					    default_color 	TRUE)
-					label      	(object SegLabel @229
-					    Parent_View 	@228
-					    location   	(1322, 1312)
+					label      	(object ItemLabel
+					    Parent_View 	@202
+					    location   	(213, 277)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	694
+					    justify    	0
+					    label      	"PROJETO")
+					icon       	"Table"
+					icon_style 	"Decoration"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"48664617032C"
+					compartment 	(object Compartment
+					    Parent_View 	@202
+					    location   	(213, 336)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    icon_style 	"Icon"
+					    fill_color 	13434879
+					    anchor     	2
+					    nlines     	5
+					    max_width  	652
+					    justify    	1)
+					width      	712
+					height     	412
+					annotation 	8
+					autoResize 	TRUE)
+				    (object AssociationViewNew "$UNNAMED$63" @203
+					location   	(565, 758)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					stereotype 	(object SegLabel @204
+					    Parent_View 	@203
+					    location   	(565, 651)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    anchor     	10
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	450
+					    justify    	0
+					    label      	"<<Identifying>>"
+					    pctDist    	0.500000
+					    height     	108
+					    orientation 	0)
+					line_color 	3342489
+					quidu      	"486671D100EA"
+					roleview_list 	(list RoleViews
+					    (object RoleView "$UNNAMED$64" @205
+						Parent_View 	@203
+						location   	(5, 374)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"486671D20186"
+						client     	@203
+						supplier   	@195
+						vertices   	(list Points
+						    (565, 758)
+						    (567, 926))
+						line_style 	0
+						label      	(object SegLabel @206
+						    Parent_View 	@205
+						    location   	(622, 909)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    anchor     	2
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	15
+						    justify    	0
+						    label      	"0..*"
+						    pctDist    	0.900000
+						    height     	54
+						    orientation 	0))
+					    (object RoleView "$UNNAMED$65" @207
+						Parent_View 	@203
+						location   	(5, 374)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"486671D20197"
+						client     	@203
+						supplier   	@202
+						vertices   	(list Points
+						    (565, 758)
+						    (562, 590))
+						line_style 	0
+						label      	(object SegLabel @208
+						    Parent_View 	@207
+						    location   	(617, 607)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    anchor     	2
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	15
+						    justify    	0
+						    label      	"1"
+						    pctDist    	0.900000
+						    height     	54
+						    orientation 	1))))
+				    (object ClassView "Class" "Logical View::Schemas::SISGER::USUARIO_PROJETO" @209
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(2192, 384)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@209
+					    location   	(1798, 227)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	788
+					    justify    	0
+					    label      	"USUARIO_PROJETO")
+					icon       	"Table"
+					icon_style 	"Decoration"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"48666C230128"
+					compartment 	(object Compartment
+					    Parent_View 	@209
+					    location   	(1798, 286)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    icon_style 	"Icon"
+					    fill_color 	13434879
+					    anchor     	2
+					    nlines     	7
+					    max_width  	713
+					    justify    	1)
+					width      	806
+					height     	514
+					annotation 	8
+					autoResize 	TRUE)
+				    (object AssociationViewNew "$UNNAMED$60" @210
+					location   	(2200, 897)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					stereotype 	(object SegLabel @211
+					    Parent_View 	@210
+					    location   	(2200, 897)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    anchor     	10
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	450
+					    justify    	0
+					    label      	"<<Identifying>>"
+					    pctDist    	0.500000
+					    height     	1
+					    orientation 	0)
+					line_color 	3342489
+					quidu      	"48666C3C03C8"
+					roleview_list 	(list RoleViews
+					    (object RoleView "$UNNAMED$61" @212
+						Parent_View 	@210
+						location   	(376, 529)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"48666C3D02AF"
+						client     	@210
+						supplier   	@209
+						vertices   	(list Points
+						    (2200, 897)
+						    (2196, 641))
+						line_style 	0
+						label      	(object SegLabel @213
+						    Parent_View 	@212
+						    location   	(2143, 668)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    anchor     	2
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	15
+						    justify    	0
+						    label      	"0..1"
+						    pctDist    	0.900000
+						    height     	54
+						    orientation 	0))
+					    (object RoleView "$UNNAMED$62" @214
+						Parent_View 	@210
+						location   	(376, 529)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"48666C3D02B1"
+						client     	@210
+						supplier   	@193
+						vertices   	(list Points
+						    (2200, 897)
+						    (2204, 1153))
+						line_style 	0
+						label      	(object SegLabel @215
+						    Parent_View 	@214
+						    location   	(2151, 1128)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    anchor     	2
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	15
+						    justify    	0
+						    label      	"1"
+						    pctDist    	0.900000
+						    height     	54
+						    orientation 	1))))
+				    (object UsesView "CD_USUARIO_AUTOR" @216
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @217
+					    Parent_View 	@216
+					    location   	(1303, 598)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	TRUE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    anchor     	1
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	417
+					    justify    	0
+					    label      	"CD_USUARIO_AUTOR"
+					    pctDist    	0.497099
+					    height     	50
+					    orientation 	0)
+					stereotype 	(object SegLabel @218
+					    Parent_View 	@216
+					    location   	(1222, 523)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    anchor     	10
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	450
+					    justify    	0
+					    label      	"<<Derive>>"
+					    pctDist    	0.500000
+					    height     	108
+					    orientation 	0)
+					line_color 	3342489
+					quidu      	"486672AD0128"
+					client     	@195
+					supplier   	@209
+					vertices   	(list Points
+					    (951, 926)
+					    (1119, 704)
+					    (1788, 504))
+					line_style 	0)
+				    (object UsesView "CD_USUARIO_RESPONSAVEL" @219
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @220
+					    Parent_View 	@219
+					    location   	(1373, 817)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	TRUE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    anchor     	1
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	731
+					    justify    	0
+					    label      	"CD_USUARIO_RESPONSAVEL"
+					    pctDist    	0.482337
+					    height     	80
+					    orientation 	0)
+					stereotype 	(object SegLabel @221
+					    Parent_View 	@219
+					    location   	(1215, 742)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    anchor     	10
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	450
+					    justify    	0
+					    label      	"<<Derive>>"
+					    pctDist    	0.589481
+					    height     	80
+					    orientation 	0)
+					line_color 	3342489
+					quidu      	"4866732801F4"
+					client     	@195
+					supplier   	@209
+					vertices   	(list Points
+					    (1066, 1108)
+					    (1791, 641))
+					line_style 	0)
+				    (object UsesView "CD_USUARIO_LIDER" @222
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @223
+					    Parent_View 	@222
+					    location   	(1338, 1269)
 					    font       	(object Font
 						size       	9
 						face       	"Arial"
@@ -8500,9 +8194,9 @@
 					    pctDist    	0.559595
 					    height     	30
 					    orientation 	0)
-					stereotype 	(object SegLabel @230
-					    Parent_View 	@228
-					    location   	(1251, 1236)
+					stereotype 	(object SegLabel @224
+					    Parent_View 	@222
+					    location   	(1268, 1194)
 					    font       	(object Font
 						size       	9
 						face       	"Arial"
@@ -8523,15 +8217,15 @@
 					    orientation 	0)
 					line_color 	3342489
 					quidu      	"48667B0B005D"
-					client     	@221
-					supplier   	@194
+					client     	@194
+					supplier   	@209
 					vertices   	(list Points
 					    (886, 2246)
 					    (1073, 2059)
 					    (1378, 1243)
-					    (1888, 703))
+					    (1945, 641))
 					line_style 	0)
-				    (object UsesView "CD_USUARIO_RESPONSAVEL" @231
+				    (object UsesView "CD_USUARIO_RESPONSAVEL" @225
 					font       	(object Font
 					    size       	9
 					    face       	"Arial"
@@ -8541,9 +8235,9 @@
 					    strike     	FALSE
 					    color      	0
 					    default_color 	TRUE)
-					label      	(object SegLabel @232
-					    Parent_View 	@231
-					    location   	(1499, 1471)
+					label      	(object SegLabel @226
+					    Parent_View 	@225
+					    location   	(1516, 1439)
 					    font       	(object Font
 						size       	9
 						face       	"Arial"
@@ -8562,9 +8256,9 @@
 					    pctDist    	0.500000
 					    height     	60
 					    orientation 	0)
-					stereotype 	(object SegLabel @233
-					    Parent_View 	@231
-					    location   	(1318, 1389)
+					stereotype 	(object SegLabel @227
+					    Parent_View 	@225
+					    location   	(1358, 1364)
 					    font       	(object Font
 						size       	9
 						face       	"Arial"
@@ -8585,13 +8279,132 @@
 					    orientation 	0)
 					line_color 	3342489
 					quidu      	"48667B2B031C"
-					client     	@221
-					supplier   	@194
+					client     	@194
+					supplier   	@209
 					vertices   	(list Points
 					    (1050, 2254)
 					    (1154, 2188)
-					    (2008, 703))
-					line_style 	0))))))
+					    (2042, 641))
+					line_style 	0)
+				    (object AssociationViewNew "$UNNAMED$69" @228
+					location   	(1352, 384)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					stereotype 	(object SegLabel @229
+					    Parent_View 	@228
+					    location   	(1352, 277)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    anchor     	10
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	450
+					    justify    	0
+					    label      	"<<Identifying>>"
+					    pctDist    	0.500000
+					    height     	108
+					    orientation 	0)
+					line_color 	3342489
+					quidu      	"48667FA702BF"
+					roleview_list 	(list RoleViews
+					    (object RoleView "$UNNAMED$70" @230
+						Parent_View 	@228
+						location   	(792, 0)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"48667FA80232"
+						client     	@228
+						supplier   	@209
+						vertices   	(list Points
+						    (1352, 384)
+						    (1788, 384))
+						line_style 	0
+						label      	(object SegLabel @231
+						    Parent_View 	@230
+						    location   	(1743, 438)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    anchor     	2
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	15
+						    justify    	0
+						    label      	"0..*"
+						    pctDist    	0.900000
+						    height     	54
+						    orientation 	1))
+					    (object RoleView "$UNNAMED$71" @232
+						Parent_View 	@228
+						location   	(792, 0)
+						font       	(object Font
+						    size       	9
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"48667FA80242"
+						client     	@228
+						supplier   	@202
+						vertices   	(list Points
+						    (1352, 384)
+						    (916, 384))
+						line_style 	0
+						label      	(object SegLabel @233
+						    Parent_View 	@232
+						    location   	(961, 438)
+						    font       	(object Font
+							size       	9
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    anchor     	2
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	15
+						    justify    	0
+						    label      	"1"
+						    pctDist    	0.900000
+						    height     	54
+						    orientation 	0)))))))))
 		logical_presentations 	(list unit_reference_list)))
 	logical_presentations 	(list unit_reference_list
 	    (object ClassDiagram "Welcome"
@@ -8718,12 +8531,12 @@
 			quidu      	"48664617032C"
 			class      	"Logical View::Schemas::SISGER::USUARIO"
 			quidu      	"4866497902BF"
-			class      	"Logical View::Schemas::SISGER::USUARIO_PROJETO"
-			quidu      	"48666C230128"
 			class      	"Logical View::Schemas::SISGER::HISTORICO_PENDENCIA"
 			quidu      	"486679F7002E"
 			class      	"Logical View::Schemas::SISGER::PENDENCIA"
-			quidu      	"48664B2A0000"))
+			quidu      	"48664B2A0000"
+			class      	"Logical View::Schemas::SISGER::USUARIO_PROJETO"
+			quidu      	"48666C230128"))
 		physical_presentations 	(list unit_reference_list)))
 	physical_presentations 	(list unit_reference_list
 	    (object Module_Diagram "Main"
