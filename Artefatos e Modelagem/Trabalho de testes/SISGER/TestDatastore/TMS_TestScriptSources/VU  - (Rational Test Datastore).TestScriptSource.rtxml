@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE TestAsset SYSTEM "TestAsset.dtd">
+<TestAsset Version="0.1">
+<TestScriptSource>
+   <UID><![CDATA[a2d8e43f-6983-4307-81e9ea111aa2ece]]></UID>
+   <Name><![CDATA[VU  - (Rational Test Datastore)]]></Name>
+   <Description />
+   <CreationDate><![CDATA[2008:09:19:19:01:54]]></CreationDate>
+   <ModificationDate><![CDATA[2008:09:19:19:01:54]]></ModificationDate>
+   <LastModifiedBy><![CDATA[TestManagementSystem]]></LastModifiedBy>
+   <CreatedBy><![CDATA[TestManagementSystem]]></CreatedBy>
+   <Owner><![CDATA[TestManagementSystem]]></Owner>
+   <DataPath><![CDATA[C:\Documents and Settings\Administrator\Desktop\projetos\SISGER\TestDatastore]]></DataPath>
+   <DataPathSpecificity><![CDATA[2]]></DataPathSpecificity>
+   <ConfigurationData />
+   <ConnectionOptions Name="Default Datastore" Operator="0"><![CDATA[1]]></ConnectionOptions>
+   <ConnectionOptions Name="Type" Operator="0"><![CDATA[VU]]></ConnectionOptions>
+   <Flags />
+   <ExecutionOptions />
+   <DatapoolPath />
+   <DatapoolPathSpecificity><![CDATA[2]]></DatapoolPathSpecificity>
+   <EnableVersioning />
+   <Parent><![CDATA[bcf95c8b-ac5b-4959-88c1e569f9a3c442]]></Parent>
+   <ScriptType><![CDATA[bab9d773-8c78-4555-a38c12d384798620]]></ScriptType>
+</TestScriptSource>
+</TestAsset>

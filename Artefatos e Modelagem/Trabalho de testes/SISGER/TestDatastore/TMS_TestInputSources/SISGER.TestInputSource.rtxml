@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE TestAsset SYSTEM "TestAsset.dtd">
+<TestAsset Version="0.1">
+<TestInputSource>
+   <UID><![CDATA[f0e91350-5071-4f9e-976942fd435f6cb]]></UID>
+   <Name><![CDATA[SISGER]]></Name>
+   <Description />
+   <CreationDate><![CDATA[2008:09:19:19:01:56]]></CreationDate>
+   <ModificationDate><![CDATA[2008:09:19:19:01:56]]></ModificationDate>
+   <LastModifiedBy><![CDATA[TestManagementSystem]]></LastModifiedBy>
+   <CreatedBy><![CDATA[TestManagementSystem]]></CreatedBy>
+   <Owner><![CDATA[TestManagementSystem]]></Owner>
+   <AdapterConnectInfo><![CDATA[C:\Documents and Settings\Administrator\Desktop\projetos\SISGER\SISGER\SISGER.rqs]]></AdapterConnectInfo>
+   <ConnectionInfoSpecificity><![CDATA[2]]></ConnectionInfoSpecificity>
+   <ConfigurationData />
+   <LastSuspicionUpdate />
+   <Parent><![CDATA[43a820b8-ecad-450f-86f733849f9ed273]]></Parent>
+   <InputType><![CDATA[51789e0a-9d8e-45e7-a67d208762e9f12d]]></InputType>
+</TestInputSource>
+</TestAsset>

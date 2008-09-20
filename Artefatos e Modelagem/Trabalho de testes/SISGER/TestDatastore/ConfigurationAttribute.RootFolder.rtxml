@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE TestAsset SYSTEM "TestAsset.dtd">
+<TestAsset Version="0.1">
+<RootFolder>
+   <UID><![CDATA[71ece0f6-d67f-44ea-bc1b249b88fb941f]]></UID>
+   <Name><![CDATA[ConfigurationAttribute]]></Name>
+</RootFolder>
+</TestAsset>

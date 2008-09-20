@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE TestAsset SYSTEM "TestAsset.dtd">
+<TestAsset Version="0.1">
+<TCResDistReport>
+   <UID><![CDATA[63097ac4-f0e-41cd-9df93dbba928161]]></UID>
+   <Name><![CDATA[Test Input Execution Coverage]]></Name>
+   <Owner><![CDATA[TestManagementSystem]]></Owner>
+   <Description />
+   <CreationDate><![CDATA[2008:09:19:19:01:55]]></CreationDate>
+   <ModificationDate><![CDATA[2008:09:19:19:01:55]]></ModificationDate>
+   <LastModifiedBy><![CDATA[TestManagementSystem]]></LastModifiedBy>
+   <CreatedBy><![CDATA[TestManagementSystem]]></CreatedBy>
+   <DistributeOver><![CDATA[8]]></DistributeOver>
+   <DistributeOverValues />
+   <ShowValues><![CDATA[11]]></ShowValues>
+   <ShowValues><![CDATA[9]]></ShowValues>
+   <ShowValues><![CDATA[12]]></ShowValues>
+   <InputSourceFilter />
+   <Title><![CDATA[Test Input Execution Coverage]]></Title>
+   <XAxisLabel><![CDATA[Test Input]]></XAxisLabel>
+   <YAxisLabel><![CDATA[Number Of Test Cases]]></YAxisLabel>
+   <SortInfo><![CDATA[0]]></SortInfo>
+   <ShowZeroCounts><![CDATA[1]]></ShowZeroCounts>
+   <ShowLimitCounts><![CDATA[0]]></ShowLimitCounts>
+   <ShowCountNumber />
+   <ShowCountOrder />
+   <Style><![CDATA[6]]></Style>
+   <TestCaseQuery><![CDATA[ ]]></TestCaseQuery>
+   <Parent><![CDATA[a0457072-9ff0-44d1-81ed4a77e9d56d1]]></Parent>
+</TCResDistReport>
+</TestAsset>
