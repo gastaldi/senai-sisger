@@ -7139,30 +7139,30 @@
 				    default_color 	TRUE)
 				label      	(object ItemLabel
 				    Parent_View 	@258
-				    location   	(374, 694)
+				    location   	(373, 694)
 				    fill_color 	13434879
 				    anchor_loc 	3
 				    nlines     	2
-				    max_width  	279
+				    max_width  	282
 				    justify    	1
 				    label      	"CD")
 				stereotype 	(object ItemLabel
 				    Parent_View 	@258
-				    location   	(374, 624)
+				    location   	(373, 624)
 				    fill_color 	13434879
 				    anchor     	10
 				    anchor_loc 	3
 				    nlines     	1
-				    max_width  	275
+				    max_width  	274
 				    justify    	1
 				    label      	"<<Application>>")
 				icon_style 	"Icon"
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"48DD6CE101D4"
-				width      	502
+				width      	508
 				autoResize 	TRUE
-				width      	502
+				width      	508
 				height     	162)
 			    (object ModView "Component View::Implementation Model::Artista" "NotAModuleType" "NotAModulePart" @259
 				location   	(400, 1088)
@@ -7177,30 +7177,30 @@
 				    default_color 	TRUE)
 				label      	(object ItemLabel
 				    Parent_View 	@259
-				    location   	(326, 1110)
+				    location   	(325, 1110)
 				    fill_color 	13434879
 				    anchor_loc 	3
 				    nlines     	2
-				    max_width  	279
+				    max_width  	282
 				    justify    	1
 				    label      	"Artista")
 				stereotype 	(object ItemLabel
 				    Parent_View 	@259
-				    location   	(326, 1040)
+				    location   	(325, 1040)
 				    fill_color 	13434879
 				    anchor     	10
 				    anchor_loc 	3
 				    nlines     	1
-				    max_width  	275
+				    max_width  	274
 				    justify    	1
 				    label      	"<<Application>>")
 				icon_style 	"Icon"
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"48DD6CE30242"
-				width      	502
+				width      	508
 				autoResize 	TRUE
-				width      	502
+				width      	508
 				height     	162)
 			    (object ModView "Component View::Implementation Model::Musica" "NotAModuleType" "NotAModulePart" @260
 				location   	(1552, 672)
@@ -7215,30 +7215,30 @@
 				    default_color 	TRUE)
 				label      	(object ItemLabel
 				    Parent_View 	@260
-				    location   	(1478, 694)
+				    location   	(1477, 694)
 				    fill_color 	13434879
 				    anchor_loc 	3
 				    nlines     	2
-				    max_width  	279
+				    max_width  	282
 				    justify    	1
 				    label      	"Musica")
 				stereotype 	(object ItemLabel
 				    Parent_View 	@260
-				    location   	(1478, 624)
+				    location   	(1477, 624)
 				    fill_color 	13434879
 				    anchor     	10
 				    anchor_loc 	3
 				    nlines     	1
-				    max_width  	275
+				    max_width  	274
 				    justify    	1
 				    label      	"<<Application>>")
 				icon_style 	"Icon"
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"48DD6CE50186"
-				width      	502
+				width      	508
 				autoResize 	TRUE
-				width      	502
+				width      	508
 				height     	162)
 			    (object ModView "Component View::Implementation Model::Categoria" "NotAModuleType" "NotAModulePart" @261
 				location   	(1552, 1072)
@@ -7253,30 +7253,30 @@
 				    default_color 	TRUE)
 				label      	(object ItemLabel
 				    Parent_View 	@261
-				    location   	(1478, 1094)
+				    location   	(1477, 1094)
 				    fill_color 	13434879
 				    anchor_loc 	3
 				    nlines     	2
-				    max_width  	279
+				    max_width  	282
 				    justify    	1
 				    label      	"Categoria")
 				stereotype 	(object ItemLabel
 				    Parent_View 	@261
-				    location   	(1478, 1024)
+				    location   	(1477, 1024)
 				    fill_color 	13434879
 				    anchor     	10
 				    anchor_loc 	3
 				    nlines     	1
-				    max_width  	275
+				    max_width  	274
 				    justify    	1
 				    label      	"<<Application>>")
 				icon_style 	"Icon"
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"48DD6CE8003E"
-				width      	502
+				width      	508
 				autoResize 	TRUE
-				width      	502
+				width      	508
 				height     	162)
 			    (object InterfaceView "Logical View::Design Model::Use-Case Realizations::IArtista" @262
 				location   	(720, 1088)
@@ -7312,7 +7312,7 @@
 				client     	@259
 				supplier   	@262
 				vertices   	(list Points
-				    (641, 1088)
+				    (644, 1088)
 				    (691, 1088))
 				line_style 	0)
 			    (object InterfaceView "Logical View::Design Model::Use-Case Realizations::ICD" @264
@@ -7349,7 +7349,7 @@
 				client     	@258
 				supplier   	@264
 				vertices   	(list Points
-				    (689, 672)
+				    (692, 672)
 				    (708, 672))
 				line_style 	0)
 			    (object InterfaceView "Logical View::Design Model::Use-Case Realizations::IMusica" @266
@@ -7386,7 +7386,7 @@
 				client     	@260
 				supplier   	@266
 				vertices   	(list Points
-				    (1308, 672)
+				    (1305, 672)
 				    (1226, 672))
 				line_style 	0)
 			    (object InterfaceView "Logical View::Design Model::Use-Case Realizations::ICategoria" @268
@@ -7423,7 +7423,7 @@
 				client     	@261
 				supplier   	@268
 				vertices   	(list Points
-				    (1306, 1083)
+				    (1305, 1083)
 				    (1274, 1083))
 				line_style 	0)
 			    (object ModVisView "" @270
@@ -7507,31 +7507,93 @@
     process_structure 	(object Processes
 	quid       	"34DBB4830144"
 	ProcsNDevs 	(list
-	    (object Processor "<processor name>"
-		quid       	"34DBBD4300B4"
-		documentation 	"This node provides <enter a short description here of the functionality and capability of the node>."
+	    (object Processor "Estação 1"
+		quid       	"48DD7913003E"
+		stereotype 	"Workstation"
 		connections 	(list connection_list
 		    (object Connection_Relationship
-			quid       	"34DBBD4B008C"
-			supplier   	"<device name>"
-			quidu      	"34DBBD47019A"
+			quid       	"48DD7A1F00EA"
+			stereotype 	"RJ45"
+			supplier   	"Hub"
+			quidu      	"48DD79EB00EA"
 			supplier_is_device 	TRUE))
 		characteristics 	""
 		scheduling 	"Preemptive"
-		processes  	(list processes
-		    (object Process "<process name>"
-			quid       	"35DB411001D6"
-			documentation 	"This process corresponds to the process with the same name in the Logical View::Process Model."
-			stereotype 	"process"
-			priority   	"")
-		    (object Process "<thread name>"
-			quid       	"35DB41720348"
-			documentation 	"This process corresponds to the thread with the same name in the Logical View::Process Model."
-			stereotype 	"thread"
-			priority   	"")))
-	    (object Device "<device name>"
-		quid       	"34DBBD47019A"
-		documentation 	"This device provides <enter a short description of the capability the device provides> for the system."
+		processes  	(list processes))
+	    (object Processor "Estação 2"
+		quid       	"48DD79A503B9"
+		stereotype 	"Workstation"
+		connections 	(list connection_list
+		    (object Connection_Relationship
+			quid       	"48DD7A26030D"
+			stereotype 	"RJ45"
+			supplier   	"Hub"
+			quidu      	"48DD79EB00EA"
+			supplier_is_device 	TRUE))
+		characteristics 	""
+		scheduling 	"Preemptive"
+		processes  	(list processes))
+	    (object Processor "Estação 3"
+		quid       	"48DD79AB0203"
+		stereotype 	"Workstation"
+		connections 	(list connection_list
+		    (object Connection_Relationship
+			quid       	"48DD7A29000F"
+			stereotype 	"RJ45"
+			supplier   	"Hub"
+			quidu      	"48DD79EB00EA"
+			supplier_is_device 	TRUE))
+		characteristics 	""
+		scheduling 	"Preemptive"
+		processes  	(list processes))
+	    (object Processor "Servidor Atlon XP 2.2"
+		quid       	"48DD7AB00128"
+		stereotype 	"Server"
+		connections 	(list connection_list
+		    (object Connection_Relationship
+			quid       	"48DD7ADC0232"
+			stereotype 	"RJ45"
+			supplier   	"Hub"
+			quidu      	"48DD79EB00EA"
+			supplier_is_device 	TRUE)
+		    (object Connection_Relationship
+			quid       	"48DD7B5E008C"
+			stereotype 	"RJ45"
+			supplier   	"Modem ADSL"
+			quidu      	"48DD7B38037A"
+			supplier_is_device 	TRUE))
+		characteristics 	""
+		scheduling 	"Preemptive"
+		processes  	(list processes))
+	    (object Device "Hub"
+		quid       	"48DD79EB00EA"
+		stereotype 	"Router"
+		characteristics 	"")
+	    (object Device "Impressora HP 3550"
+		quid       	"48DD7A440157"
+		stereotype 	"Printer"
+		connections 	(list connection_list
+		    (object Connection_Relationship
+			quid       	"48DD7A9201E4"
+			stereotype 	"USB"
+			supplier   	"Estação 2"
+			quidu      	"48DD79A503B9"
+			supplier_is_device 	FALSE))
+		characteristics 	"")
+	    (object Device "Impressora Laser 2100"
+		quid       	"48DD7AFC0157"
+		stereotype 	"Printer2"
+		connections 	(list connection_list
+		    (object Connection_Relationship
+			quid       	"48DD7B2F0203"
+			stereotype 	"USB"
+			supplier   	"Servidor Atlon XP 2.2"
+			quidu      	"48DD7AB00128"
+			supplier_is_device 	FALSE))
+		characteristics 	"")
+	    (object Device "Modem ADSL"
+		quid       	"48DD7B38037A"
+		stereotype 	"Modem"
 		characteristics 	"")
 	    (object Process_Diagram "Deployment View"
 		quid       	"34DBB4830146"
@@ -7550,10 +7612,10 @@
 		max_height 	28350
 		max_width  	21600
 		origin_x   	0
-		origin_y   	0
+		origin_y   	156
 		items      	(list diagram_item_list
-		    (object ProcessorView "<processor name>" @275
-			location   	(512, 1056)
+		    (object ProcessorView "Estação 1" @275
+			location   	(304, 352)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -7565,18 +7627,21 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@275
-			    location   	(276, 900)
+			    location   	(304, 555)
+			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	400
+			    max_width  	540
 			    justify    	0
-			    label      	"<processor name>")
-			icon_style 	"Label"
-			quidu      	"34DBBD4300B4"
-			width      	475
-			height     	381
-			annotation 	3)
-		    (object DeviceView "<device name>" @276
-			location   	(1040, 1056)
+			    label      	"Estação 1")
+			icon       	"Workstation"
+			icon_style 	"Icon"
+			line_color 	3342489
+			quidu      	"48DD7913003E"
+			width      	192
+			height     	248
+			annotation 	0)
+		    (object ProcessorView "Estação 2" @276
+			location   	(1472, 320)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -7588,27 +7653,47 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@276
-			    location   	(867, 950)
+			    location   	(1472, 523)
+			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	275
+			    max_width  	540
 			    justify    	0
-			    label      	"<device name>")
+			    label      	"Estação 2")
+			icon       	"Workstation"
 			icon_style 	"Icon"
-			quidu      	"34DBBD47019A"
-			width      	350
-			height     	282
+			line_color 	3342489
+			quidu      	"48DD79A503B9"
+			width      	192
+			height     	248
 			annotation 	0)
-		    (object ConnectionView "" @277
-			stereotype 	TRUE
-			quidu      	"34DBBD4B008C"
-			client     	@275
-			supplier   	@276
-			vertices   	(list Points
-			    (718, 1056)
-			    (865, 1056))
-			line_style 	0)
-		    (object NoteView @278
-			location   	(816, 304)
+		    (object ProcessorView "Estação 3" @277
+			location   	(304, 816)
+			font       	(object Font
+			    size       	9
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@277
+			    location   	(304, 1019)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	540
+			    justify    	0
+			    label      	"Estação 3")
+			icon       	"Workstation"
+			icon_style 	"Icon"
+			line_color 	3342489
+			quidu      	"48DD79AB0203"
+			width      	192
+			height     	248
+			annotation 	0)
+		    (object DeviceView "Hub" @278
+			location   	(880, 624)
 			font       	(object Font
 			    size       	9
 			    face       	"Arial"
@@ -7620,25 +7705,404 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@278
-			    location   	(38, 29)
-			    fill_color 	13434879
-			    nlines     	11
-			    max_width  	1521
-			    justify    	1
-			    label      	
-|This Diagram defines the typical physical network configurations, including those typically used by end users, as well as special configurations used for development and test.
-|
-|· Allocate processes to the various nodes. Allocation takes into account the capacity of the nodes (in terms of
-|both memory and processing), bandwidth of the communication medium (bus, LANs, WANs), and the
-|availability of the hardware and communication links, rerouting, and so on.
-|
-|See, Rational Unified Process:
-|Activity: Describe Distribution
-			    )
+			    location   	(880, 768)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	540
+			    justify    	0
+			    label      	"Hub")
+			icon       	"Router"
+			icon_style 	"Icon"
 			line_color 	3342489
-			fill_color 	13434879
-			width      	1581
-			height     	563)))))
+			quidu      	"48DD79EB00EA"
+			width      	192
+			height     	130
+			annotation 	0)
+		    (object ConnectionView "" @279
+			font       	(object Font
+			    size       	9
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			stereotype 	(object SegLabel @280
+			    Parent_View 	@279
+			    location   	(639, 435)
+			    font       	(object Font
+				size       	9
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    anchor     	10
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	450
+			    justify    	0
+			    label      	"<<RJ45>>"
+			    pctDist    	0.550864
+			    height     	66
+			    orientation 	0)
+			line_color 	3342489
+			quidu      	"48DD7A1F00EA"
+			client     	@275
+			supplier   	@278
+			vertices   	(list Points
+			    (397, 395)
+			    (785, 577))
+			line_style 	0)
+		    (object ConnectionView "" @281
+			font       	(object Font
+			    size       	9
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			stereotype 	(object SegLabel @282
+			    Parent_View 	@281
+			    location   	(1192, 532)
+			    font       	(object Font
+				size       	9
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    anchor     	10
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	450
+			    justify    	0
+			    label      	"<<RJ45>>"
+			    pctDist    	0.528643
+			    height     	64
+			    orientation 	0)
+			line_color 	3342489
+			quidu      	"48DD7A26030D"
+			client     	@276
+			supplier   	@278
+			vertices   	(list Points
+			    (1375, 365)
+			    (973, 573))
+			line_style 	0)
+		    (object DeviceView "Impressora HP 3550" @283
+			location   	(1479, 858)
+			font       	(object Font
+			    size       	9
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@283
+			    location   	(1479, 1039)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	570
+			    justify    	0
+			    label      	"Impressora HP 3550")
+			icon       	"Printer"
+			icon_style 	"Icon"
+			line_color 	3342489
+			quidu      	"48DD7A440157"
+			width      	202
+			height     	204
+			annotation 	0)
+		    (object ProcessorView "Servidor Atlon XP 2.2" @284
+			location   	(884, 1392)
+			font       	(object Font
+			    size       	9
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@284
+			    location   	(884, 1593)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	258
+			    justify    	0
+			    label      	"Servidor Atlon XP 2.2")
+			icon       	"Server"
+			icon_style 	"Icon"
+			line_color 	3342489
+			quidu      	"48DD7AB00128"
+			width      	98
+			height     	243
+			annotation 	0)
+		    (object ConnectionView "" @285
+			font       	(object Font
+			    size       	9
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			stereotype 	(object SegLabel @286
+			    Parent_View 	@285
+			    location   	(773, 1031)
+			    font       	(object Font
+				size       	9
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    anchor     	10
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	450
+			    justify    	0
+			    label      	"<<RJ45>>"
+			    pctDist    	0.500000
+			    height     	108
+			    orientation 	0)
+			line_color 	3342489
+			quidu      	"48DD7ADC0232"
+			client     	@284
+			supplier   	@278
+			vertices   	(list Points
+			    (880, 1271)
+			    (880, 791))
+			line_style 	0)
+		    (object DeviceView "Impressora Laser 2100" @287
+			location   	(432, 1552)
+			font       	(object Font
+			    size       	9
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@287
+			    location   	(432, 1732)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	888
+			    justify    	0
+			    label      	"Impressora Laser 2100")
+			icon       	"Printer2"
+			icon_style 	"Icon"
+			line_color 	3342489
+			quidu      	"48DD7AFC0157"
+			width      	308
+			height     	202
+			annotation 	0)
+		    (object ConnectionView "" @288
+			font       	(object Font
+			    size       	9
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			stereotype 	(object SegLabel @289
+			    Parent_View 	@288
+			    location   	(595, 1428)
+			    font       	(object Font
+				size       	9
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    anchor     	10
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	450
+			    justify    	0
+			    label      	"<<USB>>"
+			    pctDist    	0.124483
+			    height     	59
+			    orientation 	0)
+			line_color 	3342489
+			quidu      	"48DD7B2F0203"
+			client     	@287
+			supplier   	@284
+			vertices   	(list Points
+			    (583, 1495)
+			    (836, 1407))
+			line_style 	0)
+		    (object DeviceView "Modem ADSL" @290
+			location   	(1312, 1520)
+			font       	(object Font
+			    size       	9
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@290
+			    location   	(1311, 1655)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	315
+			    justify    	0
+			    label      	"Modem ADSL")
+			icon       	"Modem"
+			icon_style 	"Icon"
+			line_color 	3342489
+			quidu      	"48DD7B38037A"
+			width      	117
+			height     	112
+			annotation 	0)
+		    (object ConnectionView "" @291
+			font       	(object Font
+			    size       	9
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			stereotype 	(object SegLabel @292
+			    Parent_View 	@291
+			    location   	(1164, 1431)
+			    font       	(object Font
+				size       	9
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    anchor     	10
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	450
+			    justify    	0
+			    label      	"<<RJ45>>"
+			    pctDist    	0.692119
+			    height     	40
+			    orientation 	0)
+			line_color 	3342489
+			quidu      	"48DD7B5E008C"
+			client     	@284
+			supplier   	@290
+			vertices   	(list Points
+			    (930, 1403)
+			    (1252, 1498))
+			line_style 	0)
+		    (object ConnectionView "" @293
+			font       	(object Font
+			    size       	9
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@293
+			    location   	(1475, 652)
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	82
+			    justify    	0
+			    label      	"")
+			stereotype 	(object SegLabel @294
+			    Parent_View 	@293
+			    location   	(1377, 648)
+			    font       	(object Font
+				size       	9
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    anchor     	10
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	450
+			    justify    	0
+			    label      	"<<USB>>"
+			    pctDist    	0.518777
+			    height     	97
+			    orientation 	0)
+			line_color 	3342489
+			quidu      	"48DD7A9201E4"
+			client     	@283
+			supplier   	@276
+			vertices   	(list Points
+			    (1475, 757)
+			    (1474, 546))
+			line_style 	0)
+		    (object ConnectionView "" @295
+			font       	(object Font
+			    size       	9
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			stereotype 	(object SegLabel @296
+			    Parent_View 	@295
+			    location   	(526, 695)
+			    font       	(object Font
+				size       	9
+				face       	"Arial"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    anchor     	10
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	450
+			    justify    	0
+			    label      	"<<RJ45>>"
+			    pctDist    	0.366553
+			    height     	42
+			    orientation 	0)
+			line_color 	3342489
+			quidu      	"48DD7A29000F"
+			client     	@277
+			supplier   	@278
+			vertices   	(list Points
+			    (397, 782)
+			    (785, 654))
+			line_style 	0)))))
     properties 	(object Properties
 	attributes 	(list Attribute_Set
 	    (object Attribute
