@@ -1,0 +1,6 @@
+The Use-Case Model in Rational Unified Process contains a model of the behavior of a system which supports the business processes.
+
+<The description entered here should capture the Survey Description of the Use Case Model>.  
+
+
+

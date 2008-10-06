@@ -1,0 +1,2 @@
+The Process View in Rational Unified Process
+This package is used to organize the active classes in the system and will be presented in the SoDA-generated Software Architecture Document, under the "Process View"

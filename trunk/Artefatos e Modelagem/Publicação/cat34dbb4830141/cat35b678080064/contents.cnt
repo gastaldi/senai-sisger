@@ -1,0 +1,484 @@
+Rastreabilidade Controlar Requisitos
+../../webviewer/18.jpg
+dgm4800e89b000f.htm
+
+
+
+(
+)
+<<Business Entity>> beDelegarPendência
+../../webviewer/131.jpg
+class48de415f01e4.htm
+
+
+
+(
+thebeDesenvolvedor ( beDesenvolvedor )
+../../webviewer/82.jpg
+../../looseends/role48de41720261.htm
+
+
+
+thebePendencia ( bePendencia )
+../../webviewer/82.jpg
+../../looseends/role48de41a1034b.htm
+
+
+
+thebeDesenvolvedor ( beDesenvolvedor )
+../../webviewer/82.jpg
+../../looseends/role48de41b10196.htm
+
+
+
+thebeDesenvolvedor ( beDesenvolvedor )
+../../webviewer/82.jpg
+../../looseends/role48de41b702de.htm
+
+
+
+)
+<<Business Entity>> beDesenvolvedor
+../../webviewer/131.jpg
+class4800e9c301a5.htm
+
+
+
+(
+thebePendencia ( bePendencia )
+../../webviewer/82.jpg
+../../looseends/role4800ebfe0176.htm
+
+
+
+thebePendencia ( bePendencia )
+../../webviewer/82.jpg
+../../looseends/role4800fb970147.htm
+
+
+
+thebeDelegarPendência ( beDelegarPendência )
+../../webviewer/82.jpg
+../../looseends/role48de41720263.htm
+
+
+
+thebeDelegarPendência ( beDelegarPendência )
+../../webviewer/82.jpg
+../../looseends/role48de41b10186.htm
+
+
+
+thebeDelegarPendência ( beDelegarPendência )
+../../webviewer/82.jpg
+../../looseends/role48de41b702ee.htm
+
+
+
+)
+<<Business Entity>> bePendencia
+../../webviewer/131.jpg
+class4800eb7202dd.htm
+
+
+
+(
+thebeStatusPendencia ( beStatusPendencia )
+../../webviewer/82.jpg
+../../looseends/role4800ebc70118.htm
+
+
+
+thebeTipoPendencia ( beTipoPendencia )
+../../webviewer/82.jpg
+../../looseends/role4800ebca000f.htm
+
+
+
+thewFuncionario ( wFuncionario )
+../../webviewer/82.jpg
+../../looseends/role4800ebdc02ce.htm
+
+
+
+thewLiderProjeto ( wLiderProjeto )
+../../webviewer/82.jpg
+../../looseends/role4800ebfb030c.htm
+
+
+
+thebeDesenvolvedor ( beDesenvolvedor )
+../../webviewer/82.jpg
+../../looseends/role4800ebfe0166.htm
+
+
+
+thebeDesenvolvedor ( beDesenvolvedor )
+../../webviewer/82.jpg
+../../looseends/role4800fb970149.htm
+
+
+
+thebeDelegarPendência ( beDelegarPendência )
+../../webviewer/82.jpg
+../../looseends/role48de41a1034d.htm
+
+
+
+thebeProjeto ( beProjeto )
+../../webviewer/82.jpg
+../../looseends/role48de4225000f.htm
+
+
+
+)
+<<Business Entity>> beProjeto
+../../webviewer/131.jpg
+class48de41eb0280.htm
+
+
+
+(
+thebePendencia ( bePendencia )
+../../webviewer/82.jpg
+../../looseends/role48de4225001f.htm
+
+
+
+)
+<<Business Entity>> beStatusPendencia
+../../webviewer/131.jpg
+class4800eb90036a.htm
+
+
+
+(
+thebePendencia ( bePendencia )
+../../webviewer/82.jpg
+../../looseends/role4800ebc7011a.htm
+
+
+
+)
+<<Business Entity>> beTipoPendencia
+../../webviewer/131.jpg
+class4800eb8603c8.htm
+
+
+
+(
+thebePendencia ( bePendencia )
+../../webviewer/82.jpg
+../../looseends/role4800ebca0011.htm
+
+
+
+)
+<<Business Worker>> NewClass
+../../webviewer/130.jpg
+class4800fc8a0186.htm
+
+
+
+(
+)
+<<Business Worker>> wFuncionario
+../../webviewer/130.jpg
+class4800e9710232.htm
+
+
+
+(
+thebePendencia ( bePendencia )
+../../webviewer/82.jpg
+../../looseends/role4800ebdc02d0.htm
+
+
+
+thebaCliente ( baCliente )
+../../webviewer/82.jpg
+../../looseends/role4800ed8502dd.htm
+
+
+
+)
+<<Business Worker>> wLiderProjeto
+../../webviewer/130.jpg
+class4800e9b602ed.htm
+
+
+
+(
+thebePendencia ( bePendencia )
+../../webviewer/82.jpg
+../../looseends/role4800ebfb031c.htm
+
+
+
+)
+<<Business Use Case Realization>> rControlar Requisitos
+../../webviewer/133.jpg
+uc4800e8c20280.htm
+
+
+
+(
+)
+(
+Diagrama de Objetos de Negocio
+../../webviewer/18.jpg
+dgm4800e91a031c.htm
+
+
+
+(
+)
+)
+Associations
+../../webviewer/assoccat.gif
+
+
+
+
+(
+Association (thebePendencia:bePendencia) (thebeStatusPendencia:beStatusPendencia)
+../../webviewer/81.jpg
+../../looseends/ass4800ebc602be.htm
+
+
+
+(
+bePendencia ( thebePendencia )
+../../webviewer/82.jpg
+../../looseends/role4800ebc70118.htm
+
+
+
+beStatusPendencia ( thebeStatusPendencia )
+../../webviewer/82.jpg
+../../looseends/role4800ebc7011a.htm
+
+
+
+)
+Association (thebePendencia:bePendencia) (thebeTipoPendencia:beTipoPendencia)
+../../webviewer/81.jpg
+../../looseends/ass4800ebc90176.htm
+
+
+
+(
+bePendencia ( thebePendencia )
+../../webviewer/82.jpg
+../../looseends/role4800ebca000f.htm
+
+
+
+beTipoPendencia ( thebeTipoPendencia )
+../../webviewer/82.jpg
+../../looseends/role4800ebca0011.htm
+
+
+
+)
+Association (thebePendencia:bePendencia) (thewFuncionario:wFuncionario)
+../../webviewer/81.jpg
+../../looseends/ass4800ebdb02be.htm
+
+
+
+(
+bePendencia ( thebePendencia )
+../../webviewer/82.jpg
+../../looseends/role4800ebdc02ce.htm
+
+
+
+wFuncionario ( thewFuncionario )
+../../webviewer/82.jpg
+../../looseends/role4800ebdc02d0.htm
+
+
+
+)
+Association (thebePendencia:bePendencia) (thewLiderProjeto:wLiderProjeto)
+../../webviewer/81.jpg
+../../looseends/ass4800ebfb009b.htm
+
+
+
+(
+bePendencia ( thebePendencia )
+../../webviewer/82.jpg
+../../looseends/role4800ebfb030c.htm
+
+
+
+wLiderProjeto ( thewLiderProjeto )
+../../webviewer/82.jpg
+../../looseends/role4800ebfb031c.htm
+
+
+
+)
+<<communicate>> (thebePendencia:bePendencia) (thebeDesenvolvedor:beDesenvolvedor)
+../../webviewer/81.jpg
+../../looseends/ass4800ebfd02af.htm
+
+
+
+(
+bePendencia ( thebePendencia )
+../../webviewer/82.jpg
+../../looseends/role4800ebfe0166.htm
+
+
+
+beDesenvolvedor ( thebeDesenvolvedor )
+../../webviewer/82.jpg
+../../looseends/role4800ebfe0176.htm
+
+
+
+)
+Association (thewFuncionario:wFuncionario) (thebaCliente:baCliente)
+../../webviewer/81.jpg
+../../looseends/ass4800ed85008c.htm
+
+
+
+(
+wFuncionario ( thewFuncionario )
+../../webviewer/82.jpg
+../../looseends/role4800ed8502dd.htm
+
+
+
+baCliente ( thebaCliente )
+../../webviewer/82.jpg
+../../looseends/role4800ed8502ed.htm
+
+
+
+)
+Association (thebeDesenvolvedor:beDesenvolvedor) (thebePendencia:bePendencia)
+../../webviewer/81.jpg
+../../looseends/ass4800fb960222.htm
+
+
+
+(
+beDesenvolvedor ( thebeDesenvolvedor )
+../../webviewer/82.jpg
+../../looseends/role4800fb970147.htm
+
+
+
+bePendencia ( thebePendencia )
+../../webviewer/82.jpg
+../../looseends/role4800fb970149.htm
+
+
+
+)
+Association (thebeDelegarPendência:beDelegarPendência) (thebeDesenvolvedor:beDesenvolvedor)
+../../webviewer/81.jpg
+../../looseends/ass48de4172001f.htm
+
+
+
+(
+beDelegarPendência ( thebeDelegarPendência )
+../../webviewer/82.jpg
+../../looseends/role48de41720261.htm
+
+
+
+beDesenvolvedor ( thebeDesenvolvedor )
+../../webviewer/82.jpg
+../../looseends/role48de41720263.htm
+
+
+
+)
+Association (thebeDelegarPendência:beDelegarPendência) (thebePendencia:bePendencia)
+../../webviewer/81.jpg
+../../looseends/ass48de41a1003e.htm
+
+
+
+(
+beDelegarPendência ( thebeDelegarPendência )
+../../webviewer/82.jpg
+../../looseends/role48de41a1034b.htm
+
+
+
+bePendencia ( thebePendencia )
+../../webviewer/82.jpg
+../../looseends/role48de41a1034d.htm
+
+
+
+)
+Association (thebeDesenvolvedor:beDesenvolvedor) (thebeDelegarPendência:beDelegarPendência)
+../../webviewer/81.jpg
+../../looseends/ass48de41b00399.htm
+
+
+
+(
+beDesenvolvedor ( thebeDesenvolvedor )
+../../webviewer/82.jpg
+../../looseends/role48de41b10186.htm
+
+
+
+beDelegarPendência ( thebeDelegarPendência )
+../../webviewer/82.jpg
+../../looseends/role48de41b10196.htm
+
+
+
+)
+Association (thebeDelegarPendência:beDelegarPendência) (thebeDesenvolvedor:beDesenvolvedor)
+../../webviewer/81.jpg
+../../looseends/ass48de41b7004e.htm
+
+
+
+(
+beDelegarPendência ( thebeDelegarPendência )
+../../webviewer/82.jpg
+../../looseends/role48de41b702de.htm
+
+
+
+beDesenvolvedor ( thebeDesenvolvedor )
+../../webviewer/82.jpg
+../../looseends/role48de41b702ee.htm
+
+
+
+)
+Association (thebePendencia:bePendencia) (thebeProjeto:beProjeto)
+../../webviewer/81.jpg
+../../looseends/ass48de4223038a.htm
+
+
+
+(
+bePendencia ( thebePendencia )
+../../webviewer/82.jpg
+../../looseends/role48de4225000f.htm
+
+
+
+beProjeto ( thebeProjeto )
+../../webviewer/82.jpg
+../../looseends/role48de4225001f.htm
+
+
+
+)
+)

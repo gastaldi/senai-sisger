@@ -1,0 +1,5 @@
+In Rational Unified Process the  "Component View in Rose" is used to organize the implemetation model. 
+
+The Implementaition View in Rational Unified Process
+
+

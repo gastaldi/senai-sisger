@@ -1,0 +1,104 @@
+<<Actor>> saAdministrador
+../../../webviewer/41.jpg
+class353d5816026c.htm
+class353d5816026c.txt
+
+
+(
+theManter Usuários ( Manter Usuários )
+../../../webviewer/82.jpg
+../../../looseends/role4824e47003ca.htm
+
+
+
+theManter Projetos ( Manter Projetos )
+../../../webviewer/82.jpg
+../../../looseends/role35c0ed3b0119.htm
+
+
+
+)
+<<Actor>> saCliente
+../../../webviewer/41.jpg
+class48de3fd100fa.htm
+
+
+
+(
+)
+<<Actor>> saDesenvolvedor
+../../../webviewer/41.jpg
+class4824ea8a000f.htm
+
+
+
+(
+theManter Pendências ( Manter Pendências )
+../../../webviewer/82.jpg
+../../../looseends/role4824ea9a00ea.htm
+
+
+
+)
+<<Actor>> saLider de Projeto
+../../../webviewer/41.jpg
+class4824ea27002e.htm
+
+
+
+(
+theDelegar Pendência ( Delegar Pendência )
+../../../webviewer/82.jpg
+../../../looseends/role4824e4b102d0.htm
+
+
+
+theManter Pendências ( Manter Pendências )
+../../../webviewer/82.jpg
+../../../looseends/role4824ea5d03a9.htm
+
+
+
+)
+<<Actor>> saResponsável
+../../../webviewer/41.jpg
+class48de40010000.htm
+
+
+
+(
+)
+<<Actor>> saUsuario
+../../../webviewer/41.jpg
+class481382ff009c.htm
+
+
+
+(
+theManter Pendências ( Manter Pendências )
+../../../webviewer/82.jpg
+../../../looseends/role48138321031e.htm
+
+
+
+theConsulta Histórico ( Consulta Histórico )
+../../../webviewer/82.jpg
+../../../looseends/role4824e80c02b1.htm
+
+
+
+theManter Projeto Usuario ( Manter Projeto Usuario )
+../../../webviewer/82.jpg
+../../../looseends/role48de62f5012a.htm
+
+
+
+)
+Associations
+../../../webviewer/assoccat.gif
+
+
+
+
+(
+)

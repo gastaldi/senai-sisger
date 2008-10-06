@@ -1,0 +1,3 @@
+<Enter a short description of the subsystem here.  A subsystem should be used in cases where a set of classes and/or other packages need to be encapsulated within a container and hidden behind a set of well-defined interfaces.  By convention, none of the contents of subsystem are visible except the interfaces of the subsystem.  This allows subsystems to be easily replaced, and the implementations changed, provided the interfaces remain unchanged.  It offers a degree of encapsulation greater than that of the package.
+
+If a set of classes is merely to be grouped together, but public visibility of classes is still desirable, a package is a more appropriate container.>

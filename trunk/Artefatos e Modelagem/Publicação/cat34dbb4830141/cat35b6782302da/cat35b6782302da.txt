@@ -1,0 +1,8 @@
+The Design Model in Rational Unified Process.
+The design model is adapted to model the real implementation environment, and serves as an abstraction of the source code. It is a "blueprint" of how the source code is structured and written. 
+
+The design model is a hierarchy of packages (design subsystems and design-service  packages), with "leaves" that are classes. Subsystems are a design "view" of the components that are defined in the Implementation Model.
+
+The design model hierarchy consists of layers. 
+
+Classes represent abstractions of classes in the system's implementation. They define the objects, which in turn are abstractions of the objects in the system's implementation. The use cases are realized by the objects, and this is represented by use-case realizations in the Design Model.  Each use-case realization has a realize dependency to a use case in the Use-Case Model. 

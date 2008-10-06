@@ -1,0 +1,1 @@
+This diagram shows the package itself and the packages that it is dependent of. That is useful to know for instance when the package is a separate unit that can be reused in other systems.
