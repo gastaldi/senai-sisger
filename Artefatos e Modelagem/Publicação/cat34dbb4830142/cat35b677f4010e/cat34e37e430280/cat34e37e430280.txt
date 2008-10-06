@@ -1,0 +1,10 @@
+All Use Cases in the system are contained in this package.   This is done strictly as a way to organize the model and make it easier to understand.
+
+See Rational UnifiedProcess:
+Activity " Describe the Use Case Model".
+
+In order to version control use cases it is recommended to specify use case packages within this package.
+
+Use Cases are often documented in a separate text file, use the  Rational Unified Process template or use the use case template  in Rational Requsite Pro.
+
+The "Use Case Realizations" that correspond to these use cases  are created in the Design Model..
