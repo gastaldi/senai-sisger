@@ -1,9 +1,0 @@
-Welcome to the Rational Unified Process Frame Work
-
-Purpose of the FrameWork:
-a) provide a good structure for a Rose model
-b) provide a style guide with naming conventions/suggestions
-c) identify a minimal set of diagrams to produce
-d) relate activities in RUP to Rose diagrams
-e) provide a basis for sophisticated SoDA reports. For instance based on this structure most of the Rose parts of the "Software Architecture Document" are generated from SoDA.
-

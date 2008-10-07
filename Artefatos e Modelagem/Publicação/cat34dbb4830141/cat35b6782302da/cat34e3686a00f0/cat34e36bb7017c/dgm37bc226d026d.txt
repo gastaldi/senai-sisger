@@ -1,1 +1,0 @@
-This diagram shows only the classes that are visible outside this package. The interfaces of the package.

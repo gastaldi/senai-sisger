@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE TestAsset SYSTEM "TestAsset.dtd">
-<TestAsset Version="0.1">
-<RootFolder>
-   <UID><![CDATA[d436d2fe-3602-405f-8373ee5adda0f42d]]></UID>
-   <Name><![CDATA[LTTraceReport]]></Name>
-</RootFolder>
-</TestAsset>

@@ -1,1 +1,0 @@
-Rational Unified Process uses the "Logical View in Rose" to organize the Design Model  and the Process View and the optional Business Object Model and Analysis Model.

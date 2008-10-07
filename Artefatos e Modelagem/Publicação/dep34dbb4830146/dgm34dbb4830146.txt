@@ -1,8 +1,0 @@
-The Deployment View in Rational Unified Process
-
-Defines the typical physical network configurations, including those typically used by end users, as well as special configurations used for development and test.
-
-See Rational Unified Process:
-Activity: Describe Distribution
-
-This diagram will be a part of  the SoDA template-generated Software Architecture Document under the "Deployment  View" .

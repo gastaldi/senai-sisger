@@ -1,1 +1,0 @@
-This diagram presents the organization of the Implementation Model.
