@@ -1,9 +1,0 @@
-DatastoreCMLevel=0
-DatabaseType=ACCESS
-PhysicalDBLocation=C:\Documents and Settings\Administrator\Desktop\projetos\SISGER\TestDatastore\DefaultTestScriptDatastore
-DatastoreVersion=2004.02.31
-DatastoreDSN=RATL_RT_TestScriptDatastore
-DatastoreName=SISGER-TestScriptDatastore
-ServerName=
-ClientProtocols=
-HostNames=

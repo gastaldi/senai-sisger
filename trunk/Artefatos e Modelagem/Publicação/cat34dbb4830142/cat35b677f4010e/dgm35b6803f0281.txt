@@ -1,1 +1,0 @@
-This is a global view of the system showing all Busines Use Cases and Business Actors.  It is intended to be an overview diagram, so if the diagram becomes too complex for easy comprehension, use several diagrams, each of which should focus on a different aspect of the system.  Usually, organizing use case diagrams around actors is a good approach.

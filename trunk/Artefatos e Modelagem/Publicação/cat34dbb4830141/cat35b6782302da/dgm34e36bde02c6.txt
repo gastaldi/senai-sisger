@@ -1,1 +1,0 @@
-Elements of the Design Model which are considered architecturally significant should be presented in this diagram.  This diagram will be presented in the document generated using the SoDA Software Architecture Document.

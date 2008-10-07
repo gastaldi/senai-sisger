@@ -1,1 +1,0 @@
- A separate package is recommended for each Use Case to facilitate access and version control of related use case artifacts.

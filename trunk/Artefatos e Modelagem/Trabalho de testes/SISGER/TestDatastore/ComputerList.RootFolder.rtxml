@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE TestAsset SYSTEM "TestAsset.dtd">
-<TestAsset Version="0.1">
-<RootFolder>
-   <UID><![CDATA[87550c48-3d8a-4212-a9b3e362e2ddafd]]></UID>
-   <Name><![CDATA[ComputerList]]></Name>
-</RootFolder>
-</TestAsset>
