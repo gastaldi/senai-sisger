@@ -1,0 +1,8 @@
+This diagram depicts the organization of the design model into layers. This diagram will be presented in the document generated using the SoDA Software Architecture Document.  
+
+See Rational Unified Process:
+Activity: Architectural Analysis
+Step: Define the High-Level Organization of Subsystems
+
+Activity: Incorporate Existing Design Elements
+Step: Update the Organization of the Design Model

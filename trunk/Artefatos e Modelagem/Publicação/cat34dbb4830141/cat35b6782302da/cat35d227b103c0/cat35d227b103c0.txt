@@ -1,0 +1,1 @@
+An architectural view that describes the concurrent aspect of the system: tasks (processes) and their interactions.

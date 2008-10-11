@@ -1,0 +1,7 @@
+In this Package we will describe "Use Case Realizations" as stereotyped use cases.
+
+A use-case realization describes how a particular use case is realized within  the design model, in terms of collaborating objects.
+
+A realize dependency is used between the "Use Case Realization" and the "Use Case" in the use-case  model that is realized. 
+
+

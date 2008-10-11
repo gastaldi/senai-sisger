@@ -1,0 +1,1 @@
+This diagram illustrates the composition of processes and threads, and the mapping of classes onto those processes and threads.

@@ -1,0 +1,5 @@
+The design model is normally organized in layers. The number of layers is not fixed, but varies from situation to situation. 
+
+During architectural analysis, focus is normally on the two high-level layers, that is, the application and business-specific layers;  this is what is meant by the "high-level organization of subsystems." The other lower-level layers are in focus during architectural design, refer to the activity Architectural Design for more information.
+
+Layers are identified using the naming conventions shown in the name of this package. 
