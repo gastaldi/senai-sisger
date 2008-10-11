@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE TestAsset SYSTEM "TestAsset.dtd">
+<TestAsset Version="0.1">
+<RootFolder>
+   <UID><![CDATA[4c16071-fe6b-4c49-93b25059bcbecd94]]></UID>
+   <Name><![CDATA[TCTrendReport]]></Name>
+</RootFolder>
+</TestAsset>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE TestAsset SYSTEM "TestAsset.dtd">
+<TestAsset Version="0.1">
+<Query>
+   <UID><![CDATA[4ff1063f-878f-4ed0-969466a946b35fa7]]></UID>
+   <Name><![CDATA[Standard]]></Name>
+   <AssetType><![CDATA[Suite]]></AssetType>
+   <SelectList><![CDATA[Name|Description|]]></SelectList>
+   <SortList><![CDATA[Name|1|]]></SortList>
+   <FilterRows />
+   <Parent><![CDATA[bea75481-de5-433b-9cc666cdab744871]]></Parent>
+</Query>
+</TestAsset>

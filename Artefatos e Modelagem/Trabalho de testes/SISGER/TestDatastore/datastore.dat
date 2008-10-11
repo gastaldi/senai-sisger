@@ -1,0 +1,9 @@
+DatastoreCMLevel=0
+DatabaseType=ACCESS
+PhysicalDBLocation=C:\Documents and Settings\Administrator\Desktop\projetos\SISGER\TestDatastore
+DatastoreVersion=2004.02.31
+DatastoreDSN=RATL_RT_TestManagementDatastore
+DatastoreName=SISGER-TestManagementDatastore
+ServerName=
+ClientProtocols=
+HostNames=

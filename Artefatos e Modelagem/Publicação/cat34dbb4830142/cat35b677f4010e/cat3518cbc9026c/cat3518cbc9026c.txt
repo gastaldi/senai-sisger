@@ -1,0 +1,3 @@
+All Actors in the system are contained in this package.   This is both as a way to organize the model, making it easier to understand, and to provide a way to manage the actors in a single configuration item. 
+
+If different individuals are responsible for different actors and their related artifacts, the actors should be organized into their own packages and placed under separate configuration control.

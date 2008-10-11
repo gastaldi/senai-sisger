@@ -1,0 +1,2 @@
+This model is optional.
+The Analysis Model contains a set of Analysis Classes, which describe an abstract realization of the use cases of the system.  The analysis classes evolve into associated design elements which are modeled in the Design Model.  

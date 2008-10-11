@@ -1,0 +1,1 @@
+This diagram, required by Rose, simply provides a way of navigating to the Implementation Model.

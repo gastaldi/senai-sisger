@@ -1,0 +1,1 @@
+This diagram depicts the relationships between the packages (models) contained in the 'Use-Case View": the Use-Case Model (for the system) and the Business Use-Case Model (describing the business).

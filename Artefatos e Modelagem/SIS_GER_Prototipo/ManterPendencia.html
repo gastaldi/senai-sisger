@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link type="text/css" rel="StyleSheet" media="all" href="global.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Manter Pendência</title>
+</head>
+
+<body bgcolor="#f0f0f0" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" link="#003366" vlink="#003366" alink="#660000">
+
+<SCRIPT>
+function principal() {
+  document.location.href="principal.html";
+}
+function delegar() {
+  document.location.href="delegarPendencia.html";
+}
+</SCRIPT>
+<img src="img/logo_equipentao.jpg" width="100%" height="130px"/>
+<h3 class="formtitle">Manter Pendência</h3>
+<br>
+
+	<div id="submenu">
+	    <img class="submenu-separator" src="img/pixel.gif" width="5" height="6" alt=" >" />
+	    <a href="principal.html">Principal</a href>
+
+	    <img class="submenu-separator" src="img/pixel.gif" width="5" height="6" alt=" >" />
+	    <a href="abrirPendencia.html">Criar Pendência</a href>
+
+	    <img class="submenu-separator" src="img/pixel.gif" width="5" height="6" alt=" >" />
+	    <a href="CadastroUsuario.html">Cadastro usuário</a href>
+	    
+	    <img class="submenu-separator" src="img/pixel.gif" width="5" height="6" alt=" >" />
+	    <a href="ConsultaPendencia.html">Consultar Pendências</a href>
+	    
+	    <img class="submenu-separator" src="img/pixel.gif" width="5" height="6" alt=" >" />
+	    <a href="CadastroProjeto.html">Cadastro Projeto</a href>
+	    
+	    
+	    <img class="submenu-separator" src="img/pixel.gif" width="5" height="6" alt=" >" />
+	    <a href="Usuario_Projeto.html">Usuário Projeto</a href>
+
+	    <img class="submenu-separator" src="img/pixel.gif" width="5" height="6" alt=" >" />
+	    <a href="historico_pendencia.html">Histórico de Pendê<u></u>ncia</a href>
+
+	</div>
+ <br /><br>
+ <h4>Passo 2 de 2: Escolha os detalhes da pendência...</h4>
+ <br />
+ 
+<form id="form1" name="form1" method="post" action="">
+<table width="490" border="0">
+  <tr>
+    <td width="165">Projeto:</td>
+    <td width="315">Projeto 01</td>
+  </tr>
+  <tr>
+    <td>Tipo de Pendência:</td>
+    <td>Bug</td>
+  </tr>
+  <tr>
+    <td><label for="summary"><span title="Campos em itálico são obrigatórios">* Resumo:</span></label></td>
+    <td><label>
+      <input type="text" name="textfield" id="textfield" />
+    </label>    </td>
+  </tr>
+  <tr>
+    <td><label for="security">Nível de Segurança: </label></td>
+    <td><label>
+      <select name="nivelSeguranca" id="nivelSeguranca">
+        <option value="1">Nenhum</option>
+        <option value="2">Somente Administradores e Desenvolvedores</option>
+      </select>
+    </label></td>
+  </tr>
+  <tr>
+    <td><label for="priority">Prioridade: </label></td>
+    <td><label>
+      <select name="prioridade" id="prioridade">
+        <option value="1">Bloqueador</option>
+        <option value="2">Alta</option>
+        <option value="3">Crítica</option>
+        <option value="4">Baixa</option>
+        <option value="5">Trivial</option>
+                  </select>
+    </label></td>
+  </tr>
+  <tr>
+    <td><label for="duedate">Data para Ficar Pronto:</label></td>
+    <td><label>
+      <input type="text" name="textfield2" id="textfield2" />
+    </label></td>
+  </tr>
+  <tr>
+    <td><label for="environment">Ambiente:</label></td>
+    <td><label>
+      <textarea name="textarea" id="textarea" cols="45" rows="5"></textarea>
+    </label></td>
+  </tr>
+  <tr>
+    <td><label for="description">Descrição: </label></td>
+    <td><label>
+      <textarea name="textarea2" id="textarea2" cols="45" rows="5"></textarea>
+    </label></td>
+  </tr>
+  <tr>
+    <td><label for="timetracking">Tempo Estimado: </label></td>
+    <td><label>
+      <input type="text" name="textfield3" id="textfield3" />
+    </label></td>
+  </tr>
+  <tr>
+    <td colspan="2"><label>
+      <input class="bt-salvar" type="button" name="Criar" id="Criar" value="Salvar" onclick="principal();"/>
+     <input class="bt-excluir" type="button" name="Cancelar" id="Cancelar" value="Cancelar" onclick="principal();"  />
+     <input class="bt-editar" type="button" name="Delegar" id="Delegar" value="Delegar" onclick="delegar();"  />
+    </label></td>
+    </tr>
+</table>
+</form>
+
+</body>
+</html>

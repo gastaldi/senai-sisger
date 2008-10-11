@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE TestAsset SYSTEM "TestAsset.dtd">
+<TestAsset Version="0.1">
+<LTTraceReport>
+   <UID><![CDATA[2e9b7593-b978-4945-93134bac6b0ba86]]></UID>
+   <Name><![CDATA[Default Command Trace Report]]></Name>
+   <Owner><![CDATA[TestManagementSystem]]></Owner>
+   <Description />
+   <CreationDate><![CDATA[2008:09:19:19:01:54]]></CreationDate>
+   <ModificationDate><![CDATA[2008:09:19:19:01:54]]></ModificationDate>
+   <LastModifiedBy><![CDATA[TestManagementSystem]]></LastModifiedBy>
+   <CreatedBy><![CDATA[TestManagementSystem]]></CreatedBy>
+   <ReportType><![CDATA[7]]></ReportType>
+   <FilePath />
+   <Parent><![CDATA[d436d2fe-3602-405f-8373ee5adda0f42d]]></Parent>
+</LTTraceReport>
+</TestAsset>

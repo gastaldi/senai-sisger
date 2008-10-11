@@ -1,0 +1,208 @@
+Global View of Business Actors and Business Use Cases
+../../webviewer/26.jpg
+dgm35c0dff50172.htm
+dgm35c0dff50172.txt
+
+
+(
+)
+<<Business Actor>> baCliente
+../../webviewer/126.jpg
+class4800c51600bb.htm
+
+
+
+(
+thewFuncionario ( wFuncionario )
+../../webviewer/82.jpg
+../../looseends/role4800ed8502ed.htm
+
+
+
+theControlar Requisitos ( Controlar Requisitos )
+../../webviewer/82.jpg
+../../looseends/role4800c5d60282.htm
+
+
+
+)
+<<Business Use Case>> Controlar Requisitos
+../../webviewer/125.jpg
+uc4800c5c10251.htm
+
+
+
+(
+thebaCliente ( baCliente )
+../../webviewer/82.jpg
+../../looseends/role4800c5d60280.htm
+
+
+
+)
+(
+)
+State/Activity Model
+../../webviewer/86.jpg
+stm4800c91102be.htm
+
+
+
+(
+Controlar Requisitos
+../../webviewer/87.jpg
+dgm4800c91102ce.htm
+
+
+
+(
+)
+--Not Named--
+../../webviewer/92.jpg
+stv4800cce30157.htm
+
+
+
+(
+)
+--Not Named--
+../../webviewer/93.jpg
+stv4800c949032c.htm
+
+
+
+(
+)
+Abrir Pendencias
+../../webviewer/91.jpg
+stv4800ca3503e7.htm
+
+
+
+(
+)
+Avaliar Pendencias
+../../webviewer/91.jpg
+stv4800ca45037a.htm
+
+
+
+(
+)
+Avaliar Pendência
+../../webviewer/91.jpg
+stv4800cb58030c.htm
+
+
+
+(
+)
+Avaliar Solução
+../../webviewer/91.jpg
+stv4800e23801f3.htm
+
+
+
+(
+)
+Configurar Projeto
+../../webviewer/91.jpg
+stv4800c97b0147.htm
+
+
+
+(
+)
+Criar Projeto
+../../webviewer/91.jpg
+stv4800c94d007c.htm
+
+
+
+(
+)
+Delegar Pendencia
+../../webviewer/91.jpg
+stv4800ca6b02dd.htm
+
+
+
+(
+)
+Fechar Pendência
+../../webviewer/91.jpg
+stv4800cc6e0203.htm
+
+
+
+(
+)
+Rejeitar Pendência
+../../webviewer/91.jpg
+stv4800cb14001e.htm
+
+
+
+(
+)
+Resolver Pendência
+../../webviewer/91.jpg
+stv4800cd8903b8.htm
+
+
+
+(
+)
+Cliente
+../../webviewer/89.jpg
+prt4800c9a700ca.htm
+
+
+
+(
+)
+Desenvolvedor
+../../webviewer/89.jpg
+prt4800c9b60241.htm
+
+
+
+(
+)
+Lider de Projeto
+../../webviewer/89.jpg
+prt4800c9620138.htm
+
+
+
+(
+)
+)
+Associations
+../../webviewer/assoccat.gif
+
+
+
+
+(
+Association (theControlar Requisitos:Controlar Requisitos) (thebaCliente:baCliente)
+../../webviewer/81.jpg
+../../looseends/ass4800c5d502ce.htm
+
+
+
+(
+Controlar Requisitos ( theControlar Requisitos )
+../../webviewer/82.jpg
+../../looseends/role4800c5d60280.htm
+
+
+
+baCliente ( thebaCliente )
+../../webviewer/82.jpg
+../../looseends/role4800c5d60282.htm
+
+
+
+)
+)

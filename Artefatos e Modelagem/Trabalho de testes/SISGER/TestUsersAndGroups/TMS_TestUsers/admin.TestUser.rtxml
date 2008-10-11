@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE TestAsset SYSTEM "TestAsset.dtd">
+<TestAsset Version="0.1">
+<TestUser>
+   <UID><![CDATA[59436f4c-3d01-4555-af2e8726d99c9cb]]></UID>
+   <Name><![CDATA[admin]]></Name>
+   <Password />
+   <Company />
+   <Department />
+   <Email />
+   <FirstName />
+   <LastName />
+   <Phone />
+   <Title />
+   <Groups />
+   <Parent><![CDATA[89a9400a-9f66-4b69-b38f7b53733bf54e]]></Parent>
+</TestUser>
+</TestAsset>
