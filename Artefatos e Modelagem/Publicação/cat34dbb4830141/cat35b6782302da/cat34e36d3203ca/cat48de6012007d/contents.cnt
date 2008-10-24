@@ -6,6 +6,20 @@ dgm48de6012007e.htm
 
 (
 )
+<<boundary>> Manter Projeto
+../../../../webviewer/112.jpg
+class48f09c1202bf.htm
+
+
+
+(
+theProjeto ( Projeto )
+../../../../webviewer/82.jpg
+../../../../looseends/role48f09c500021.htm
+
+
+
+)
 <<use-case realization>> rManterProjeto
 ../../../../webviewer/110.jpg
 uc48de633601c5.htm
@@ -15,6 +29,22 @@ uc48de633601c5.htm
 (
 )
 (
+VoPc do UC Manter Projeto
+../../../../webviewer/18.jpg
+dgm48eff89a0109.htm
+
+
+
+(
+)
+Manter Projeto
+../../../../webviewer/22.jpg
+dgm48f90702031c.htm
+
+
+
+(
+)
 )
 Associations
 ../../../../webviewer/assoccat.gif
@@ -23,4 +53,24 @@ Associations
 
 
 (
+Association (theProjeto:Projeto) (theManter Projeto:Manter Projeto)
+../../../../webviewer/81.jpg
+../../../../looseends/ass48f09c4f02ce.htm
+
+
+
+(
+Projeto ( theProjeto )
+../../../../webviewer/82.jpg
+../../../../looseends/role48f09c50001f.htm
+
+
+
+Manter Projeto ( theManter Projeto )
+../../../../webviewer/82.jpg
+../../../../looseends/role48f09c500021.htm
+
+
+
+)
 )

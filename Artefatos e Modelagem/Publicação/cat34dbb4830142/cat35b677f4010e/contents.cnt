@@ -65,26 +65,6 @@ saAdministrador ( thesaAdministrador )
 
 
 )
-Association (theDelegar Pendência:Delegar Pendência) (thesaLider de Projeto:saLider de Projeto)
-../../webviewer/81.jpg
-../../looseends/ass4824e4b101f4.htm
-
-
-
-(
-Delegar Pendência ( theDelegar Pendência )
-../../webviewer/82.jpg
-../../looseends/role4824e4b102ce.htm
-
-
-
-saLider de Projeto ( thesaLider de Projeto )
-../../webviewer/82.jpg
-../../looseends/role4824e4b102d0.htm
-
-
-
-)
 Association (theConsulta Histórico:Consulta Histórico) (thesaUsuario:saUsuario)
 ../../webviewer/81.jpg
 ../../looseends/ass4824e80b02fd.htm

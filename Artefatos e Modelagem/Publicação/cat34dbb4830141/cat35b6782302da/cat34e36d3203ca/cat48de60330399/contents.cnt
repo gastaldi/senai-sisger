@@ -20,6 +20,20 @@ thePendencia ( Pendencia )
 
 
 )
+<<boundary>> FormPendenciaComplemento
+../../../../webviewer/112.jpg
+class48f9038e0196.htm
+
+
+
+(
+thePendencia ( Pendencia )
+../../../../webviewer/82.jpg
+../../../../looseends/role48f903a600ab.htm
+
+
+
+)
 <<use-case realization>> rManterPendencia
 ../../../../webviewer/110.jpg
 uc48de63ab0109.htm
@@ -69,6 +83,26 @@ Pendencia ( thePendencia )
 FormPendencia ( theFormPendencia )
 ../../../../webviewer/82.jpg
 ../../../../looseends/role48de744c031c.htm
+
+
+
+)
+Association (thePendencia:Pendencia) (theFormPendenciaComplemento:FormPendenciaComplemento)
+../../../../webviewer/81.jpg
+../../../../looseends/ass48f903a501a5.htm
+
+
+
+(
+Pendencia ( thePendencia )
+../../../../webviewer/82.jpg
+../../../../looseends/role48f903a6009c.htm
+
+
+
+FormPendenciaComplemento ( theFormPendenciaComplemento )
+../../../../webviewer/82.jpg
+../../../../looseends/role48f903a600ab.htm
 
 
 

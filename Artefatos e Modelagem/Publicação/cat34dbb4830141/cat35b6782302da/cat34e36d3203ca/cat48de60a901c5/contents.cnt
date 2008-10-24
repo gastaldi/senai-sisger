@@ -6,6 +6,14 @@ dgm48de60a901c6.htm
 
 (
 )
+<<boundary>> Consultar Pendência
+../../../../webviewer/112.jpg
+class48eff83c00ea.htm
+
+
+
+(
+)
 <<use-case realization>> rConsultaHistorico
 ../../../../webviewer/110.jpg
 uc48de6541005d.htm
@@ -15,6 +23,22 @@ uc48de6541005d.htm
 (
 )
 (
+VoPc do UC Consultar usuario
+../../../../webviewer/18.jpg
+dgm48eff79a0186.htm
+
+
+
+(
+)
+Diagrama de sequencia do Consultar Historico
+../../../../webviewer/22.jpg
+dgm48f10007006d.htm
+
+
+
+(
+)
 )
 Associations
 ../../../../webviewer/assoccat.gif
