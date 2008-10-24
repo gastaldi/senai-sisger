@@ -14,14 +14,14 @@ Business Services
 ../webviewer/16.jpg
 cat48de39ab0392/cat48de39ab0392.htm
 cat48de39ab0392/cat48de39ab0392.txt
-
-
+cat48de39ab0392/contents.cnt
+cat48de39ab0392/
 Data Services
 ../webviewer/16.jpg
 cat48de39ab0393/cat48de39ab0393.htm
 cat48de39ab0393/cat48de39ab0393.txt
-
-
+cat48de39ab0393/contents.cnt
+cat48de39ab0393/
 Design Model
 ../webviewer/16.jpg
 cat35b6782302da/cat35b6782302da.htm
@@ -44,8 +44,8 @@ User Services
 ../webviewer/16.jpg
 cat48de39ab0391/cat48de39ab0391.htm
 cat48de39ab0391/cat48de39ab0391.txt
-
-
+cat48de39ab0391/contents.cnt
+cat48de39ab0391/
 Three-Tiered Service Model
 ../webviewer/18.jpg
 dgm48de39ab039a.htm
@@ -96,6 +96,22 @@ att48de493c001f.htm
 statusPendencia
 ../webviewer/31.jpg
 att48de493f01e4.htm
+
+
+
+(
+)
+criaHistoricoPendencia
+../webviewer/34.jpg
+op48f09e2d0251.htm
+
+
+
+(
+)
+editaHistoricoPendencia
+../webviewer/34.jpg
+op48f09e40009c.htm
 
 
 
@@ -209,6 +225,22 @@ att48de47a500ab.htm
 
 (
 )
+criaPendencia
+../webviewer/34.jpg
+op48f09daf0242.htm
+
+
+
+(
+)
+editaPendencia
+../webviewer/34.jpg
+op48f09dbf02ee.htm
+
+
+
+(
+)
 State/Activity Model2
 ../webviewer/86.jpg
 stm48de77450261.htm
@@ -256,14 +288,6 @@ stv48de779b01a5.htm
 
 (
 )
-Aprovado
-../webviewer/94.jpg
-stv48de786e0157.htm
-
-
-
-(
-)
 Em desenvolvimento
 ../webviewer/94.jpg
 stv48de77ae02bf.htm
@@ -296,6 +320,14 @@ stv48de78630203.htm
 
 (
 )
+Resolvido
+../webviewer/94.jpg
+stv48de786e0157.htm
+
+
+
+(
+)
 )
 theProjeto ( Projeto )
 ../webviewer/82.jpg
@@ -309,9 +341,21 @@ theHistoricoPendencia ( HistoricoPendencia )
 
 
 
+theUsuario ( Usuario )
+../webviewer/82.jpg
+../looseends/role48f0f8eb0213.htm
+
+
+
 theFormPendencia ( FormPendencia )
 ../webviewer/82.jpg
 ../looseends/role48de744c030d.htm
+
+
+
+theFormPendenciaComplemento ( FormPendenciaComplemento )
+../webviewer/82.jpg
+../looseends/role48f903a6009c.htm
 
 
 
@@ -347,6 +391,22 @@ att48de469d0213.htm
 
 (
 )
+criaProjeto
+../webviewer/34.jpg
+op48f09dfd008c.htm
+
+
+
+(
+)
+editaProjeto
+../webviewer/34.jpg
+op48f09e010399.htm
+
+
+
+(
+)
 theUsuarioProjeto ( UsuarioProjeto )
 ../webviewer/82.jpg
 ../looseends/role48de4a5c0271.htm
@@ -356,6 +416,12 @@ theUsuarioProjeto ( UsuarioProjeto )
 thePendencia ( Pendencia )
 ../webviewer/82.jpg
 ../looseends/role48de4a61031c.htm
+
+
+
+theManter Projeto ( Manter Projeto )
+../webviewer/82.jpg
+../looseends/role48f09c50001f.htm
 
 
 
@@ -391,6 +457,22 @@ att48de48e0008c.htm
 
 (
 )
+criaUsuario
+../webviewer/34.jpg
+op48f09e6a02fd.htm
+
+
+
+(
+)
+editaUsuario
+../webviewer/34.jpg
+op48f09e71036b.htm
+
+
+
+(
+)
 theUsuarioProjeto ( UsuarioProjeto )
 ../webviewer/82.jpg
 ../looseends/role48de4a630198.htm
@@ -400,6 +482,18 @@ theUsuarioProjeto ( UsuarioProjeto )
 theHistoricoPendencia ( HistoricoPendencia )
 ../webviewer/82.jpg
 ../looseends/role48de8232008e.htm
+
+
+
+thePendencia ( Pendencia )
+../webviewer/82.jpg
+../looseends/role48f0f8eb0203.htm
+
+
+
+theManter Usuario ( Manter Usuario )
+../webviewer/82.jpg
+../looseends/role48f09c9501e4.htm
 
 
 
@@ -419,6 +513,22 @@ att48de496102de.htm
 
 (
 )
+associaProjeto
+../webviewer/34.jpg
+op48f09f6401f4.htm
+
+
+
+(
+)
+removeProjeto
+../webviewer/34.jpg
+op48f09f8c01e4.htm
+
+
+
+(
+)
 theProjeto ( Projeto )
 ../webviewer/82.jpg
 ../looseends/role48de4a5c0273.htm
@@ -428,6 +538,12 @@ theProjeto ( Projeto )
 theUsuario ( Usuario )
 ../webviewer/82.jpg
 ../looseends/role48de4a630196.htm
+
+
+
+theProjeto Usuario ( Projeto Usuario )
+../webviewer/82.jpg
+../looseends/role48f09c720290.htm
 
 
 
@@ -535,6 +651,26 @@ HistoricoPendencia ( theHistoricoPendencia )
 Usuario ( theUsuario )
 ../webviewer/82.jpg
 ../looseends/role48de8232008e.htm
+
+
+
+)
+Association (theUsuario:Usuario) (thePendencia:Pendencia)
+../webviewer/81.jpg
+../looseends/ass48f0f8ea01b5.htm
+
+
+
+(
+Usuario ( theUsuario )
+../webviewer/82.jpg
+../looseends/role48f0f8eb0203.htm
+
+
+
+Pendencia ( thePendencia )
+../webviewer/82.jpg
+../looseends/role48f0f8eb0213.htm
 
 
 
