@@ -1,0 +1,418 @@
+Package Overview
+../../../../../webviewer/18.jpg
+dgm48f0aa860261.htm
+
+
+
+(
+)
+<<Client Page>> cpDelegarPendencia
+../../../../../webviewer/153.jpg
+class48f0fdb6038a.htm
+
+
+
+(
+thespDelelarPendencia.jsp ( spDelelarPendencia.jsp )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fdf60119.htm
+
+
+
+thefrmDelegarPendencia ( frmDelegarPendencia )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fe0f00cd.htm
+
+
+
+)
+<<Client Page>> cpListarPendencia
+../../../../../webviewer/153.jpg
+class48f0fd5c00fa.htm
+
+
+
+(
+thespListarPendencia.jsp ( spListarPendencia.jsp )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fd6b03a9.htm
+
+
+
+thespDelelarPendencia.jsp ( spDelelarPendencia.jsp )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fdf500fa.htm
+
+
+
+)
+<<HTML Form>> frmDelegarPendencia
+../../../../../webviewer/155.jpg
+class48f0fdb501a5.htm
+
+
+
+(
+thespListarPendencia.jsp ( spListarPendencia.jsp )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fdf80188.htm
+
+
+
+thecpDelegarPendencia ( cpDelegarPendencia )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fe0f00cb.htm
+
+
+
+)
+<<Server Page>> NewClass2
+../../../../../webviewer/154.jpg
+class48f0fcde01e4.htm
+
+
+
+(
+<<Client Page>> NewClass2_Client
+../../../../../webviewer/153.jpg
+class48f0fcde01e6.htm
+
+
+
+(
+theNewClass2 ( NewClass2 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fcde01e9.htm
+
+
+
+)
+theNewClass2_Client ( NewClass2_Client )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fcde01eb.htm
+
+
+
+)
+<<Server Page>> NewClass3
+../../../../../webviewer/154.jpg
+class48f0fd190242.htm
+
+
+
+(
+<<Client Page>> NewClass3_Client
+../../../../../webviewer/153.jpg
+class48f0fd190244.htm
+
+
+
+(
+theNewClass3 ( NewClass3 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fd190247.htm
+
+
+
+)
+theNewClass3_Client ( NewClass3_Client )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fd190249.htm
+
+
+
+)
+<<Server Page>> spDelelarPendencia.jsp
+../../../../../webviewer/154.jpg
+class48f0fdb20196.htm
+
+
+
+(
+<<Client Page>> spDelelarPendencia.jsp_Client
+../../../../../webviewer/153.jpg
+class48f0fdb20198.htm
+
+
+
+(
+thespDelelarPendencia.jsp ( spDelelarPendencia.jsp )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fdb2019b.htm
+
+
+
+)
+thespDelelarPendencia.jsp_Client ( spDelelarPendencia.jsp_Client )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fdb2019d.htm
+
+
+
+thecpListarPendencia ( cpListarPendencia )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fdf500ea.htm
+
+
+
+thecpDelegarPendencia ( cpDelegarPendencia )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fdf6011b.htm
+
+
+
+)
+<<Server Page>> spListarPendencia.jsp
+../../../../../webviewer/154.jpg
+class48f0fd2d0119.htm
+
+
+
+(
+<<Client Page>> spListarPendencia.jsp_Client
+../../../../../webviewer/153.jpg
+class48f0fd2d011b.htm
+
+
+
+(
+thespListarPendencia.jsp ( spListarPendencia.jsp )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fd2d011e.htm
+
+
+
+)
+thespListarPendencia.jsp_Client ( spListarPendencia.jsp_Client )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fd2d0120.htm
+
+
+
+thecpindex ( cpindex )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fd4101a5.htm
+
+
+
+thecpListarPendencia ( cpListarPendencia )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fd6b03ab.htm
+
+
+
+thefrmDelegarPendencia ( frmDelegarPendencia )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fdf80186.htm
+
+
+
+)
+Associations
+../../../../../webviewer/assoccat.gif
+
+
+
+
+(
+<<Build>> (theNewClass2_Client:NewClass2_Client) (theNewClass2:NewClass2)
+../../../../../webviewer/81.jpg
+../../../../../looseends/ass48f0fcde01e8.htm
+
+
+
+(
+NewClass2_Client ( theNewClass2_Client )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fcde01e9.htm
+
+
+
+NewClass2 ( theNewClass2 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fcde01eb.htm
+
+
+
+)
+<<Build>> (theNewClass3_Client:NewClass3_Client) (theNewClass3:NewClass3)
+../../../../../webviewer/81.jpg
+../../../../../looseends/ass48f0fd190246.htm
+
+
+
+(
+NewClass3_Client ( theNewClass3_Client )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fd190247.htm
+
+
+
+NewClass3 ( theNewClass3 )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fd190249.htm
+
+
+
+)
+<<Build>> (thespListarPendencia.jsp_Client:spListarPendencia.jsp_Client) (thespListarPendencia.jsp:spListarPendencia.jsp)
+../../../../../webviewer/81.jpg
+../../../../../looseends/ass48f0fd2d011d.htm
+
+
+
+(
+spListarPendencia.jsp_Client ( thespListarPendencia.jsp_Client )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fd2d011e.htm
+
+
+
+spListarPendencia.jsp ( thespListarPendencia.jsp )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fd2d0120.htm
+
+
+
+)
+<<Link>> (thespListarPendencia.jsp:spListarPendencia.jsp) (thecpindex:cpindex)
+../../../../../webviewer/81.jpg
+../../../../../looseends/ass48f0fd4003d8.htm
+
+
+
+(
+spListarPendencia.jsp ( thespListarPendencia.jsp )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fd4101a5.htm
+
+
+
+cpindex ( thecpindex )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fd4101b5.htm
+
+
+
+)
+Association (thecpListarPendencia:cpListarPendencia) (thespListarPendencia.jsp:spListarPendencia.jsp)
+../../../../../webviewer/81.jpg
+../../../../../looseends/ass48f0fd6b01b5.htm
+
+
+
+(
+cpListarPendencia ( thecpListarPendencia )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fd6b03a9.htm
+
+
+
+spListarPendencia.jsp ( thespListarPendencia.jsp )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fd6b03ab.htm
+
+
+
+)
+<<Build>> (thespDelelarPendencia.jsp_Client:spDelelarPendencia.jsp_Client) (thespDelelarPendencia.jsp:spDelelarPendencia.jsp)
+../../../../../webviewer/81.jpg
+../../../../../looseends/ass48f0fdb2019a.htm
+
+
+
+(
+spDelelarPendencia.jsp_Client ( thespDelelarPendencia.jsp_Client )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fdb2019b.htm
+
+
+
+spDelelarPendencia.jsp ( thespDelelarPendencia.jsp )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fdb2019d.htm
+
+
+
+)
+<<Link>> (thespDelelarPendencia.jsp:spDelelarPendencia.jsp) (thecpListarPendencia:cpListarPendencia)
+../../../../../webviewer/81.jpg
+../../../../../looseends/ass48f0fdf402ee.htm
+
+
+
+(
+spDelelarPendencia.jsp ( thespDelelarPendencia.jsp )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fdf500ea.htm
+
+
+
+cpListarPendencia ( thecpListarPendencia )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fdf500fa.htm
+
+
+
+)
+<<Build>> (thecpDelegarPendencia:cpDelegarPendencia) (thespDelelarPendencia.jsp:spDelelarPendencia.jsp)
+../../../../../webviewer/81.jpg
+../../../../../looseends/ass48f0fdf5029f.htm
+
+
+
+(
+cpDelegarPendencia ( thecpDelegarPendencia )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fdf60119.htm
+
+
+
+spDelelarPendencia.jsp ( thespDelelarPendencia.jsp )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fdf6011b.htm
+
+
+
+)
+<<Submit>> (thespListarPendencia.jsp:spListarPendencia.jsp) (thefrmDelegarPendencia:frmDelegarPendencia)
+../../../../../webviewer/81.jpg
+../../../../../looseends/ass48f0fdf702de.htm
+
+
+
+(
+spListarPendencia.jsp ( thespListarPendencia.jsp )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fdf80186.htm
+
+
+
+frmDelegarPendencia ( thefrmDelegarPendencia )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fdf80188.htm
+
+
+
+)
+<<Build>> (thefrmDelegarPendencia:frmDelegarPendencia) (thecpDelegarPendencia:cpDelegarPendencia)
+../../../../../webviewer/81.jpg
+../../../../../looseends/ass48f0fe0e02ee.htm
+
+
+
+(
+frmDelegarPendencia ( thefrmDelegarPendencia )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fe0f00cb.htm
+
+
+
+cpDelegarPendencia ( thecpDelegarPendencia )
+../../../../../webviewer/82.jpg
+../../../../../looseends/role48f0fe0f00cd.htm
+
+
+
+)
+)
