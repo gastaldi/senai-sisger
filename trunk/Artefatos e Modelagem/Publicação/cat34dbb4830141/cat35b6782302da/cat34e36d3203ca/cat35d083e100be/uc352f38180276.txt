@@ -1,2 +1,0 @@
-This will be a stereotype on a usecase. 
-In UML it is a stereotype on a collaboration and that does not exist in Rose.

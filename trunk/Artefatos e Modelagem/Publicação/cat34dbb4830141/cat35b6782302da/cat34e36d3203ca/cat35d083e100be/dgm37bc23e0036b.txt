@@ -1,1 +1,0 @@
-This Diagram shows all participating classes in this Use Case Realization

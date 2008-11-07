@@ -1,6 +1,0 @@
-Optional Model:
-The business modeling workflow in Rational Unified Process produces two models: the business use-case model, and the business object model. Both show the business 
-processes, but different aspects of them. In the business use-case model each business use case represents a business process, described (text and/or activity diagrams) from an "external" view point without worrying about who does what to whom inside of the organization. 
-In the business object model, you include realizations of each business use case to show how workers and entities collaborate to perform the process. You do that using class diagrams, activity diagrams with swimlanes, collaboration diagrams, and/or interaction diagrams.
-
-<Any additional description of the Business Use Case Model, such as modeling conventions that the reader/reviewer may need to understand the model, should be described here.>

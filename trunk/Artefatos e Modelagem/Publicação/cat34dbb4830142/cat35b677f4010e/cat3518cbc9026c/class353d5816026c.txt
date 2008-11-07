@@ -1,4 +1,0 @@
-<<The brief description of the actor is entered here.  For guidance on what should go in this description, see the following Rational Unified Process references:
-
-- Activity: Find Actors and Use Cases
-- Guidelines: Actor>>
