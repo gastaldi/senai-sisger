@@ -1,1 +1,0 @@
-This diagram presents the Local View of Use Case <Use Case Name>.  The diagram depicts all actors which interact with <Use Case Name>, and any Use Cases which are associated with <Use Case Name>.
